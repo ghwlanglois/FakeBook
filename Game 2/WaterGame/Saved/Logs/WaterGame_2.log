@@ -1,0 +1,976 @@
+﻿Log file open, 02/12/18 11:43:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: WaterGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(173969466) SRandInit(173969466).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.187940
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogConfig: Warning: Failed to saved backup for config[IOSDeviceProfileSelector]
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogConfig: Warning: Failed to saved backup for config[OculusVR]
+LogPluginManager: Mounting plugin PhysXVehicles
+LogConfig: Warning: Failed to saved backup for config[PhysXVehicles]
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.12-16.43.39:849][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.12-16.43.39:849][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.12-16.43.39:918][  0]LogInit: Computer: MSI
+[2018.02.12-16.43.39:918][  0]LogInit: User: icamp
+[2018.02.12-16.43.39:918][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.12-16.43.39:918][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2018.02.12-16.43.39:918][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2018.02.12-16.43.39:918][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.12-16.43.39:918][  0]LogMemory: Process Physical Memory: 273.64 MB used, 273.64 MB peak
+[2018.02.12-16.43.39:918][  0]LogMemory: Process Virtual Memory: 272.05 MB used, 272.05 MB peak
+[2018.02.12-16.43.39:918][  0]LogMemory: Physical Memory: 5240.32 MB used,  6929.59 MB free, 12169.91 MB total
+[2018.02.12-16.43.39:918][  0]LogMemory: Virtual Memory: 679.73 MB used,  6929.59 MB free, 134217728.00 MB total
+[2018.02.12-16.43.41:113][  0]LogInit: Using OS detected language (en-US).
+[2018.02.12-16.43.41:113][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.12-16.43.41:482][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.12-16.43.42:563][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.12-16.43.48:296][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.12-16.43.48:441][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.02.12-16.43.48:441][  0]LogD3D11RHI:       2019/0/6084 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.12-16.43.48:481][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.02.12-16.43.48:481][  0]LogD3D11RHI:       128/0/6084 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.12-16.43.48:486][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.12-16.43.48:486][  0]LogD3D11RHI:       0/0/6084 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.12-16.43.48:486][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.12-16.43.48:503][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.12-16.43.48:503][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.02.12-16.43.48:503][  0]LogWindows: EnumDisplayDevices:
+[2018.02.12-16.43.48:504][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.02.12-16.43.48:504][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.02.12-16.43.48:505][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.02.12-16.43.48:505][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.12-16.43.48:505][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.02.12-16.43.48:505][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.12-16.43.48:505][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.12-16.43.48:505][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2018.02.12-16.43.48:582][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.12-16.43.48:616][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.12-16.43.48:618][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Intermediate/Shaders/WorkingDirectory/6988/).
+[2018.02.12-16.43.48:618][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/icamp/AppData/Local/Temp/UnrealShaderWorkingDir/97AC5DEA4961FDF1CF0EAFAC6BB894EA/'.
+[2018.02.12-16.43.48:619][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.12-16.43.56:552][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.12-16.43.56:625][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.12-16.43.56:690][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.12-16.43.56:757][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.12-16.43.56:841][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.12-16.43.56:907][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.12-16.43.56:969][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.12-16.43.57:030][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.12-16.43.57:086][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.12-16.43.57:144][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.12-16.43.57:209][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.12-16.43.57:299][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.12-16.43.57:359][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.12-16.43.57:419][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.12-16.43.57:542][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.12-16.43.57:542][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.12-16.43.57:641][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.12-16.43.57:687][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.12-16.43.57:910][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.12-16.43.57:974][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.12-16.43.58:067][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.12-16.43.58:155][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.12-16.43.58:292][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.12-16.43.58:374][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.12-16.43.58:374][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.12-16.44.00:113][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.12-16.44.00:475][  0]LogDerivedDataCache: Loaded boot cache 0.35s 78MB C:/Users/icamp/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.12-16.44.00:475][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/icamp/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.12-16.44.00:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.12-16.44.00:475][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.12-16.44.00:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.12-16.44.00:475][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.12-16.44.00:605][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.12-16.44.00:619][  0]LogDerivedDataCache: Using Local data cache path C:/Users/icamp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.12-16.44.00:634][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.12-16.44.00:634][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.12-16.44.00:724][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.12-16.44.00:725][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.12-16.44.09:487][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.12-16.44.11:070][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.12-16.44.11:184][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.12-16.44.11:184][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.12-16.44.11:184][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.12-16.44.11:184][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.12-16.44.11:184][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.12-16.44.11:347][  0]LogNetVersion: WaterGame , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1240624445)
+[2018.02.12-16.44.12:771][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2018.02.12-16.44.17:624][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Intermediate/CachedAssetRegistry.bin
+[2018.02.12-16.44.17:624][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Intermediate/AssetRegistryCache/2657c409.bin
+[2018.02.12-16.44.17:647][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Intermediate/AssetRegistryCache/866581fd.bin
+[2018.02.12-16.44.17:677][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Intermediate/AssetRegistryCache/44c3f9c9.bin
+[2018.02.12-16.44.17:699][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Intermediate/AssetRegistryCache/50d6f4e0.bin
+[2018.02.12-16.44.17:729][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Intermediate/AssetRegistryCache/f0d5030c.bin
+[2018.02.12-16.44.17:750][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Intermediate/AssetRegistryCache/1f683343.bin
+[2018.02.12-16.44.17:755][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.176594 seconds
+[2018.02.12-16.44.17:777][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.12-16.44.17:778][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.02.12-16.44.17:778][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.12-16.44.17:937][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.12-16.44.45:634][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.12-16.44.45:689][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.12-16.44.47:211][  0]LogConfig: Warning: Failed to saved backup for config[InternationalizationExport]
+[2018.02.12-16.44.48:075][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.12-16.44.49:997][  0]SourceControl: Source control is disabled
+[2018.02.12-16.44.50:001][  0]SourceControl: Source control is disabled
+[2018.02.12-16.44.50:167][  0]SourceControl: Source control is disabled
+[2018.02.12-16.44.50:296][  0]SourceControl: Source control is disabled
+[2018.02.12-16.44.52:363][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.12-16.44.52:744][  0]LogOcInput: OculusInput pre-init called
+[2018.02.12-16.44.54:161][  0]LogEngine: Initializing Engine...
+[2018.02.12-16.44.54:251][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.12-16.44.55:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.12-16.44.55:909][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.12-16.44.56:718][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.12-16.44.57:011][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-16.44.57:201][  0]LogInit: FAudioDevice initialized.
+[2018.02.12-16.44.57:379][  0]LogDerivedDataCache: Saved boot cache 0.13s 78MB C:/Users/icamp/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.12-16.44.57:412][  0]LogInit: Texture streaming: Enabled
+[2018.02.12-16.44.57:614][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.12-16.44.58:269][  0]LogInit: Transaction tracking system initialized
+[2018.02.12-16.44.59:110][  0]BlueprintLog: New page: Editor Load
+[2018.02.12-16.45.02:212][  0]LocalizationService: Localization service is disabled
+[2018.02.12-16.45.03:192][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2018.02.12-16.45.03:198][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2018.02.12-16.45.03:200][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2018.02.12-16.45.04:270][  0]LogConsoleResponse: Display: 
+[2018.02.12-16.45.07:481][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.12-16.45.07:484][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.12-16.45.07:497][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.12-16.45.07:549][  0]LogFileCache: Scanning file cache for directory 'D:/EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/' took 0.14s
+[2018.02.12-16.45.11:509][  0]SourceControl: Source control is disabled
+[2018.02.12-16.45.11:554][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.12-16.45.11:596][  0]LightingResults: New page: Lighting Build
+[2018.02.12-16.45.11:864][  0]MapCheck: New page: Map Check
+[2018.02.12-16.45.11:864][  0]LightingResults: New page: Lighting Build
+[2018.02.12-16.45.14:446][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.12-16.45.14:987][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.12-16.45.15:110][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.12-16.45.15:260][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 150.231ms to complete.
+[2018.02.12-16.45.15:260][  0]LogFileHelpers: Loading map 'Template_Default' took 3.730
+[2018.02.12-16.45.17:085][  0]LogCollectionManager: Loaded 0 collections in 0.007394 seconds
+[2018.02.12-16.45.17:376][  0]LogFileCache: Scanning file cache for directory 'D:/EGD/Fakebook/FakeBook/Game 2/WaterGame/Saved/Collections/' took 0.01s
+[2018.02.12-16.45.17:376][  0]LogFileCache: Scanning file cache for directory 'D:/EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Developers/icamp/Collections/' took 0.01s
+[2018.02.12-16.45.17:377][  0]LogFileCache: Scanning file cache for directory 'D:/EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Collections/' took 0.01s
+[2018.02.12-16.45.17:377][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.12-16.45.17:422][  0]LogContentBrowser: Native class hierarchy populated in 0.0286 seconds. Added 2363 classes and 519 folders.
+[2018.02.12-16.45.17:668][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.12-16.45.20:177][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.02.12-16.45.20:376][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.02.12-16.45.21:710][  0]LogSlate: Took 0.019219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.12-16.45.21:744][  0]LogSlate: Took 0.017641 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.12-16.45.21:803][  0]LogSlate: Took 0.023300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.12-16.45.22:713][  0]LogRenderer: Reallocating scene render targets to support 964x460 Format 10 NumSamples 1 (Frame:1).
+[2018.02.12-16.45.24:105][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.02.12-16.45.24:105][  0]LogLoad: (Engine Initialization) Total time: 110.00 seconds
+[2018.02.12-16.45.24:106][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.12-16.45.24:130][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.12-16.45.24:130][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.12-16.45.24:234][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.12-16.45.24:655][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.12-16.45.25:565][  3]LogAssetRegistry: Asset discovery search completed in 72.8160 seconds
+[2018.02.12-16.45.25:591][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.12-16.45.25:592][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.007996 seconds (updated 0 objects)
+[2018.02.12-16.45.25:679][  3]LogSlate: Took 0.026556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.12-16.45.29:086][ 91]LogSlate: Took 0.000486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.12-16.47.06:820][979]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.12-16.47.07:312][979]LogAIModule: Creating AISystem for world game
+[2018.02.12-16.47.07:520][979]Cmd: MAP LOAD FILE="../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/game.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.12-16.47.07:521][979]LightingResults: New page: Lighting Build
+[2018.02.12-16.47.07:523][979]LoadErrors: New page: Loading map: game.umap
+[2018.02.12-16.47.07:586][979]MapCheck: New page: Map Check
+[2018.02.12-16.47.07:586][979]LightingResults: New page: Lighting Build
+[2018.02.12-16.47.07:923][979]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.12-16.47.08:034][979]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.12-16.47.08:164][979]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 129.664ms to complete.
+[2018.02.12-16.47.08:166][979]LogSlate: Took 0.000467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.12-16.47.08:177][979]LogFileHelpers: Loading map 'game' took 0.720
+[2018.02.12-16.47.41:605][966]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.12-16.47.41:708][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-16.47.41:749][966]PIE: New page: PIE session: game (Feb 12, 2018, 6:47:41 AM)
+[2018.02.12-16.47.41:767][966]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_game
+[2018.02.12-16.47.41:816][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049315s)
+[2018.02.12-16.47.41:818][966]LogAIModule: Creating AISystem for world game
+[2018.02.12-16.47.41:833][966]LogPlayLevel: PIE: World Init took: (0.016521s)
+[2018.02.12-16.47.41:833][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/game.game to /Game/UEDPIE_0_game.game (0.066729s)
+[2018.02.12-16.47.41:895][966]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-16.47.41:998][966]LogInit: FAudioDevice initialized.
+[2018.02.12-16.47.42:099][966]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.12-16.47.42:236][966]LogWorld: Bringing World /Game/UEDPIE_0_game.game up for play (max tick rate 0) at 2018.02.12-11.47.42
+[2018.02.12-16.47.42:252][966]LogWorld: Bringing up level for play took: 0.018198
+[2018.02.12-16.47.42:538][966]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0062 seconds. Added 11 classes and 0 folders.
+[2018.02.12-16.47.42:687][966]PIE: Play in editor start time for /Game/UEDPIE_0_game 1.057
+[2018.02.12-16.49.31:038][709]LogEditorActor: Deleted Actor: PlayerStart
+[2018.02.12-16.49.31:076][709]LogEditorActor: Deleted 1 Actors (0.117 secs)
+[2018.02.12-16.49.32:631][751]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.12-16.49.32:648][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-16.49.32:648][751]PIE: New page: PIE session: game (Feb 12, 2018, 6:49:32 AM)
+[2018.02.12-16.49.32:648][751]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_game
+[2018.02.12-16.49.32:654][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005889s)
+[2018.02.12-16.49.32:655][751]LogAIModule: Creating AISystem for world game
+[2018.02.12-16.49.32:655][751]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2018.02.12-16.49.32:655][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/game.game to /Game/UEDPIE_0_game.game (0.006828s)
+[2018.02.12-16.49.32:667][751]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-16.49.32:704][751]LogInit: FAudioDevice initialized.
+[2018.02.12-16.49.32:762][751]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.12-16.49.32:765][751]LogWorld: Bringing World /Game/UEDPIE_0_game.game up for play (max tick rate 0) at 2018.02.12-11.49.32
+[2018.02.12-16.49.32:766][751]LogWorld: Bringing up level for play took: 0.001440
+[2018.02.12-16.49.32:771][751]PIE: Play in editor start time for /Game/UEDPIE_0_game -0.859
+[2018.02.12-16.49.39:900][925]LogEditorActor: Deleted Actor: AtmosphericFog
+[2018.02.12-16.49.39:930][925]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2018.02.12-16.49.42:101][975]LogEditorActor: Actor Light Source is referenced by Sky Sphere.
+[2018.02.12-16.49.44:664][975]LogEditorActor: Deleted Actor: DirectionalLight
+[2018.02.12-16.49.44:728][975]LogEditorActor: Deleted 1 Actors (2.630 secs)
+[2018.02.12-16.49.45:863][  8]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.12-16.49.45:879][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-16.49.45:880][  8]PIE: New page: PIE session: game (Feb 12, 2018, 6:49:45 AM)
+[2018.02.12-16.49.45:880][  8]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_game
+[2018.02.12-16.49.45:884][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004541s)
+[2018.02.12-16.49.45:885][  8]LogAIModule: Creating AISystem for world game
+[2018.02.12-16.49.45:885][  8]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2018.02.12-16.49.45:885][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/game.game to /Game/UEDPIE_0_game.game (0.005451s)
+[2018.02.12-16.49.45:897][  8]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-16.49.45:933][  8]LogInit: FAudioDevice initialized.
+[2018.02.12-16.49.45:966][  8]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.12-16.49.45:968][  8]LogWorld: Bringing World /Game/UEDPIE_0_game.game up for play (max tick rate 0) at 2018.02.12-11.49.45
+[2018.02.12-16.49.45:968][  8]LogWorld: Bringing up level for play took: 0.000585
+[2018.02.12-16.49.45:970][  8]PIE: Play in editor start time for /Game/UEDPIE_0_game 0.34
+[2018.02.12-16.50.36:209][219]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.12-16.50.36:239][219]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2018.02.12-16.50.37:705][254]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.12-16.50.37:722][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-16.50.37:722][254]PIE: New page: PIE session: game (Feb 12, 2018, 6:50:37 AM)
+[2018.02.12-16.50.37:722][254]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_game
+[2018.02.12-16.50.37:727][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004617s)
+[2018.02.12-16.50.37:727][254]LogAIModule: Creating AISystem for world game
+[2018.02.12-16.50.37:727][254]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2018.02.12-16.50.37:728][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/game.game to /Game/UEDPIE_0_game.game (0.005511s)
+[2018.02.12-16.50.37:739][254]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-16.50.37:777][254]LogInit: FAudioDevice initialized.
+[2018.02.12-16.50.37:810][254]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.12-16.50.37:812][254]LogWorld: Bringing World /Game/UEDPIE_0_game.game up for play (max tick rate 0) at 2018.02.12-11.50.37
+[2018.02.12-16.50.37:812][254]LogWorld: Bringing up level for play took: 0.000513
+[2018.02.12-16.50.37:814][254]PIE: Play in editor start time for /Game/UEDPIE_0_game 0.184
+[2018.02.12-16.52.22:272][781]Cmd: TRANSACTION UNDO
+[2018.02.12-16.52.22:272][781]LogEditorTransaction: Undo Delete selection
+[2018.02.12-16.52.24:091][801]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.12-16.52.24:109][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-16.52.24:109][801]PIE: New page: PIE session: game (Feb 12, 2018, 6:52:24 AM)
+[2018.02.12-16.52.24:109][801]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_game
+[2018.02.12-16.52.24:114][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004816s)
+[2018.02.12-16.52.24:115][801]LogAIModule: Creating AISystem for world game
+[2018.02.12-16.52.24:115][801]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2018.02.12-16.52.24:115][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/game.game to /Game/UEDPIE_0_game.game (0.006031s)
+[2018.02.12-16.52.24:166][801]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-16.52.24:209][801]LogInit: FAudioDevice initialized.
+[2018.02.12-16.52.24:244][801]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.12-16.52.24:247][801]LogWorld: Bringing World /Game/UEDPIE_0_game.game up for play (max tick rate 0) at 2018.02.12-11.52.24
+[2018.02.12-16.52.24:247][801]LogWorld: Bringing up level for play took: 0.001363
+[2018.02.12-16.52.24:252][801]PIE: Play in editor start time for /Game/UEDPIE_0_game 0.622
+[2018.02.12-16.52.29:908][937]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.12-16.52.29:925][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-16.52.29:925][937]PIE: New page: PIE session: game (Feb 12, 2018, 6:52:29 AM)
+[2018.02.12-16.52.29:925][937]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_game
+[2018.02.12-16.52.29:930][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004488s)
+[2018.02.12-16.52.29:930][937]LogAIModule: Creating AISystem for world game
+[2018.02.12-16.52.29:930][937]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2018.02.12-16.52.29:930][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/game.game to /Game/UEDPIE_0_game.game (0.005365s)
+[2018.02.12-16.52.29:942][937]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-16.52.29:978][937]LogInit: FAudioDevice initialized.
+[2018.02.12-16.52.30:015][937]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.12-16.52.30:017][937]LogWorld: Bringing World /Game/UEDPIE_0_game.game up for play (max tick rate 0) at 2018.02.12-11.52.30
+[2018.02.12-16.52.30:017][937]LogWorld: Bringing up level for play took: 0.000593
+[2018.02.12-16.52.30:019][937]PIE: Play in editor start time for /Game/UEDPIE_0_game 0.39
+[2018.02.12-16.53.42:388][783]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.12-16.53.42:575][784]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.WaterGame
+[2018.02.12-16.53.42:575][784]LogTemp: CWD: D:\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.12-16.53.42:575][784]LogTemp: Initial Dir: D:\Epic Games\UE_4.18
+[2018.02.12-16.53.42:575][784]LogTemp: Env CWD: D:\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.02.12-16.53.42:575][784]LogTemp: BranchPath = MSI/D/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = MSI/D/Epic Games/UE_4.18/Engine/Binaries
+[2018.02.12-16.53.42:603][785]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\icamp\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.12-16.54.02:213][352]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.12-16.54.02:231][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-16.54.02:231][352]PIE: New page: PIE session: game (Feb 12, 2018, 6:54:02 AM)
+[2018.02.12-16.54.02:231][352]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_game
+[2018.02.12-16.54.02:236][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004852s)
+[2018.02.12-16.54.02:237][352]LogAIModule: Creating AISystem for world game
+[2018.02.12-16.54.02:237][352]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2018.02.12-16.54.02:237][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/game.game to /Game/UEDPIE_0_game.game (0.005887s)
+[2018.02.12-16.54.02:250][352]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-16.54.02:288][352]LogInit: FAudioDevice initialized.
+[2018.02.12-16.54.02:320][352]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.12-16.54.02:322][352]LogWorld: Bringing World /Game/UEDPIE_0_game.game up for play (max tick rate 0) at 2018.02.12-11.54.02
+[2018.02.12-16.54.02:322][352]LogWorld: Bringing up level for play took: 0.000658
+[2018.02.12-16.54.02:324][352]PIE: Play in editor start time for /Game/UEDPIE_0_game 0.695
+[2018.02.12-16.54.30:003][ 96]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.02.12-16.54.32:606][ 96]LogSlate: Took 0.018093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.12-16.55.15:396][307]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_18' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.15:735][307]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_20' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.15:742][307]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_22' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.15:779][308]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_24' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.15:798][309]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_26' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:513][368]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_18' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:520][368]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_30' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:525][368]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_32' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:533][368]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_34' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:553][369]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_36' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:558][369]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_38' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:564][369]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_40' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:573][369]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_42' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:592][370]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_44' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:599][370]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_46' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:605][370]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_48' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:612][370]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_50' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:632][371]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_52' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:639][371]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_54' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:647][371]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_56' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:667][372]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_58' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:686][373]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_60' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:721][375]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_62' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:728][375]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_64' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:745][376]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_66' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:754][376]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_68' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:777][377]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_70' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:837][381]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_72' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:844][381]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_74' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:862][382]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_76' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:961][392]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_78' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:968][392]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_80' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:985][393]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_82' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.16:993][393]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_84' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:012][394]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_86' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:070][400]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_88' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:074][400]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_90' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:087][401]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_92' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:098][402]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_94' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:104][402]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_96' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:115][403]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_98' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:137][404]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_100' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:141][404]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_102' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:172][405]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_104' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:246][408]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_106' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:254][408]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_108' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:274][409]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_110' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:395][422]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_112' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:404][422]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_114' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:426][423]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_116' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:504][431]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_118' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:509][431]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_120' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:517][431]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_122' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:538][432]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_124' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:555][433]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_126' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:564][433]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_128' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:584][434]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_130' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:601][435]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_132' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:610][435]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_134' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:623][436]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_136' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:745][445]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_138' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:751][445]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_140' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:762][446]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_142' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:768][446]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_144' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.17:781][447]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_146' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.18:187][493]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_148' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.18:192][493]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_150' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.18:205][494]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_152' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.18:217][495]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_154' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.18:222][495]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_156' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.18:237][496]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_158' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.18:253][497]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_160' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.18:258][497]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_162' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.18:287][498]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_164' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.18:854][560]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_166' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.18:861][560]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_168' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.18:882][561]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_170' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.21:432][687]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_18' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.21:438][687]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_174' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.21:444][687]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_176' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.21:452][687]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_178' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.21:478][688]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_180' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.21:485][688]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_182' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.21:491][688]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_184' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.21:499][688]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_186' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.21:520][689]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_188' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.21:539][690]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_190' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.55.21:588][691]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_192' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:640][639]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_41' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:647][639]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_197' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:653][639]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_199' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:658][639]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_201' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:666][639]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_203' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:689][640]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_205' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:696][640]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_207' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:701][640]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_209' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:706][640]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_211' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:714][640]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_213' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:734][641]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_215' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:741][641]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_217' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:748][641]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_219' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:755][641]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_221' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:780][642]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_223' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:788][642]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_225' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:805][643]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_227' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:814][643]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_229' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:832][644]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_231' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:846][645]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_233' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:852][645]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_235' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:866][646]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_237' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:938][649]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_239' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:947][649]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_241' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:968][650]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_243' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:974][650]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_245' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:979][650]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_247' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.15:986][650]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_249' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:007][651]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_251' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:013][651]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_253' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:020][651]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_255' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:042][652]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_257' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:050][652]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_259' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:071][653]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_261' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:078][653]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_263' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:085][653]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_265' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:109][654]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_267' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:116][654]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_269' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:124][654]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_271' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:145][655]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_273' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:152][655]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_275' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:170][656]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_277' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:179][656]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_279' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:197][657]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_281' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:204][657]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_283' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:225][658]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_285' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:242][659]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_287' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:250][659]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_289' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:270][660]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_291' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-16.56.16:296][661]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Image_293' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.12-17.04.03:143][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface" FILE="../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Interface.uasset" SILENT=true
+[2018.02.12-17.04.03:334][529]LogSavePackage: Save=139.84ms
+[2018.02.12-17.04.03:335][529]LogSavePackage: Moving '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Saved/Interface2914C7484213B23B923257AE4B4B591C.tmp' to '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Interface.uasset'
+[2018.02.12-17.04.03:379][529]LogSavePackage: Display: Finished SavePackage ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Interface.uasset
+[2018.02.12-17.04.03:526][536]BlueprintLog: New page: Compile Interface
+[2018.02.12-17.04.55:471][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/game" FILE="../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Saved/Autosaves/Game/game_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.02.12-17.04.55:547][637]LogSavePackage: Save=51.72ms
+[2018.02.12-17.04.55:547][637]LogSavePackage: Moving '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Saved/game_Auto1AEEE78584DA7C42ABD37B9A5A2C02C61.tmp' to '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Saved/Autosaves/Game/game_Auto1.umap'
+[2018.02.12-17.04.55:549][637]LogSavePackage: Display: Finished SavePackage ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Saved/Autosaves/Game/game_Auto1.umap
+[2018.02.12-17.04.55:555][637]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/game' took 0.400
+[2018.02.12-17.04.55:555][637]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.400
+[2018.02.12-17.05.04:061][748]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.12-17.05.04:078][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.12-17.05.04:079][748]PIE: New page: PIE session: game (Feb 12, 2018, 7:05:04 AM)
+[2018.02.12-17.05.04:079][748]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_game
+[2018.02.12-17.05.04:083][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004525s)
+[2018.02.12-17.05.04:085][748]LogAIModule: Creating AISystem for world game
+[2018.02.12-17.05.04:086][748]LogPlayLevel: PIE: World Init took: (0.001713s)
+[2018.02.12-17.05.04:086][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/game.game to /Game/UEDPIE_0_game.game (0.006772s)
+[2018.02.12-17.05.04:105][748]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.12-17.05.04:137][748]LogInit: FAudioDevice initialized.
+[2018.02.12-17.05.04:262][748]LogLoad: Game class is 'NewGameMode_C'
+[2018.02.12-17.05.04:263][748]LogWorld: Bringing World /Game/UEDPIE_0_game.game up for play (max tick rate 60) at 2018.02.12-12.05.04
+[2018.02.12-17.05.04:263][748]LogWorld: Bringing up level for play took: 0.000758
+[2018.02.12-17.05.04:264][748]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.02.12-17.05.04:282][748]PIE: Play in editor start time for /Game/UEDPIE_0_game 0.652
+[2018.02.12-17.05.04:319][748]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2018.02.12-17.05.56:787][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface" FILE="../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Interface.uasset" SILENT=true
+[2018.02.12-17.05.56:886][150]LogSavePackage: Save=96.24ms
+[2018.02.12-17.05.56:886][150]LogSavePackage: Moving '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Saved/InterfaceEBA98E8C43542ACCA37C5BBD39E6863F.tmp' to '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Interface.uasset'
+[2018.02.12-17.05.56:887][150]LogSavePackage: Display: Finished SavePackage ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Interface.uasset
+[2018.02.12-17.05.57:752][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interface" FILE="../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Interface.uasset" SILENT=true
+[2018.02.12-17.05.57:858][201]LogSavePackage: Save=101.80ms
+[2018.02.12-17.05.57:858][201]LogSavePackage: Moving '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Saved/InterfaceEDC18D2F48320A70FA09DF81B625B385.tmp' to '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Interface.uasset'
+[2018.02.12-17.05.57:859][201]LogSavePackage: Display: Finished SavePackage ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Interface.uasset
+[2018.02.12-17.05.59:012][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/game" FILE="../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/game.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.12-17.05.59:052][269]LogSavePackage: Save=20.48ms
+[2018.02.12-17.05.59:052][269]LogSavePackage: Moving '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Saved/game991D4AE442721DF2C80C04A10A72CC73.tmp' to '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/game.umap'
+[2018.02.12-17.05.59:054][269]LogSavePackage: Display: Finished SavePackage ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/game.umap
+[2018.02.12-17.05.59:082][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/game_BuiltData" FILE="../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/game_BuiltData.uasset" SILENT=true
+[2018.02.12-17.05.59:146][269]LogSavePackage: Save=58.05ms
+[2018.02.12-17.05.59:146][269]LogSavePackage: Moving '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Saved/game_BuiltDataFF4A463841FFEB1DA34692A21E8F2469.tmp' to '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/game_BuiltData.uasset'
+[2018.02.12-17.05.59:147][269]LogSavePackage: Display: Finished SavePackage ../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/game_BuiltData.uasset
+[2018.02.12-17.06.00:856][348]Cmd: QUIT_EDITOR
+[2018.02.12-17.06.01:130][348]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.12-17.06.01:141][348]LogExit: Preparing to exit.
+[2018.02.12-17.06.01:271][348]LogDirectoryWatcher: A directory notification for 'D:/EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/' was aborted.
+[2018.02.12-17.06.01:335][348]LogExit: Editor shut down
+[2018.02.12-17.06.01:340][348]LogExit: Transaction tracking system shut down
+[2018.02.12-17.06.01:514][348]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.12-17.06.01:514][348]LogDirectoryWatcher: A directory notification for '../../../../../EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/' was aborted.
+[2018.02.12-17.06.01:514][348]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.12-17.06.01:515][348]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.02.12-17.06.01:515][348]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.02.12-17.06.01:515][348]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.12-17.06.01:515][348]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.12-17.06.01:604][348]LogExit: Object subsystem successfully closed.
+[2018.02.12-17.06.01:630][348]LogD3D11RHI: Shutdown
+[2018.02.12-17.06.01:630][348]LogD3D11RHI: CleanupD3DDevice
+[2018.02.12-17.06.01:634][348]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.12-17.06.01:642][348]LogModuleManager: Shutting down and abandoning module SequencerWidgets (558)
+[2018.02.12-17.06.01:642][348]LogModuleManager: Shutting down and abandoning module BlueprintGraph (556)
+[2018.02.12-17.06.01:642][348]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (554)
+[2018.02.12-17.06.01:642][348]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2018.02.12-17.06.01:642][348]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.02.12-17.06.01:642][348]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2018.02.12-17.06.01:642][348]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.02.12-17.06.01:642][348]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.02.12-17.06.01:643][348]LogDirectoryWatcher: A directory notification for 'D:/EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Collections/' was aborted.
+[2018.02.12-17.06.01:643][348]LogDirectoryWatcher: A directory notification for 'D:/EGD/Fakebook/FakeBook/Game 2/WaterGame/Content/Developers/icamp/Collections/' was aborted.
+[2018.02.12-17.06.01:643][348]LogDirectoryWatcher: A directory notification for 'D:/EGD/Fakebook/FakeBook/Game 2/WaterGame/Saved/Collections/' was aborted.
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.02.12-17.06.01:643][348]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.02.12-17.06.01:644][348]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.02.12-17.06.02:426][348]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.02.12-17.06.02:426][348]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.02.12-17.06.02:426][348]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.02.12-17.06.02:426][348]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.02.12-17.06.02:426][348]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.02.12-17.06.02:426][348]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.02.12-17.06.02:426][348]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.02.12-17.06.02:426][348]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.02.12-17.06.02:426][348]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.02.12-17.06.02:426][348]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.02.12-17.06.02:427][348]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.02.12-17.06.02:470][348]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.02.12-17.06.02:470][348]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.02.12-17.06.02:470][348]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.02.12-17.06.02:470][348]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.02.12-17.06.02:470][348]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.02.12-17.06.02:470][348]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.02.12-17.06.02:470][348]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.02.12-17.06.02:470][348]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.02.12-17.06.02:470][348]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.02.12-17.06.02:470][348]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.02.12-17.06.02:476][348]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.02.12-17.06.02:477][348]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.02.12-17.06.02:683][348]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.02.12-17.06.02:683][348]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.02.12-17.06.02:683][348]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.02.12-17.06.02:683][348]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.02.12-17.06.02:683][348]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.02.12-17.06.02:683][348]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.02.12-17.06.02:683][348]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.02.12-17.06.02:683][348]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.02.12-17.06.02:683][348]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.02.12-17.06.02:683][348]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.02.12-17.06.02:683][348]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.02.12-17.06.02:684][348]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.02.12-17.06.02:685][348]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.02.12-17.06.02:685][348]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.02.12-17.06.02:685][348]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.02.12-17.06.02:686][348]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.02.12-17.06.02:686][348]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.02.12-17.06.02:686][348]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.02.12-17.06.02:686][348]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.02.12-17.06.02:686][348]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.02.12-17.06.02:686][348]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.02.12-17.06.02:686][348]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.02.12-17.06.02:686][348]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.02.12-17.06.02:787][348]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.02.12-17.06.02:887][348]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.02.12-17.06.02:887][348]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.02.12-17.06.02:887][348]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.02.12-17.06.02:887][348]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.02.12-17.06.02:887][348]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.02.12-17.06.02:887][348]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.02.12-17.06.02:889][348]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.02.12-17.06.02:889][348]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.02.12-17.06.02:889][348]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.02.12-17.06.02:889][348]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.02.12-17.06.02:893][348]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.02.12-17.06.02:893][348]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.02.12-17.06.02:893][348]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.02.12-17.06.02:893][348]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.02.12-17.06.02:893][348]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.02.12-17.06.02:893][348]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.02.12-17.06.02:901][348]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.02.12-17.06.02:901][348]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.02.12-17.06.02:901][348]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.02.12-17.06.02:901][348]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.02.12-17.06.02:901][348]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.02.12-17.06.02:901][348]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.02.12-17.06.02:901][348]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.02.12-17.06.02:901][348]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.02.12-17.06.02:901][348]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.02.12-17.06.02:901][348]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.02.12-17.06.02:901][348]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.02.12-17.06.02:901][348]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.02.12-17.06.02:902][348]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.02.12-17.06.02:902][348]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.02.12-17.06.02:902][348]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.02.12-17.06.02:902][348]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.02.12-17.06.02:906][348]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.02.12-17.06.02:906][348]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.02.12-17.06.02:906][348]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.02.12-17.06.02:906][348]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.02.12-17.06.02:906][348]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.02.12-17.06.02:906][348]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.02.12-17.06.02:907][348]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.02.12-17.06.02:907][348]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.02.12-17.06.02:908][348]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.12-17.06.02:908][348]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.02.12-17.06.02:908][348]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.02.12-17.06.02:908][348]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.02.12-17.06.02:909][348]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.02.12-17.06.02:909][348]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.02.12-17.06.02:909][348]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.02.12-17.06.02:909][348]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.02.12-17.06.02:909][348]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.02.12-17.06.02:955][348]LogDerivedDataCache: Shutdown
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.02.12-17.06.02:955][348]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.12-17.06.02:956][348]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.12-17.06.02:956][348]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.12-17.06.02:956][348]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0F40AB54-46AE-A911-FDE0-7599C169DC0B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=f1cd25db461a45e4522d57b1e1e11598%7Cd85314cd6c6a4bf6ad69011299579840%7C5bf9cb3f-f7dc-46e5-8944-9427fe624822&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.12-17.06.02:987][348]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.12-17.06.02:990][348]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.12-17.06.02:990][348]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.12-17.06.02:990][348]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.12-17.06.02:990][348]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.12-17.06.02:991][348]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.12-17.06.02:991][348]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.12-17.06.02:991][348]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.12-17.06.02:993][348]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.12-17.06.02:993][348]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.12-17.06.02:993][348]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.12-17.06.02:993][348]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.12-17.06.02:993][348]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.12-17.06.02:993][348]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.12-17.06.02:993][348]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.12-17.06.02:993][348]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.12-17.06.02:993][348]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.12-17.06.02:993][348]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.12-17.06.02:994][348]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.12-17.06.03:001][348]LogExit: Exiting.
+[2018.02.12-17.06.03:034][348]Log file closed, 02/12/18 12:06:03
