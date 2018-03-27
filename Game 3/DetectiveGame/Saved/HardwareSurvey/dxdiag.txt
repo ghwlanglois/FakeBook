@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 3/20/2018, 15:12:18
+      Time of this report: 3/27/2018, 13:58:46
              Machine name: SA2502-PC02
                Machine Id: {FC796890-0A83-465B-9D44-B90DA985EF51}
          Operating System: Windows 10 Enterprise 64-bit (10.0, Build 16299) (16299.rs3_release.170928-1534)
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz (12 CPUs), ~3.5GHz
                    Memory: 32768MB RAM
       Available OS Memory: 32690MB RAM
-                Page File: 8502MB used, 29051MB available
+                Page File: 7908MB used, 29646MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -326,12 +326,6 @@ Vendor/Product ID: n/a
 Vendor/Product ID: n/a
         FF Driver: n/a
 
-      Device Name: PTZ-631W
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x056A, 0x00B5
-        FF Driver: n/a
-
       Device Name: USB Keyboard
          Attached: 1
     Controller ID: 0x0
@@ -413,22 +407,6 @@ USB Devices
 | | | | | Service: mouhid
 | | | | | Driver: mouhid.sys, 9/29/2017 09:41:08, 32768 bytes
 | | | | | Driver: mouclass.sys, 9/29/2017 09:41:08, 57240 bytes
-| | 
-+-+ USB Input Device
-| | Vendor/Product ID: 0x056A, 0x00B5
-| | Location: Port_#0005.Hub_#0003
-| | Matching Device ID: USB\Class_03&SubClass_01
-| | Service: HidUsb
-| | Driver: hidusb.sys, 9/29/2017 09:41:08, 40960 bytes
-| | Driver: hidclass.sys, 9/29/2017 09:41:08, 187392 bytes
-| | Driver: hidparse.sys, 2/21/2018 20:30:58, 46080 bytes
-| | 
-| +-+ HID-compliant mouse
-| | | Vendor/Product ID: 0x056A, 0x00B5
-| | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
-| | | Service: mouhid
-| | | Driver: mouhid.sys, 9/29/2017 09:41:08, 32768 bytes
-| | | Driver: mouclass.sys, 9/29/2017 09:41:08, 57240 bytes
 
 ----------------
 Gameport Devices
@@ -993,113 +971,113 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 2122226397096848100, type 5
-Event Name: WindowsUpdateFailure3
+Fault bucket 127824537390, type 5
+Event Name: SkyDriveClientError
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.16299.248
-P2: 87af0813
-P3: D595EEB2-7ADA-4D93-BDB4-9E131464D405
-P4: Install
-P5: 1
-P6: 0
-P7: 0
-P8: Update;taskhostw
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
+P1: OneDriveSetup.exe
+P2: 17.3.6816.0313
+P3: OneDriveSetup.exe
+P4: 17.3.6816.0313
+P5: 0x80040692
+P6: Installer
+P7: application.cpp
+P8: 166
+P9: 
+P10: 
 
 
 +++ WER1 +++:
-Fault bucket , type 0
-Event Name: WindowsUpdateFailure3
+Fault bucket 127824537390, type 5
+Event Name: SkyDriveClientError
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.16299.248
-P2: 87af0813
-P3: D595EEB2-7ADA-4D93-BDB4-9E131464D405
-P4: Install
-P5: 1
-P6: 0
-P7: 0
-P8: Update;taskhostw
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
+P1: OneDriveSetup.exe
+P2: 17.3.6816.0313
+P3: OneDriveSetup.exe
+P4: 17.3.6816.0313
+P5: 0x80040692
+P6: Installer
+P7: application.cpp
+P8: 166
+P9: 
+P10: 
 
 
 +++ WER2 +++:
 Fault bucket , type 0
-Event Name: WindowsUpdateFailure3
+Event Name: SkyDriveClientError
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.16299.248
-P2: 87af0813
-P3: D595EEB2-7ADA-4D93-BDB4-9E131464D405
-P4: Install
-P5: 1
-P6: 0
-P7: 0
-P8: Update;taskhostw
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
+P1: OneDriveSetup.exe
+P2: 17.3.6816.0313
+P3: OneDriveSetup.exe
+P4: 17.3.6816.0313
+P5: 0x80040692
+P6: Installer
+P7: application.cpp
+P8: 166
+P9: 
+P10: 
 
 
 +++ WER3 +++:
-Fault bucket 1570760537045071104, type 5
-Event Name: AppxDeploymentFailureBlue
+Fault bucket , type 0
+Event Name: SkyDriveClientError
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 87AF0813
-P2: 11
-P3: 0
-P4: NONE
-P5: 10.0.16299.248
-P6: 401
-P7: 
-P8: 
+P1: OneDriveSetup.exe
+P2: 17.3.6816.0313
+P3: OneDriveSetup.exe
+P4: 17.3.6816.0313
+P5: 0x80040692
+P6: Installer
+P7: application.cpp
+P8: 166
 P9: 
 P10: 
 
 
 +++ WER4 +++:
-Fault bucket , type 0
-Event Name: AppxDeploymentFailureBlue
+Fault bucket 1941513040969639629, type 5
+Event Name: MoAppCrash
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 87AF0813
-P2: 11
-P3: 0
-P4: NONE
-P5: 10.0.16299.248
-P6: 401
-P7: 
-P8: 
-P9: 
+P1: windows.immersivecontrolpanel_10.0.1.1000_neutral_neutral_cw5n1h2txyewy
+P2: praid:microsoft.windows.immersivecontrolpanel
+P3: 10.0.16299.15
+P4: 7640753d
+P5: msxml6.dll
+P6: 6.30.16299.98
+P7: 7339c6c8
+P8: c0000005
+P9: 000000000008c3e0
 P10: 
 
 
 +++ WER5 +++:
-Fault bucket 2258654062412589832, type 5
-Event Name: StoreAgentInstallFailure1
+Fault bucket 125730739576, type 5
+Event Name: PerfWatsonVS12Data
 Response: Not available
-Cab Id: 0
+Cab Id: 1345068294285503053
 
 Problem signature:
-P1: Update;taskhostw
-P2: 87af0813
-P3: 16299
-P4: 309
-P5: Windows.Desktop
-P6: L
+P1: PerfWatsonTcdb
+P2: 0
+P3: 0
+P4: 0
+P5: 0
+P6: 
 P7: 
 P8: 
 P9: 
@@ -1107,18 +1085,18 @@ P10:
 
 
 +++ WER6 +++:
-Fault bucket , type 0
-Event Name: StoreAgentInstallFailure1
+Fault bucket 125730739576, type 5
+Event Name: PerfWatsonVS12Data
 Response: Not available
-Cab Id: 0
+Cab Id: 1654725178647892442
 
 Problem signature:
-P1: Update;taskhostw
-P2: 87af0813
-P3: 16299
-P4: 309
-P5: Windows.Desktop
-P6: L
+P1: PerfWatsonTcdb
+P2: 0
+P3: 0
+P4: 0
+P5: 0
+P6: 
 P7: 
 P8: 
 P9: 
@@ -1126,59 +1104,59 @@ P10:
 
 
 +++ WER7 +++:
-Fault bucket 127824537390, type 5
-Event Name: SkyDriveClientError
+Fault bucket 1967828992635072617, type 5
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: OneDriveSetup.exe
-P2: 17.3.6816.0313
-P3: OneDriveSetup.exe
-P4: 17.3.6816.0313
-P5: 0x80040692
-P6: Installer
-P7: application.cpp
-P8: 166
-P9: 
-P10: 
+P1: 10.0.16299.248
+P2: 800704cf
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 0
+P8: Update;taskhostw
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
 
 +++ WER8 +++:
-Fault bucket 127824537390, type 5
-Event Name: SkyDriveClientError
+Fault bucket , type 0
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: OneDriveSetup.exe
-P2: 17.3.6816.0313
-P3: OneDriveSetup.exe
-P4: 17.3.6816.0313
-P5: 0x80040692
-P6: Installer
-P7: application.cpp
-P8: 166
-P9: 
-P10: 
+P1: 10.0.16299.248
+P2: 800704cf
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 0
+P8: Update;taskhostw
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
 
 +++ WER9 +++:
 Fault bucket , type 0
-Event Name: SkyDriveClientError
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: OneDriveSetup.exe
-P2: 17.3.6816.0313
-P3: OneDriveSetup.exe
-P4: 17.3.6816.0313
-P5: 0x80040692
-P6: Installer
-P7: application.cpp
-P8: 166
-P9: 
-P10: 
+P1: 10.0.16299.248
+P2: 800704cf
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 0
+P8: Update;taskhostw
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
 
 
