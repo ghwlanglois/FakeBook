@@ -1,0 +1,1014 @@
+﻿Log file open, 03/27/18 14:21:13
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DetectiveGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(56639085) SRandInit(56639085).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.809513
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.27-18.21.15:451][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.27-18.21.15:451][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.27-18.21.15:498][  0]LogInit: Computer: SA2502-PC01
+[2018.03.27-18.21.15:498][  0]LogInit: User: harass
+[2018.03.27-18.21.15:498][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.03.27-18.21.15:498][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2018.03.27-18.21.15:498][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.03.27-18.21.15:498][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.27-18.21.15:499][  0]LogMemory: Process Physical Memory: 274.06 MB used, 274.06 MB peak
+[2018.03.27-18.21.15:499][  0]LogMemory: Process Virtual Memory: 270.27 MB used, 270.27 MB peak
+[2018.03.27-18.21.15:499][  0]LogMemory: Physical Memory: 4464.05 MB used,  28226.24 MB free, 32690.29 MB total
+[2018.03.27-18.21.15:499][  0]LogMemory: Virtual Memory: 687.75 MB used,  28226.24 MB free, 134217728.00 MB total
+[2018.03.27-18.21.15:945][  0]LogInit: Using OS detected language (en-US).
+[2018.03.27-18.21.15:946][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.27-18.21.16:030][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.27-18.21.16:543][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.27-18.21.18:351][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.27-18.21.18:394][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.03.27-18.21.18:395][  0]LogD3D11RHI:       8086/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.27-18.21.18:397][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.27-18.21.18:397][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.27-18.21.18:397][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.27-18.21.18:402][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.27-18.21.18:403][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.27-18.21.18:403][  0]LogWindows: EnumDisplayDevices:
+[2018.03.27-18.21.18:403][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.03.27-18.21.18:403][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.03.27-18.21.18:403][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.27-18.21.18:403][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.03.27-18.21.18:403][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.27-18.21.18:403][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.03.27-18.21.18:403][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.27-18.21.18:403][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.27-18.21.18:403][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
+[2018.03.27-18.21.18:428][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.27-18.21.18:458][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.27-18.21.18:509][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Intermediate/Shaders/WorkingDirectory/5776/).
+[2018.03.27-18.21.18:509][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/harass/AppData/Local/Temp/UnrealShaderWorkingDir/014254CD48263E462358ED9F65D84A54/'.
+[2018.03.27-18.21.18:510][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.27-18.21.21:158][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.27-18.21.21:213][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.27-18.21.21:267][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.27-18.21.21:322][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.27-18.21.21:391][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.27-18.21.21:449][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.27-18.21.21:503][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.27-18.21.21:558][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.27-18.21.21:612][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.27-18.21.21:668][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.27-18.21.21:721][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.27-18.21.21:774][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.27-18.21.21:824][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.27-18.21.21:873][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.27-18.21.21:974][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.27-18.21.21:974][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.27-18.21.22:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.27-18.21.22:073][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.27-18.21.22:183][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.27-18.21.22:209][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.27-18.21.22:258][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.27-18.21.22:307][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.27-18.21.22:356][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.27-18.21.22:412][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.27-18.21.22:412][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.27-18.21.22:958][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.27-18.21.22:958][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2018.03.27-18.21.22:958][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.27-18.21.22:958][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.27-18.21.22:958][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.27-18.21.22:958][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.27-18.21.22:987][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.27-18.21.22:999][  0]LogDerivedDataCache: Using Local data cache path C:/Users/harass/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.27-18.21.23:023][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.27-18.21.23:029][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.27-18.21.23:048][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.27-18.21.23:049][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.27-18.21.25:637][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.27-18.21.25:855][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2018.03.27-18.21.50:514][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2018.03.27-18.21.55:805][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2018.03.27-18.21.56:301][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2018.03.27-18.21.56:871][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2018.03.27-18.21.57:244][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.27-18.21.57:296][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.27-18.21.57:297][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.27-18.21.57:297][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.27-18.21.57:297][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.27-18.21.57:297][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.27-18.21.57:368][  0]LogNetVersion: DetectiveGame , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4117068022)
+[2018.03.27-18.21.57:451][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2018.03.27-18.21.57:746][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2018.03.27-18.21.57:978][  0]LogAssetRegistry: FAssetRegistry took 0.0314 seconds to start up
+[2018.03.27-18.21.58:058][  0]LogMaterial: Missing cached shader map for material Xray, compiling. 
+[2018.03.27-18.21.58:093][  0]LogMaterial: Missing cached shader map for material Main, compiling. 
+[2018.03.27-18.21.58:497][  0]LogMaterial: Missing cached shader map for material SnapGridMaterial, compiling. 
+[2018.03.27-18.21.58:535][  0]LogMaterial: Missing cached shader map for material TranslucentTransformGizmoMaterial, compiling. 
+[2018.03.27-18.21.58:555][  0]LogMaterial: Missing cached shader map for material TransformGizmoMaterial, compiling. 
+[2018.03.27-18.21.58:710][  0]LogMaterial: Missing cached shader map for material CineMat, compiling. 
+[2018.03.27-18.21.58:900][  0]LogMaterial: Missing cached shader map for material M_SimpleOpaque, compiling. 
+[2018.03.27-18.21.58:960][  0]LogMaterial: Missing cached shader map for material M_SimpleTranslucent, compiling. 
+[2018.03.27-18.21.59:162][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2018.03.27-18.21.59:181][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2018.03.27-18.21.59:227][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2018.03.27-18.21.59:256][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2018.03.27-18.21.59:276][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2018.03.27-18.21.59:314][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2018.03.27-18.21.59:564][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2018.03.27-18.21.59:602][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2018.03.27-18.21.59:860][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2018.03.27-18.21.59:919][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2018.03.27-18.22.00:038][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2018.03.27-18.22.00:107][  0]LogMaterial: Missing cached shader map for material ARKitCameraMaterial, compiling. 
+[2018.03.27-18.22.00:175][  0]LogMaterial: Missing cached shader map for material GearVRControllerMaterial, compiling. 
+[2018.03.27-18.22.00:373][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.126569 seconds
+[2018.03.27-18.22.00:382][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.27-18.22.00:382][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.27-18.22.00:382][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.27-18.22.00:484][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.27-18.22.06:482][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2018.03.27-18.22.06:516][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
+[2018.03.27-18.22.06:571][  0]LogMaterial: Missing cached shader map for material GridPostProcess, compiling. 
+[2018.03.27-18.22.06:586][  0]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2018.03.27-18.22.06:607][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
+[2018.03.27-18.22.06:664][  0]LogMaterial: Missing cached shader map for material GenericHMDMaterial, compiling. 
+[2018.03.27-18.22.06:709][  0]LogMaterial: Missing cached shader map for material TeleportDirectionMaterial, compiling. 
+[2018.03.27-18.22.06:759][  0]LogMaterial: Missing cached shader map for material M_ContentWindow, compiling. 
+[2018.03.27-18.22.06:859][  0]LogMaterial: Missing cached shader map for material VivePreControllerMaterial, compiling. 
+[2018.03.27-18.22.06:893][  0]LogMaterial: Missing cached shader map for material FlattenHeightMat, compiling. 
+[2018.03.27-18.22.06:918][  0]LogMaterial: Missing cached shader map for material ArrowMaterial, compiling. 
+[2018.03.27-18.22.06:969][  0]LogMaterial: Missing cached shader map for material KeyDiskMaterial, compiling. 
+[2018.03.27-18.22.06:987][  0]LogMaterial: Missing cached shader map for material OculusControllerMaterial, compiling. 
+[2018.03.27-18.22.07:039][  0]LogMaterial: Missing cached shader map for material LineMaterial, compiling. 
+[2018.03.27-18.22.07:073][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
+[2018.03.27-18.22.08:668][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2018.03.27-18.22.08:705][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2018.03.27-18.22.09:462][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.27-18.22.09:529][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.27-18.22.10:121][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2018.03.27-18.22.11:026][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2018.03.27-18.22.11:054][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
+[2018.03.27-18.22.11:149][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.27-18.22.11:159][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
+[2018.03.27-18.22.11:188][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
+[2018.03.27-18.22.11:211][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2018.03.27-18.22.11:236][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2018.03.27-18.22.11:263][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2018.03.27-18.22.11:285][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2018.03.27-18.22.11:308][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2018.03.27-18.22.11:328][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
+[2018.03.27-18.22.11:349][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
+[2018.03.27-18.22.11:371][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2018.03.27-18.22.11:393][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2018.03.27-18.22.11:415][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2018.03.27-18.22.11:436][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2018.03.27-18.22.11:458][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2018.03.27-18.22.11:488][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2018.03.27-18.22.11:532][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2018.03.27-18.22.11:555][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2018.03.27-18.22.11:579][  0]LogMaterial: Missing cached shader map for material PreTonemapHDRColor, compiling. 
+[2018.03.27-18.22.11:601][  0]LogMaterial: Missing cached shader map for material PostTonemapHDRColor, compiling. 
+[2018.03.27-18.22.12:287][  0]SourceControl: Source control is disabled
+[2018.03.27-18.22.12:287][  0]SourceControl: Source control is disabled
+[2018.03.27-18.22.12:393][  0]SourceControl: Source control is disabled
+[2018.03.27-18.22.12:493][  0]SourceControl: Source control is disabled
+[2018.03.27-18.22.13:527][  0]LogMaterial: Missing cached shader map for material DefaultMediaPlaneMaterial, compiling. 
+[2018.03.27-18.22.14:089][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.27-18.22.14:598][  0]LogOcInput: OculusInput pre-init called
+[2018.03.27-18.22.15:086][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
+[2018.03.27-18.22.15:119][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2018.03.27-18.22.15:157][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2018.03.27-18.22.15:250][  0]LogEngine: Initializing Engine...
+[2018.03.27-18.22.15:256][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.27-18.22.15:269][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2018.03.27-18.22.15:629][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2018.03.27-18.22.16:606][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2018.03.27-18.22.16:911][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2018.03.27-18.22.17:878][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2018.03.27-18.22.18:857][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2018.03.27-18.22.19:165][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2018.03.27-18.22.19:317][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2018.03.27-18.22.19:355][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2018.03.27-18.22.19:386][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2018.03.27-18.22.19:420][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2018.03.27-18.22.19:461][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2018.03.27-18.22.19:493][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2018.03.27-18.22.19:512][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2018.03.27-18.22.19:552][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2018.03.27-18.22.19:625][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
+[2018.03.27-18.22.19:667][  0]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2018.03.27-18.22.19:708][  0]LogMaterial: Missing cached shader map for material GeomMaterial, compiling. 
+[2018.03.27-18.22.19:734][  0]LogMaterial: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2018.03.27-18.22.19:776][  0]LogMaterial: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2018.03.27-18.22.19:936][  0]LogMaterial: Missing cached shader map for material ClothMaterial, compiling. 
+[2018.03.27-18.22.19:970][  0]LogMaterial: Missing cached shader map for material ClothMaterial_WF, compiling. 
+[2018.03.27-18.22.20:010][  0]LogMaterial: Missing cached shader map for material DebugEditorMaterial, compiling. 
+[2018.03.27-18.22.20:052][  0]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2018.03.27-18.22.20:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.27-18.22.20:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.27-18.22.20:621][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.27-18.22.20:644][  0]LogInit: XAudio2 using 'DELL U2413-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-18.22.20:713][  0]LogInit: FAudioDevice initialized.
+[2018.03.27-18.22.20:760][  0]LogDerivedDataCache: Saved boot cache 0.05s 69MB C:/Users/harass/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.27-18.22.20:771][  0]LogInit: Texture streaming: Enabled
+[2018.03.27-18.22.20:967][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.27-18.22.21:303][  0]LogInit: Transaction tracking system initialized
+[2018.03.27-18.22.21:957][  0]BlueprintLog: New page: Editor Load
+[2018.03.27-18.22.23:812][  0]LocalizationService: Localization service is disabled
+[2018.03.27-18.22.25:329][  0]LogConsoleResponse: Display: 
+[2018.03.27-18.22.25:401][  0]LogMaterial: Missing cached shader map for material Cross_Mat, compiling. 
+[2018.03.27-18.22.25:445][  0]LogMaterial: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
+[2018.03.27-18.22.25:474][  0]LogMaterial: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
+[2018.03.27-18.22.25:503][  0]LogMaterial: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
+[2018.03.27-18.22.25:533][  0]LogMaterial: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
+[2018.03.27-18.22.25:573][  0]LogMaterial: Missing cached shader map for material Tick_Mat, compiling. 
+[2018.03.27-18.22.25:622][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2018.03.27-18.22.25:652][  0]LogMaterial: Missing cached shader map for material WidgetMaterial, compiling. 
+[2018.03.27-18.22.25:679][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Current, compiling. 
+[2018.03.27-18.22.25:707][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_X, compiling. 
+[2018.03.27-18.22.25:733][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Y, compiling. 
+[2018.03.27-18.22.25:763][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Z, compiling. 
+[2018.03.27-18.22.25:796][  0]LogMaterial: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
+[2018.03.27-18.22.25:934][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2018.03.27-18.22.26:052][  0]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2018.03.27-18.22.26:186][  0]LogMaterial: Missing cached shader map for material M_StreamingPause, compiling. 
+[2018.03.27-18.22.26:238][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.27-18.22.26:238][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.27-18.22.26:239][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.27-18.22.27:247][  0]LogFileCache: Scanning file cache for directory 'C:/Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/' took 0.02s
+[2018.03.27-18.22.28:674][  0]SourceControl: Source control is disabled
+[2018.03.27-18.22.28:676][  0]Cmd: MAP LOAD FILE="../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.27-18.22.28:678][  0]LightingResults: New page: Lighting Build
+[2018.03.27-18.22.28:770][  0]MapCheck: New page: Map Check
+[2018.03.27-18.22.28:770][  0]LightingResults: New page: Lighting Build
+[2018.03.27-18.22.29:621][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (BGRA8, 256X256)
+[2018.03.27-18.22.29:621][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2018.03.27-18.22.29:621][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.03.27-18.22.29:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.03.27-18.22.29:621][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (BGRA8, 1024X256)
+[2018.03.27-18.22.29:621][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2018.03.27-18.22.29:621][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.03.27-18.22.29:621][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.03.27-18.22.29:841][  0]LogStaticMesh: Building static mesh Door_Door...
+[2018.03.27-18.22.29:855][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Objects/Door_Door.Door_Door
+[2018.03.27-18.22.29:858][  0]LogStaticMesh: Building static mesh Door_DoorHandle...
+[2018.03.27-18.22.29:903][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Objects/Door_DoorHandle.Door_DoorHandle
+[2018.03.27-18.22.29:912][  0]LogStaticMesh: Building static mesh bed...
+[2018.03.27-18.22.30:017][  0]LogStaticMesh: Built static mesh [0.10s] /Game/Objects/bed.bed
+[2018.03.27-18.22.30:037][  0]LogStaticMesh: Building static mesh vase...
+[2018.03.27-18.22.30:044][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Objects/vase.vase
+[2018.03.27-18.22.30:046][  0]LogStaticMesh: Building static mesh ceilingLight_lightBall...
+[2018.03.27-18.22.30:058][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Objects/ceilingLight_lightBall.ceilingLight_lightBall
+[2018.03.27-18.22.30:060][  0]LogStaticMesh: Building static mesh ceilingLight_lightBulb...
+[2018.03.27-18.22.30:081][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Objects/ceilingLight_lightBulb.ceilingLight_lightBulb
+[2018.03.27-18.22.30:084][  0]LogStaticMesh: Building static mesh ceilingLight_lightFrame...
+[2018.03.27-18.22.30:130][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Objects/ceilingLight_lightFrame.ceilingLight_lightFrame
+[2018.03.27-18.22.30:135][  0]LogStaticMesh: Building static mesh couch...
+[2018.03.27-18.22.30:151][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Objects/Import/couch.couch
+[2018.03.27-18.22.30:161][  0]LogMaterial: Missing cached shader map for material doorMat, compiling. 
+[2018.03.27-18.22.30:198][  0]LogMaterial: Missing cached shader map for material doorHandleMat, compiling. 
+[2018.03.27-18.22.30:246][  0]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.03.27-18.22.30:296][  0]LogMaterial: Missing cached shader map for material allWhite, compiling. 
+[2018.03.27-18.22.30:344][  0]LogMaterial: Missing cached shader map for material CeilingLigthBall, compiling. 
+[2018.03.27-18.22.30:395][  0]LogMaterial: Missing cached shader map for material M_HandMat, compiling. 
+[2018.03.27-18.22.30:498][  0]LogMaterial: Missing cached shader map for material M_TeleportPreviews, compiling. 
+[2018.03.27-18.22.30:522][  0]LogMaterial: Missing cached shader map for material M_SplineArcMat, compiling. 
+[2018.03.27-18.22.30:561][  0]LogMaterial: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2018.03.27-18.22.30:630][  0]LogMaterial: Missing cached shader map for material M_BaseMaterial, compiling. 
+[2018.03.27-18.22.30:730][  0]LogMaterial: Missing cached shader map for material GenericHMDMaterial, compiling. 
+[2018.03.27-18.22.30:794][  0]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2018.03.27-18.22.30:843][  0]LogMaterial: Missing cached shader map for material M_Wood_Walnut, compiling. 
+[2018.03.27-18.22.30:970][  0]LogMaterial: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2018.03.27-18.22.31:020][  0]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2018.03.27-18.22.31:071][  0]LogMaterial: Missing cached shader map for material legs, compiling. 
+[2018.03.27-18.22.31:120][  0]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.03.27-18.22.31:167][  0]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2018.03.27-18.22.31:216][  0]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2018.03.27-18.22.31:266][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.03.27-18.22.31:690][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.27-18.22.31:718][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.27-18.22.31:815][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 96.064ms to complete.
+[2018.03.27-18.22.31:815][  0]LogFileHelpers: Loading map 'StartupMap' took 3.140
+[2018.03.27-18.22.32:093][  0]LogCollectionManager: Loaded 0 collections in 0.002693 seconds
+[2018.03.27-18.22.32:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Collections/' took 0.01s
+[2018.03.27-18.22.32:235][  0]LogFileCache: Scanning file cache for directory 'C:/Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Developers/harass/Collections/' took 0.01s
+[2018.03.27-18.22.32:235][  0]LogFileCache: Scanning file cache for directory 'C:/Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Collections/' took 0.01s
+[2018.03.27-18.22.32:235][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.27-18.22.32:252][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2363 classes and 519 folders.
+[2018.03.27-18.22.32:381][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.27-18.22.32:941][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.27-18.22.33:026][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.03.27-18.22.33:095][  0]LogSlate: Took 0.007385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.27-18.22.33:106][  0]LogSlate: Took 0.007836 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.27-18.22.33:120][  0]LogSlate: Took 0.007058 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.27-18.22.33:264][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2018.03.27-18.22.33:378][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 26 NumSamples 1 (Frame:1).
+[2018.03.27-18.22.33:877][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.27-18.22.33:877][  0]LogLoad: (Engine Initialization) Total time: 83.15 seconds
+[2018.03.27-18.22.33:877][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.27-18.22.33:877][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.27-18.22.34:248][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.27-18.22.34:346][  0]LogSlate: Took 0.007481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.27-18.22.34:561][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/' took 0.33s
+[2018.03.27-18.22.34:584][  1]LogAssetRegistry: Asset discovery search completed in 36.6277 seconds
+[2018.03.27-18.22.34:587][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.27-18.22.34:588][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000099 seconds (updated 0 objects)
+[2018.03.27-18.22.35:230][  3]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.27-18.23.37:813][235]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.03.27-18.23.37:910][237]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DetectiveGame
+[2018.03.27-18.23.37:911][237]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.03.27-18.23.37:911][237]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.03.27-18.23.37:911][237]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.03.27-18.23.37:911][237]LogTemp: BranchPath = SA2502-PC01/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = SA2502-PC01/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.03.27-18.23.37:954][239]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\harass\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.27-18.23.53:341][693]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2018.03.27-18.24.03:920][574]MapCheck: New page: Map Check
+[2018.03.27-18.24.03:934][574]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.27-18.24.03:935][574]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.27-18.24.03:975][574]LightingResults: New page: Lighting Build - Mar 27, 2018, 10:24:03 AM
+[2018.03.27-18.24.04:094][574]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.27-18.24.04:249][574]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.27-18.24.04:269][574]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.27-18.24.04:990][574]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.27-18.24.04:990][574]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5776
+[2018.03.27-18.24.07:445][574]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.27-18.24.07:446][574]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.27-18.24.07:446][574]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.27-18.24.07:446][574]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.27-18.24.07:446][574]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.27-18.24.07:446][574]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.27-18.24.07:745][574]LogEditorBuildUtils: Build time 0:03
+[2018.03.27-18.24.07:754][574]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Worn, compiling. 
+[2018.03.27-18.24.07:765][574]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Worn, compiling. 
+[2018.03.27-18.24.07:806][575]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_New, compiling. 
+[2018.03.27-18.24.07:816][575]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_New, compiling. 
+[2018.03.27-18.24.07:848][576]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer legs, compiling. 
+[2018.03.27-18.24.07:857][576]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer legs, compiling. 
+[2018.03.27-18.24.07:881][577]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert3, compiling. 
+[2018.03.27-18.24.07:891][577]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert3, compiling. 
+[2018.03.27-18.24.07:920][578]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2018.03.27-18.24.07:929][578]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2018.03.27-18.24.07:954][579]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Gold, compiling. 
+[2018.03.27-18.24.07:963][579]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Gold, compiling. 
+[2018.03.27-18.24.07:987][580]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2018.03.27-18.24.07:997][580]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2018.03.27-18.24.08:026][581]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CeilingLigthBall, compiling. 
+[2018.03.27-18.24.08:035][581]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CeilingLigthBall, compiling. 
+[2018.03.27-18.24.08:060][582]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer allWhite, compiling. 
+[2018.03.27-18.24.08:069][582]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer allWhite, compiling. 
+[2018.03.27-18.24.08:096][583]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer doorHandleMat, compiling. 
+[2018.03.27-18.24.08:106][583]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer doorHandleMat, compiling. 
+[2018.03.27-18.24.08:132][584]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Walnut, compiling. 
+[2018.03.27-18.24.08:141][584]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Walnut, compiling. 
+[2018.03.27-18.24.08:168][585]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_BaseMaterial, compiling. 
+[2018.03.27-18.24.08:178][585]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_BaseMaterial, compiling. 
+[2018.03.27-18.24.08:231][587]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.03.27-18.24.08:243][587]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.03.27-18.24.49:430][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2018.03.27-18.24.49:475][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2018.03.27-18.24.54:529][612]Job is a success!
+[2018.03.27-18.24.54:888][613]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.27-18.24.54:972][613]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.014s
+[2018.03.27-18.24.54:972][613]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.27-18.24.54:972][613]LogVolumetricLightmapImport:      BrickData 75x5x5 = 0.1Mb
+[2018.03.27-18.24.54:972][613]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.27-18.24.54:972][613]LogVolumetricLightmapImport:          0: 6.7% covering 100.0% of volume
+[2018.03.27-18.24.54:972][613]LogVolumetricLightmapImport:          1: 13.3% covering 3.1% of volume
+[2018.03.27-18.24.54:972][613]LogVolumetricLightmapImport:          2: 80.0% covering 0.3% of volume
+[2018.03.27-18.24.55:033][613]LightingResults: Error: PointLight4_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2018.03.27-18.24.55:033][613]LightingResults: Error: PointLight8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2018.03.27-18.24.55:326][613]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.03.27-18.24.55:326][613]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.03.27-18.24.55:326][613]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.03.27-18.24.55:326][613]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2018.03.27-18.24.55:326][613]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.03.27-18.24.55:326][613]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.03.27-18.24.55:397][613]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 256X256)
+[2018.03.27-18.24.55:397][613]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X256)
+[2018.03.27-18.24.55:430][613]Lightmass on SA2502-PC01: 3.80 sec total, 228 ms importing, 139 ms setup, 787 ms photons, 2.62 sec processing, 0 ms extra exporting [91/91 mappings]. Threads: 28.3 sec total, 11.1 sec processing.
+[2018.03.27-18.24.55:463][613]LogStaticLightingSystem: Illumination: 51.1 sec (292 ms encoding lightmaps, 70 ms encoding shadowmaps)
+[2018.03.27-18.24.55:463][613]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (2.7 MB streaming, 0.7 MB non-streaming), 4 textures
+[2018.03.27-18.24.55:463][613]LogStaticLightingSystem: Shadowmap texture memory: 1.7 MB (1.3 MB streaming, 0.3 MB non-streaming), 2 textures
+[2018.03.27-18.24.56:463][613]DumpUnbuiltLightIteractions
+[2018.03.27-18.24.56:463][613]Lights with unbuilt interactions: 0
+[2018.03.27-18.24.56:463][613]
+[2018.03.27-18.24.56:463][613]Primitives with unbuilt interactions: 0
+[2018.03.27-18.24.56:474][614]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.27-18.24.56:474][614]MapCheck: New page: StartupMap - Mar 27, 2018, 10:24:56 AM
+[2018.03.27-18.24.56:563][614]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89.204ms to complete.
+[2018.03.27-18.25.14:924][863]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2018.03.27-18.25.15:516][927]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.25.17:922][196]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.25.23:288][819]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
+[2018.03.27-18.25.23:619][853]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.25.30:491][635]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.25.37:808][481]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.25.41:280][872]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ceilingLight_lightBall)
+[2018.03.27-18.25.41:711][916]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.25.43:323][ 93]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.25.50:160][889]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2018.03.27-18.25.50:650][942]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.25.54:364][365]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.25.56:237][577]Cmd: TRANSACTION UNDO
+[2018.03.27-18.25.56:237][577]LogEditorTransaction: Undo Move Actors
+[2018.03.27-18.25.57:634][734]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.26.03:512][410]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.26.45:830][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.27-18.26.45:831][166]PIE: New page: PIE session: StartupMap (Mar 27, 2018, 10:26:45 AM)
+[2018.03.27-18.26.45:831][166]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.03.27-18.26.45:838][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007173s)
+[2018.03.27-18.26.45:838][166]LogAIModule: Creating AISystem for world StartupMap
+[2018.03.27-18.26.45:839][166]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2018.03.27-18.26.45:839][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.008076s)
+[2018.03.27-18.26.45:859][166]LogInit: XAudio2 using 'DELL U2413-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-18.26.45:866][166]LogInit: FAudioDevice initialized.
+[2018.03.27-18.26.45:913][166]LogLoad: Game class is 'GameModeVR_C'
+[2018.03.27-18.26.45:918][166]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.03.27-14.26.45
+[2018.03.27-18.26.45:918][166]LogWorld: Bringing up level for play took: 0.003255
+[2018.03.27-18.26.45:971][166]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.03.27-18.26.45:971][166]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.27-18.26.45:971][166]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.27-18.26.45:971][166]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.27-18.26.45:983][166]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.27-18.26.45:983][166]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 1.134
+[2018.03.27-18.29.06:873][984]LogInit: XAudio2 using 'DELL U2413-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-18.29.18:204][ 18]LogInit: XAudio2 using 'DELL U2413-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-18.30.38:789][376]LogInit: XAudio2 using 'DELL U2413-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-18.30.51:268][469]LogInit: XAudio2 using 'DELL U2413-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-18.31.04:930][510]LogInit: XAudio2 using 'DELL U2413-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-18.31.22:998][688]LogInit: XAudio2 using 'DELL U2413-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-18.31.44:470][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.27-18.31.44:470][948]PIE: New page: PIE session: StartupMap (Mar 27, 2018, 10:31:44 AM)
+[2018.03.27-18.31.44:470][948]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.03.27-18.31.44:478][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007584s)
+[2018.03.27-18.31.44:478][948]LogAIModule: Creating AISystem for world StartupMap
+[2018.03.27-18.31.44:478][948]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2018.03.27-18.31.44:479][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.008588s)
+[2018.03.27-18.31.44:499][948]LogInit: XAudio2 using 'DELL U2413-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-18.31.44:506][948]LogInit: FAudioDevice initialized.
+[2018.03.27-18.31.44:541][948]LogLoad: Game class is 'GameModeVR_C'
+[2018.03.27-18.31.44:545][948]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.03.27-14.31.44
+[2018.03.27-18.31.44:545][948]LogWorld: Bringing up level for play took: 0.003970
+[2018.03.27-18.31.44:546][948]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.27-18.31.44:546][948]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.27-18.31.44:546][948]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.27-18.31.44:549][948]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.27-18.31.44:549][948]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.3
+[2018.03.27-18.31.54:429][793]LogSavePackage: Save=145.53ms
+[2018.03.27-18.31.54:429][793]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/StartupMap0A34E7CB4C20B71DB07D4DA624FB7F4C.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2018.03.27-18.31.54:432][793]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2018.03.27-18.31.54:464][793]LogFileHelpers: Saving map 'StartupMap' took 0.270
+[2018.03.27-18.31.54:563][793]LogSavePackage: Save=86.60ms
+[2018.03.27-18.31.54:563][793]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_BuiltData8B48E5C9446F349F0BB66AAFB59BB6D0.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
+[2018.03.27-18.31.54:567][793]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
+[2018.03.27-18.32.04:851][870]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-18.34.02:982][155]Cmd: TRANSACTION UNDO
+[2018.03.27-18.34.02:982][155]LogEditorTransaction: Undo Move Actors
+[2018.03.27-18.34.02:985][155]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2018.03.27-18.34.02:985][155]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2018.03.27-18.34.12:926][911]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.34.15:811][ 98]LogEditorViewport: Clicking Background
+[2018.03.27-18.34.18:293][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GenericHMD2)
+[2018.03.27-18.34.18:710][428]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.35.02:030][667]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.35.02:030][667]Can't find target actor or component.
+[2018.03.27-18.35.14:334][ 87]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.35.14:334][ 87]Can't find target actor or component.
+[2018.03.27-18.35.14:817][145]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.35.14:818][145]Can't find target actor or component.
+[2018.03.27-18.36.51:780][521]LogEditorViewport: Clicking Background
+[2018.03.27-18.37.20:194][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.27-18.37.20:195][397]PIE: New page: PIE session: StartupMap (Mar 27, 2018, 10:37:20 AM)
+[2018.03.27-18.37.20:195][397]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.03.27-18.37.20:202][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007459s)
+[2018.03.27-18.37.20:203][397]LogAIModule: Creating AISystem for world StartupMap
+[2018.03.27-18.37.20:203][397]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2018.03.27-18.37.20:203][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.008767s)
+[2018.03.27-18.37.20:229][397]LogInit: XAudio2 using 'DELL U2413-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.27-18.37.20:236][397]LogInit: FAudioDevice initialized.
+[2018.03.27-18.37.20:266][397]LogLoad: Game class is 'GameModeVR_C'
+[2018.03.27-18.37.20:269][397]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.03.27-14.37.20
+[2018.03.27-18.37.20:270][397]LogWorld: Bringing up level for play took: 0.003732
+[2018.03.27-18.37.20:270][397]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.27-18.37.20:270][397]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.03.27-18.37.20:270][397]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.03.27-18.37.20:274][397]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.03.27-18.37.20:274][397]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.577
+[2018.03.27-18.37.29:493][482]LogEditorViewport: Clicking Background
+[2018.03.27-18.37.44:911][929]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.27-18.37.45:717][ 23]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.27-18.37.48:976][404]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.27-18.37.55:829][992]LogSavePackage: Save=146.88ms
+[2018.03.27-18.37.55:829][992]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/StartupMap00434DA04AA1A1F188906F91BA6E718B.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2018.03.27-18.37.55:833][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2018.03.27-18.37.55:862][992]LogFileHelpers: Saving map 'StartupMap' took 0.272
+[2018.03.27-18.37.57:548][192]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-18.39.38:464][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tmp" FILE="../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.27-18.39.38:487][462]LogSavePackage: Save=7.86ms
+[2018.03.27-18.39.38:487][462]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/tmp73CDD3DF40805DDCE543F58A2D038EAB.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap'
+[2018.03.27-18.39.38:489][462]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap
+[2018.03.27-18.39.38:490][462]LogFileHelpers: Saving map 'tmp' took 0.095
+[2018.03.27-18.39.38:492][462]Cmd: MAP LOAD FILE="../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.27-18.39.38:492][462]LightingResults: New page: Lighting Build
+[2018.03.27-18.39.38:493][462]LoadErrors: New page: Loading map: tmp.umap
+[2018.03.27-18.39.38:494][462]MapCheck: New page: Map Check
+[2018.03.27-18.39.38:494][462]LightingResults: New page: Lighting Build
+[2018.03.27-18.39.38:558][462]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.27-18.39.38:558][462]LogAIModule: Creating AISystem for world tmp
+[2018.03.27-18.39.38:573][462]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.27-18.39.38:605][462]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.27-18.39.38:678][462]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.917ms to complete.
+[2018.03.27-18.39.38:678][462]LogFileHelpers: Loading map 'tmp' took 0.187
+[2018.03.27-18.39.43:140][996]LogEditorViewport: Clicking Background
+[2018.03.27-18.39.44:593][169]LogEditorViewport: Clicking Background
+[2018.03.27-18.40.00:334][ 39]MapCheck: New page: Map Check
+[2018.03.27-18.40.00:345][ 39]LightingResults: New page: Lighting Build - Mar 27, 2018, 10:40:00 AM
+[2018.03.27-18.40.00:357][ 39]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.27-18.40.00:359][ 39]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.27-18.40.00:359][ 39]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.27-18.40.00:360][ 39]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.27-18.40.00:360][ 39]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5776
+[2018.03.27-18.40.04:875][ 39]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.27-18.40.04:876][ 39]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.27-18.40.04:876][ 39]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.27-18.40.04:876][ 39]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.27-18.40.04:876][ 39]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.27-18.40.04:876][ 39]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.27-18.40.04:947][ 39]LogEditorBuildUtils: Build time 0:04
+[2018.03.27-18.40.06:452][150]Job is a success!
+[2018.03.27-18.40.06:486][151]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2018.03.27-18.40.06:486][151]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.27-18.40.06:486][151]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2018.03.27-18.40.06:486][151]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.27-18.40.06:486][151]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2018.03.27-18.40.06:486][151]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2018.03.27-18.40.06:486][151]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2018.03.27-18.40.06:508][151]Lightmass on SA2502-PC01: 1.13 sec total, 106 ms importing, 15 ms setup, 677 ms photons, 301 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 2.83 sec total, 0 ms processing.
+[2018.03.27-18.40.06:512][151]LogStaticLightingSystem: Illumination: 6.15 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.03.27-18.40.06:512][151]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.03.27-18.40.06:512][151]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.03.27-18.40.06:878][151]DumpUnbuiltLightIteractions
+[2018.03.27-18.40.06:878][151]Lights with unbuilt interactions: 0
+[2018.03.27-18.40.06:878][151]
+[2018.03.27-18.40.06:878][151]Primitives with unbuilt interactions: 0
+[2018.03.27-18.40.06:896][152]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.27-18.40.06:896][152]MapCheck: New page: tmp - Mar 27, 2018, 10:40:06 AM
+[2018.03.27-18.40.06:964][152]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.111ms to complete.
+[2018.03.27-18.40.14:877][ 97]LogActorFactory: Actor Factory created Cube
+[2018.03.27-18.40.14:886][ 97]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2018.03.27-18.40.15:138][119]LogActorFactory: Actor Factory created Cube
+[2018.03.27-18.40.16:042][207]LogActorFactory: Actor Factory created Cube
+[2018.03.27-18.40.27:107][481]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2018.03.27-18.40.46:112][737]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-18.40.47:453][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tmp" FILE="../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.27-18.40.47:491][737]LogSavePackage: Save=15.27ms
+[2018.03.27-18.40.47:491][737]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/tmpA3BFFE5C46487840C7C7F98F835F6079.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap'
+[2018.03.27-18.40.47:494][737]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap
+[2018.03.27-18.40.47:523][737]LogFileHelpers: Saving map 'tmp' took 0.138
+[2018.03.27-18.40.47:524][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tmp_BuiltData" FILE="../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp_BuiltData.uasset" SILENT=true
+[2018.03.27-18.40.47:530][737]LogSavePackage: Save=4.16ms
+[2018.03.27-18.40.47:530][737]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/tmp_BuiltDataC2D25C7A409A398408E740A1A015DB90.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp_BuiltData.uasset'
+[2018.03.27-18.40.47:533][737]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp_BuiltData.uasset
+[2018.03.27-18.41.31:271][948]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.27-18.41.46:086][321]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-18.41.47:420][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tmp" FILE="../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.27-18.41.47:453][321]LogSavePackage: Save=15.20ms
+[2018.03.27-18.41.47:453][321]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/tmp9200A69C41F6822F3ACBD9B6B8F4A6C3.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap'
+[2018.03.27-18.41.47:456][321]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap
+[2018.03.27-18.41.47:487][321]LogFileHelpers: Saving map 'tmp' took 0.135
+[2018.03.27-18.42.15:967][390]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.03.27-18.42.16:687][390]LogSlate: Took 0.003926 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.27-18.42.19:570][617]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
+[2018.03.27-18.42.19:634][617]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
+[2018.03.27-18.42.27:336][383]LogEditorTransaction: Undo Edit Properties
+[2018.03.27-18.42.32:569][897]LogSlate: Took 0.003984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.27-18.44.02:918][652]LogRenderer: Reallocating scene render targets to support 1208x1020 Format 26 NumSamples 1 (Frame:1).
+[2018.03.27-18.46.10:393][717]BlueprintLog: New page: Compile BP_MotionController
+[2018.03.27-18.46.11:288][717]LogSavePackage: Save=355.64ms
+[2018.03.27-18.46.11:288][717]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_MotionController3F6016214E803990442400A7A2EB86B2.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset'
+[2018.03.27-18.46.11:288][717]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset', retrying in .5s...
+[2018.03.27-18.46.11:789][717]LogFileManager: Error: Error deleting file '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset'.
+[2018.03.27-18.46.11:789][717]LogSavePackage: Error: Error saving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset'
+[2018.03.27-18.46.11:790][717]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset
+[2018.03.27-18.46.14:049][717]EditorErrors: New page: Save Output
+[2018.03.27-18.46.14:049][717]EditorErrors: Warning: Error saving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset'
+[2018.03.27-18.46.20:480][243]BlueprintLog: New page: Compile BP_MotionController
+[2018.03.27-18.46.21:340][243]LogSavePackage: Save=368.16ms
+[2018.03.27-18.46.21:340][243]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_MotionController749A3BA84953DB9524D4CE83B1641318.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset'
+[2018.03.27-18.46.21:344][243]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset
+[2018.03.27-18.46.29:902][235]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-18.47.04:545][110]LogEditorTransaction: Undo Modify Component(s)
+[2018.03.27-18.47.04:814][135]LogEditorTransaction: Undo Modify Component(s)
+[2018.03.27-18.47.40:416][228]BlueprintLog: New page: Compile BP_MotionController
+[2018.03.27-18.47.41:307][228]LogSavePackage: Save=367.83ms
+[2018.03.27-18.47.41:307][228]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_MotionController5A76D804412D81A898611EB88898FB2C.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset'
+[2018.03.27-18.47.41:311][228]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset
+[2018.03.27-18.47.42:743][394]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-18.48.58:634][204]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-18.49.00:614][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tmp" FILE="../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.27-18.49.00:668][204]LogSavePackage: Save=18.90ms
+[2018.03.27-18.49.00:669][204]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/tmp9C6698D44D0E00D6103C99A5F7AA3B4E.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap'
+[2018.03.27-18.49.00:671][204]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/tmp.umap
+[2018.03.27-18.49.00:710][204]LogFileHelpers: Saving map 'tmp' took 0.172
+[2018.03.27-18.49.45:616][543]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2018.03.27-18.49.45:662][543]LogAIModule: Creating AISystem for world HMDLocomotionMap
+[2018.03.27-18.49.45:701][543]Cmd: MAP LOAD FILE="../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.27-18.49.45:701][543]LightingResults: New page: Lighting Build
+[2018.03.27-18.49.45:702][543]LoadErrors: New page: Loading map: HMDLocomotionMap.umap
+[2018.03.27-18.49.45:703][543]MapCheck: New page: Map Check
+[2018.03.27-18.49.45:703][543]LightingResults: New page: Lighting Build
+[2018.03.27-18.49.45:823][543]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.27-18.49.45:881][543]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.27-18.49.45:970][543]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89.245ms to complete.
+[2018.03.27-18.49.45:970][543]LogFileHelpers: Loading map 'HMDLocomotionMap' took 0.270
+[2018.03.27-18.49.47:426][705]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.03.27-18.49.47:455][705]Cmd: MAP LOAD FILE="../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.27-18.49.47:455][705]LightingResults: New page: Lighting Build
+[2018.03.27-18.49.47:456][705]LoadErrors: New page: Loading map: MotionControllerMap.umap
+[2018.03.27-18.49.47:457][705]MapCheck: New page: Map Check
+[2018.03.27-18.49.47:457][705]LightingResults: New page: Lighting Build
+[2018.03.27-18.49.47:588][705]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.27-18.49.47:640][705]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.27-18.49.47:718][705]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.066ms to complete.
+[2018.03.27-18.49.47:718][705]LogFileHelpers: Loading map 'MotionControllerMap' took 0.263
+[2018.03.27-18.49.48:791][824]LogAIModule: Creating AISystem for world StartupMap
+[2018.03.27-18.49.48:823][824]Cmd: MAP LOAD FILE="../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.27-18.49.48:823][824]LightingResults: New page: Lighting Build
+[2018.03.27-18.49.48:823][824]LoadErrors: New page: Loading map: StartupMap.umap
+[2018.03.27-18.49.48:824][824]MapCheck: New page: Map Check
+[2018.03.27-18.49.48:824][824]LightingResults: New page: Lighting Build
+[2018.03.27-18.49.49:017][824]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.27-18.49.49:071][824]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.27-18.49.49:144][824]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.776ms to complete.
+[2018.03.27-18.49.49:144][824]LogFileHelpers: Loading map 'StartupMap' took 0.323
+[2018.03.27-18.49.56:123][642]LogAIModule: Creating AISystem for world tmp
+[2018.03.27-18.51.22:649][369]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_C (BP_PickupCube3)
+[2018.03.27-18.51.45:912][ 50]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.27-18.51.48:529][360]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.27-18.51.51:214][645]LogSavePackage: Save=155.70ms
+[2018.03.27-18.51.51:214][645]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/StartupMap7BE8359D469AE08AF100838AFEDBD46C.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2018.03.27-18.51.51:218][645]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2018.03.27-18.51.51:257][645]LogFileHelpers: Saving map 'StartupMap' took 0.304
+[2018.03.27-18.51.52:298][769]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-18.52.21:567][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2018.03.27-18.52.22:821][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.27-18.52.25:001][785]LogEditorViewport: Clicking Background
+[2018.03.27-18.52.26:649][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2018.03.27-18.52.33:791][817]Cmd: DELETE
+[2018.03.27-18.52.33:791][817]Cmd: ACTOR DELETE
+[2018.03.27-18.52.33:795][817]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.27-18.52.33:817][817]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2018.03.27-18.52.46:728][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.27-18.52.51:621][935]Cmd: TRANSACTION UNDO
+[2018.03.27-18.52.51:621][935]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.27-18.52.51:982][974]Cmd: TRANSACTION UNDO
+[2018.03.27-18.52.51:982][974]LogEditorTransaction: Undo Delete Actors
+[2018.03.27-18.52.57:574][635]Cmd: TRANSACTION UNDO
+[2018.03.27-18.52.57:574][635]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.27-18.53.03:666][362]Cmd: TRANSACTION UNDO
+[2018.03.27-18.53.03:666][362]LogEditorTransaction: Undo Clicking Background
+[2018.03.27-18.53.04:854][477]Cmd: TRANSACTION UNDO
+[2018.03.27-18.53.04:854][477]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.27-18.53.05:847][591]Cmd: TRANSACTION UNDO
+[2018.03.27-18.53.05:847][591]LogEditorTransaction: Undo Clicking on Actors
+[2018.03.27-18.53.06:785][700]Cmd: TRANSACTION REDO
+[2018.03.27-18.53.06:785][700]LogEditorTransaction: Redo Clicking on Actors
+[2018.03.27-18.53.07:013][722]Cmd: TRANSACTION REDO
+[2018.03.27-18.53.07:013][722]LogEditorTransaction: Redo Clicking on Actors
+[2018.03.27-18.53.07:223][743]Cmd: TRANSACTION REDO
+[2018.03.27-18.53.07:223][743]LogEditorTransaction: Redo Clicking Background
+[2018.03.27-18.53.07:603][788]Cmd: TRANSACTION REDO
+[2018.03.27-18.53.07:603][788]LogEditorTransaction: Redo Clicking on Actors
+[2018.03.27-18.53.21:958][500]Cmd: DELETE
+[2018.03.27-18.53.21:958][500]Cmd: ACTOR DELETE
+[2018.03.27-18.53.21:961][500]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.27-18.53.21:984][500]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2018.03.27-18.53.23:820][715]LogTemp: Repeating last play command: Standalone Game
+[2018.03.27-18.53.25:535][715]LogSavePackage: Save=157.78ms
+[2018.03.27-18.53.25:536][715]LogSavePackage: Moving '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/StartupMap33E5946941EFB725ADF43E8A0D0934B7.tmp' to '../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2018.03.27-18.53.25:539][715]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/harass/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2018.03.27-18.53.25:578][715]LogFileHelpers: Saving map 'StartupMap' took 0.302
+[2018.03.27-18.54.49:891][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bed2)
+[2018.03.27-18.55.19:043][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bed2)
+[2018.03.27-18.55.29:856][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2018.03.27-18.55.34:855][549]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2018.03.27-18.55.35:623][635]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube26)
+[2018.03.27-18.55.36:407][723]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2018.03.27-18.55.37:275][821]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2018.03.27-18.55.37:969][898]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane)
+[2018.03.27-18.55.39:757][100]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube5)
+[2018.03.27-18.55.41:320][281]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Door_Door2)
+[2018.03.27-18.55.42:680][432]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube16)
+[2018.03.27-18.55.43:482][522]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Door_Door3)
+[2018.03.27-18.55.44:435][624]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube19)
+[2018.03.27-18.55.46:263][835]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube21)
+[2018.03.27-18.55.46:596][869]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube12)
+[2018.03.27-18.55.47:452][965]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube13)
+[2018.03.27-18.55.48:223][ 51]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube20)
+[2018.03.27-18.55.48:741][107]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube15)
+[2018.03.27-18.55.49:116][146]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube11)
+[2018.03.27-18.55.50:544][307]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube14)
+[2018.03.27-18.55.51:365][399]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube9)
+[2018.03.27-18.55.52:281][502]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane)
+[2018.03.27-18.55.54:508][756]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube8)
+[2018.03.27-18.55.55:441][860]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube25)
+[2018.03.27-18.55.55:876][906]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube23)
+[2018.03.27-18.55.56:479][972]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube24)
+[2018.03.27-18.55.56:892][ 15]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube22)
+[2018.03.27-18.55.59:742][346]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube18)
+[2018.03.27-18.56.00:161][389]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube7)
+[2018.03.27-18.56.04:332][862]Cmd: TRANSACTION UNDO
+[2018.03.27-18.56.04:332][862]LogEditorTransaction: Undo Move Actors
+[2018.03.27-18.56.04:336][862]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.Cube13_50.StaticMeshComponent0) Component already registered.
+[2018.03.27-18.56.04:337][862]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.Cube7_17.StaticMeshComponent0) Component already registered.
+[2018.03.27-18.56.26:686][404]Cmd: TRANSACTION UNDO
+[2018.03.27-18.56.26:686][404]LogEditorTransaction: Undo Move Actors
+[2018.03.27-18.56.26:690][404]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.Cube13_50.StaticMeshComponent0) Component already registered.
+[2018.03.27-18.56.26:691][404]LogActorComponent: ~FComponentReregisterContext: (/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.Cube7_17.StaticMeshComponent0) Component already registered.
+[2018.03.27-18.56.43:101][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (couch3)
+[2018.03.27-18.56.44:450][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.03.27-18.57.10:584][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bed2)
+[2018.03.27-18.57.28:225][420]Cmd: DELETE
+[2018.03.27-18.57.28:225][420]Cmd: ACTOR DELETE
+[2018.03.27-18.57.28:232][420]LogEditorActor: Deleted Actor: SpotLight
+[2018.03.27-18.57.28:233][420]LogEditorActor: Deleted Actor: Brush
+[2018.03.27-18.57.28:234][420]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.03.27-18.57.28:234][420]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.03.27-18.57.28:234][420]LogEditorActor: Deleted Actor: RecastNavMesh
+[2018.03.27-18.57.28:235][420]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.27-18.57.28:235][420]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.03.27-18.57.28:236][420]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.03.27-18.57.28:236][420]LogEditorActor: Deleted Actor: PlayerStart
+[2018.03.27-18.57.28:237][420]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.03.27-18.57.28:237][420]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.03.27-18.57.28:237][420]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.03.27-18.57.28:238][420]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.03.27-18.57.28:238][420]LogEditorActor: Deleted Actor: SpotLight
+[2018.03.27-18.57.28:239][420]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.27-18.57.28:239][420]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2018.03.27-18.57.28:239][420]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.03.27-18.57.28:240][420]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.03.27-18.57.28:240][420]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.03.27-18.57.28:240][420]LogEditorActor: Deleted Actor: Brush
+[2018.03.27-18.57.28:241][420]LogEditorActor: Deleted Actor: Brush
+[2018.03.27-18.57.28:241][420]LogEditorActor: Deleted Actor: Brush
+[2018.03.27-18.57.28:242][420]LogEditorActor: Deleted Actor: Brush
+[2018.03.27-18.57.28:242][420]LogEditorActor: Deleted Actor: Brush
+[2018.03.27-18.57.28:242][420]LogEditorActor: Deleted Actor: Brush
+[2018.03.27-18.57.28:243][420]LogEditorActor: Deleted Actor: Brush
+[2018.03.27-18.57.28:243][420]LogEditorActor: Deleted Actor: Brush
+[2018.03.27-18.57.28:243][420]LogEditorActor: Deleted Actor: Brush
+[2018.03.27-18.57.28:244][420]LogEditorActor: Deleted Actor: Brush
+[2018.03.27-18.57.28:269][420]LogEditorActor: Deleted 29 Actors (0.044 secs)
+[2018.03.27-18.57.29:207][532]Cmd: TRANSACTION UNDO
+[2018.03.27-18.57.29:207][532]LogEditorTransaction: Undo Delete Actors
+[2018.03.27-18.57.29:764][532]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.534 s
+[2018.03.27-18.57.29:764][532]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.27-18.57.29:764][532]LogOutputDevice: Error: 
+[2018.03.27-18.57.29:764][532]LogOutputDevice: Error: Ensure condition failed: NavDataSet.Find(NavData) != INDEX_NONE [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Engine\Private\AI\Navigation\NavigationSystem.cpp] [Line: 1936]
+[2018.03.27-18.57.29:764][532]LogOutputDevice: Error: 
+[2018.03.27-18.57.29:764][532]LogOutputDevice: Error: Stack: 
+[2018.03.27-18.57.29:764][532]LogOutputDevice: Error: [Callstack] 0x000000005ED32786 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.27-18.57.29:764][532]LogOutputDevice: Error: [Callstack] 0x000000005EAD123A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.27-18.57.29:764][532]LogOutputDevice: Error: [Callstack] 0x000000005EAEB906 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.27-18.57.29:764][532]LogOutputDevice: Error: [Callstack] 0x0000000059FC5242 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.27-18.57.29:764][532]LogOutputDevice: Error: [Callstack] 0x0000000059FC1B14 UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.27-18.57.29:764][532]LogOutputDevice: Error: [Callstack] 0x0000000059F9678F UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.27-18.57.29:764][532]LogOutputDevice: Error: [Callstack] 0x0000000059EE52DA UE4Editor-Engine.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000005E994845 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000005E994E2A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000005E9B589E UE4Editor-Core.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x00000000768CA8E0 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x00000000768A89D9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x00000000518B6D40 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000005189E276 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x00000000518C52DB UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000007C5FB27A UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000007C5D4AB5 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000006829EE3F UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000005D2DFDD3 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000005D3D2DEC UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000005D3A7A13 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000058AABE2D UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000058A86199 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000058A6DCE9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000058A6E61B UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000058AD28FB UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000058B15A0E UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000058A6D965 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000058A67AB3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x00000000592FBAC9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000045CE8BEE UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000045CE8EDE UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000005D2E9636 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000005D3283A0 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000045CF9AD5 UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000045CD28DA UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000045CE8AD1 UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000005D2F72D7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000005D3298D3 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000005D31BEE8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000075D8E28A UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000075D81A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000075D903EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000075D7D5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000009057B85D USER32.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000009057B1EF USER32.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000075D91516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000002CE50C8 UE4Editor.exe!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000002CF5430 UE4Editor.exe!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000002CF54AA UE4Editor.exe!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000002D02379 UE4Editor.exe!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x0000000002D03D57 UE4Editor.exe!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x000000008FC41FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: [Callstack] 0x00000000925EEFC1 ntdll.dll!UnknownFunction []
+[2018.03.27-18.57.29:765][532]LogOutputDevice: Error: 
+[2018.03.27-18.57.29:769][532]LogStats:                SubmitErrorReport -  0.000 s
