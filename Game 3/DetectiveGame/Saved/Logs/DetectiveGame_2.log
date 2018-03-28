@@ -399,3 +399,20 @@ LogInit: Object subsystem initialized
 [2018.03.28-17.17.35:257][646]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
 [2018.03.28-17.17.35:308][646]LogFileHelpers: Saving map 'StartupMap' took 0.241
 [2018.03.28-17.17.36:683][770]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.28-17.48.18:793][547]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\langlg\Desktop\Beffy.wav)
+[2018.03.28-17.48.18:835][547]LogAudioDerivedData: Display: Building compressed audio format OGG wave Beffy...
+[2018.03.28-17.48.19:408][547]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Blueprints/Beffy.Beffy.
+[2018.03.28-17.48.44:558][916]BlueprintLog: New page: Compile BP_Telephone
+[2018.03.28-17.48.44:878][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Telephone" FILE="../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset" SILENT=true
+[2018.03.28-17.48.44:930][916]LogSavePackage: Save=40.17ms
+[2018.03.28-17.48.44:930][916]LogSavePackage: Moving '../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_Telephone25154ECB43152A534432EE8CC0FECB12.tmp' to '../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset'
+[2018.03.28-17.48.44:936][916]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset
+[2018.03.28-17.49.19:789][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Beffy" FILE="../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/Beffy.uasset" SILENT=true
+[2018.03.28-17.49.19:804][837]LogSavePackage: Save=10.57ms
+[2018.03.28-17.49.19:804][837]LogSavePackage: Moving '../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BeffyB6AE27DD4E9F52B039A73BBDD5B0300B.tmp' to '../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/Beffy.uasset'
+[2018.03.28-17.49.19:808][837]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/Beffy.uasset
+[2018.03.28-17.51.16:317][905]BlueprintLog: New page: Compile BP_Telephone
+[2018.03.28-17.51.16:648][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Telephone" FILE="../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset" SILENT=true
+[2018.03.28-17.51.16:699][905]LogSavePackage: Save=44.61ms
+[2018.03.28-17.51.16:699][905]LogSavePackage: Moving '../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_Telephone3E212C064B026863054DF983697F43F9.tmp' to '../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset'
+[2018.03.28-17.51.16:708][905]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/langlg/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset
