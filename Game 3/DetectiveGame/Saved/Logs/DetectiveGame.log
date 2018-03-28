@@ -1504,3 +1504,4 @@ LogInit: Object subsystem initialized
 [2018.03.28-18.49.46:863][412]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/couch314BC6D84E033C68003A218BBDE64EED.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/couch.uasset'
 [2018.03.28-18.49.46:867][412]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/couch.uasset
 [2018.03.28-18.49.49:918][614]AssetReimport: Reimported asset couch from C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/couch.fbx.
+[2018.03.28-18.49.54:603][628]LogAudioDerivedData: Display: Building compressed audio format OGG wave Beffy...
