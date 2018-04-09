@@ -1,28 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 3/27/2018, 13:58:46
-             Machine name: SA2502-PC02
-               Machine Id: {FC796890-0A83-465B-9D44-B90DA985EF51}
-         Operating System: Windows 10 Enterprise 64-bit (10.0, Build 16299) (16299.rs3_release.170928-1534)
-                 Language: English (Regional Setting: English)
-      System Manufacturer: Dell Inc.
-             System Model: Precision Tower 5810
-                     BIOS: A13
-                Processor: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz (12 CPUs), ~3.5GHz
-                   Memory: 32768MB RAM
-      Available OS Memory: 32690MB RAM
-                Page File: 7908MB used, 29646MB available
-              Windows Dir: C:\WINDOWS
-          DirectX Version: DirectX 12
-      DX Setup Parameters: Not found
-         User DPI Setting: 96 DPI (100 percent)
-       System DPI Setting: 96 DPI (100 percent)
-          DWM DPI Scaling: Disabled
-                 Miracast: Available, with HDCP
-Microsoft Graphics Hybrid: Not Supported
-           DxDiag Version: 10.00.16299.0015 64bit Unicode
-  DxDiag Previously: Crashed in system information (stage 3). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
+  DxDiag Previously: Crashed in system information (stage 1) & DirectInput (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
 
 ------------
 DxDiag Notes
@@ -31,18 +10,7 @@ DxDiag Notes
       Display Tab 2: No problems found.
         Sound Tab 1: No problems found.
         Sound Tab 2: No problems found.
-          Input Tab: No problems found.
-
---------------------
-DirectX Debug Levels
---------------------
-Direct3D:    0/4 (retail)
-DirectDraw:  0/4 (retail)
-DirectInput: 0/5 (retail)
-DirectMusic: 0/5 (retail)
-DirectPlay:  0/9 (retail)
-DirectSound: 0/5 (retail)
-DirectShow:  0/6 (retail)
+          Input Tab: 
 
 ---------------
 Display Devices
@@ -92,7 +60,7 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
            Device ID: 0x1B80
            SubSys ID: 0x119E1028
          Revision ID: 0x00A1
-  Driver Strong Name: oem42.inf:0f066de39ca6e40b:Section064:23.21.13.8871:pci\ven_10de&dev_1b80&subsys_119e1028
+  Driver Strong Name: oem45.inf:0f066de39ca6e40b:Section064:23.21.13.8871:pci\ven_10de&dev_1b80&subsys_119e1028
       Rank Of Driver: 00D10001
          Video Accel: 
          DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
@@ -194,7 +162,7 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
            Device ID: 0x1B80
            SubSys ID: 0x119E1028
          Revision ID: 0x00A1
-  Driver Strong Name: oem42.inf:0f066de39ca6e40b:Section064:23.21.13.8871:pci\ven_10de&dev_1b80&subsys_119e1028
+  Driver Strong Name: oem45.inf:0f066de39ca6e40b:Section064:23.21.13.8871:pci\ven_10de&dev_1b80&subsys_119e1028
       Rank Of Driver: 00D10001
          Video Accel: 
          DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
@@ -255,7 +223,7 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
 Sound Devices
 -------------
             Description: Speakers / Headphones (Realtek Audio)
- Default Sound Playback: Yes
+ Default Sound Playback: No
  Default Voice Playback: No
             Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0280&SUBSYS_10280617&REV_1000
         Manufacturer ID: 1
@@ -264,14 +232,14 @@ Sound Devices
             Driver Name: RTDVHD64.sys
          Driver Version: 6.00.0001.6111 (English)
       Driver Attributes: Final Retail
-            WHQL Logo'd: Yes
+            WHQL Logo'd: n/a
           Date and Size: 8/12/2016 12:00:00 AM, 2687520 bytes
             Other Files: 
         Driver Provider: Realtek Semiconductor Corp.
          HW Accel Level: Basic
-              Cap Flags: 0xF1F
-    Min/Max Sample Rate: 100, 200000
-Static/Strm HW Mix Bufs: 1, 0
+              Cap Flags: 0x0
+    Min/Max Sample Rate: 0, 0
+Static/Strm HW Mix Bufs: 0, 0
  Static/Strm HW 3D Bufs: 0, 0
               HW Memory: 0
        Voice Management: No
@@ -281,7 +249,7 @@ Sensaura(tm) ZoomFX(tm): No
 
             Description: DELL U2413-8 (NVIDIA High Definition Audio)
  Default Sound Playback: No
- Default Voice Playback: Yes
+ Default Voice Playback: No
             Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0083&SUBSYS_1028119E&REV_1001
         Manufacturer ID: 1
              Product ID: 100
@@ -289,14 +257,14 @@ Sensaura(tm) ZoomFX(tm): No
             Driver Name: nvhda64v.sys
          Driver Version: 1.03.0035.0001 (English)
       Driver Attributes: Final Retail
-            WHQL Logo'd: Yes
+            WHQL Logo'd: n/a
           Date and Size: 9/14/2017 12:00:00 AM, 225208 bytes
             Other Files: 
         Driver Provider: NVIDIA Corporation
          HW Accel Level: Basic
-              Cap Flags: 0xF1F
-    Min/Max Sample Rate: 100, 200000
-Static/Strm HW Mix Bufs: 1, 0
+              Cap Flags: 0x0
+    Min/Max Sample Rate: 0, 0
+Static/Strm HW Mix Bufs: 0, 0
  Static/Strm HW 3D Bufs: 0, 0
               HW Memory: 0
        Voice Management: No
@@ -314,99 +282,11 @@ Number of Devices: 0
 -------------------
 DirectInput Devices
 -------------------
-      Device Name: Mouse
-         Attached: 1
-    Controller ID: n/a
-Vendor/Product ID: n/a
-        FF Driver: n/a
-
-      Device Name: Keyboard
-         Attached: 1
-    Controller ID: n/a
-Vendor/Product ID: n/a
-        FF Driver: n/a
-
-      Device Name: USB Keyboard
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x046D, 0xC31C
-        FF Driver: n/a
-
-      Device Name: USB Keyboard
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x046D, 0xC31C
-        FF Driver: n/a
-
-      Device Name: USB Keyboard
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x046D, 0xC31C
-        FF Driver: n/a
-
 Poll w/ Interrupt: No
 
 -----------
 USB Devices
 -----------
-+ USB Root Hub (USB 3.0)
-| Vendor/Product ID: 0x8086, 0x8D31
-| Matching Device ID: USB\ROOT_HUB30
-| Service: USBHUB3
-| Driver: USBHUB3.SYS, 2/21/2018 21:51:35, 555424 bytes
-| 
-+-+ Generic USB Hub
-| | Vendor/Product ID: 0x0451, 0x8043
-| | Location: Port_#0013.Hub_#0003
-| | Matching Device ID: USB\USB20_HUB
-| | Service: USBHUB3
-| | Driver: USBHUB3.SYS, 2/21/2018 21:51:35, 555424 bytes
-| | 
-| +-+ USB Composite Device
-| | | Vendor/Product ID: 0x046D, 0xC31C
-| | | Location: Port_#0002.Hub_#0004
-| | | Matching Device ID: USB\COMPOSITE
-| | | Service: usbccgp
-| | | Driver: usbccgp.sys, 9/29/2017 09:41:08, 168856 bytes
-| | | 
-| | +-+ USB Input Device
-| | | | Vendor/Product ID: 0x046D, 0xC31C
-| | | | Location: 0000.0014.0000.013.002.000.000.000.000
-| | | | Matching Device ID: USB\Class_03&SubClass_01
-| | | | Service: HidUsb
-| | | | Driver: hidusb.sys, 9/29/2017 09:41:08, 40960 bytes
-| | | | Driver: hidclass.sys, 9/29/2017 09:41:08, 187392 bytes
-| | | | Driver: hidparse.sys, 2/21/2018 20:30:58, 46080 bytes
-| | | | 
-| | | +-+ HID Keyboard Device
-| | | | | Vendor/Product ID: 0x046D, 0xC31C
-| | | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
-| | | | | Service: kbdhid
-| | | | | Driver: kbdhid.sys, 9/29/2017 09:41:08, 40448 bytes
-| | | | | Driver: kbdclass.sys, 9/29/2017 09:41:08, 63384 bytes
-| | | 
-| +-+ Generic USB Hub
-| | | Vendor/Product ID: 0x0451, 0x8043
-| | | Location: Port_#0003.Hub_#0004
-| | | Matching Device ID: USB\USB20_HUB
-| | | Service: USBHUB3
-| | | Driver: USBHUB3.SYS, 2/21/2018 21:51:35, 555424 bytes
-| | | 
-| | +-+ USB Input Device
-| | | | Vendor/Product ID: 0x046D, 0xC016
-| | | | Location: Port_#0002.Hub_#0009
-| | | | Matching Device ID: USB\Class_03&SubClass_01
-| | | | Service: HidUsb
-| | | | Driver: hidusb.sys, 9/29/2017 09:41:08, 40960 bytes
-| | | | Driver: hidclass.sys, 9/29/2017 09:41:08, 187392 bytes
-| | | | Driver: hidparse.sys, 2/21/2018 20:30:58, 46080 bytes
-| | | | 
-| | | +-+ HID-compliant mouse
-| | | | | Vendor/Product ID: 0x046D, 0xC016
-| | | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
-| | | | | Service: mouhid
-| | | | | Driver: mouhid.sys, 9/29/2017 09:41:08, 32768 bytes
-| | | | | Driver: mouclass.sys, 9/29/2017 09:41:08, 57240 bytes
 
 ----------------
 Gameport Devices
@@ -561,8 +441,8 @@ Audio Renderers:
 Speakers / Headphones (Realtek Audio),0x00200000,1,0,quartz.dll,10.00.16299.0015
 Default DirectSound Device,0x00800000,1,0,quartz.dll,10.00.16299.0015
 Default WaveOut Device,0x00200000,1,0,quartz.dll,10.00.16299.0015
-DirectSound: Speakers / Headphones (Realtek Audio),0x00200000,1,0,quartz.dll,10.00.16299.0015
 DirectSound: DELL U2413-8 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.16299.0015
+DirectSound: Speakers / Headphones (Realtek Audio),0x00200000,1,0,quartz.dll,10.00.16299.0015
 DELL U2413-8 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.16299.0015
 
 
@@ -971,139 +851,101 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 127824537390, type 5
-Event Name: SkyDriveClientError
+Fault bucket 1682577107326948119, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: OneDriveSetup.exe
-P2: 17.3.6816.0313
-P3: OneDriveSetup.exe
-P4: 17.3.6816.0313
-P5: 0x80040692
-P6: Installer
-P7: application.cpp
-P8: 166
+P1: MicrosoftEdgeCP.exe
+P2: 11.0.16299.309
+P3: 10.0.16299.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
 P9: 
 P10: 
 
 
 +++ WER1 +++:
-Fault bucket 127824537390, type 5
-Event Name: SkyDriveClientError
+Fault bucket 129572769917, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: OneDriveSetup.exe
-P2: 17.3.6816.0313
-P3: OneDriveSetup.exe
-P4: 17.3.6816.0313
-P5: 0x80040692
-P6: Installer
-P7: application.cpp
-P8: 166
+P1: maya.exe
+P2: 18.0.0.5870
+P3: 10.0.16299.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
 P9: 
 P10: 
 
 
 +++ WER2 +++:
-Fault bucket , type 0
-Event Name: SkyDriveClientError
+Fault bucket 1648547977860857938, type 5
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: OneDriveSetup.exe
-P2: 17.3.6816.0313
-P3: OneDriveSetup.exe
-P4: 17.3.6816.0313
-P5: 0x80040692
-P6: Installer
-P7: application.cpp
-P8: 166
-P9: 
-P10: 
+P1: 10.0.16299.248
+P2: 800704cf
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 0
+P8: Windows Defender Antivirus (77BDAF73-B396-481F-9042-AD358843EC24)
+P9: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
+P10: 0
 
 
 +++ WER3 +++:
 Fault bucket , type 0
-Event Name: SkyDriveClientError
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: OneDriveSetup.exe
-P2: 17.3.6816.0313
-P3: OneDriveSetup.exe
-P4: 17.3.6816.0313
-P5: 0x80040692
-P6: Installer
-P7: application.cpp
-P8: 166
-P9: 
-P10: 
+P1: 10.0.16299.248
+P2: 800704cf
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 0
+P8: Windows Defender Antivirus (77BDAF73-B396-481F-9042-AD358843EC24)
+P9: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
+P10: 0
 
 
 +++ WER4 +++:
-Fault bucket 1941513040969639629, type 5
-Event Name: MoAppCrash
+Fault bucket , type 0
+Event Name: WindowsUpdateFailure3
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: windows.immersivecontrolpanel_10.0.1.1000_neutral_neutral_cw5n1h2txyewy
-P2: praid:microsoft.windows.immersivecontrolpanel
-P3: 10.0.16299.15
-P4: 7640753d
-P5: msxml6.dll
-P6: 6.30.16299.98
-P7: 7339c6c8
-P8: c0000005
-P9: 000000000008c3e0
-P10: 
+P1: 10.0.16299.248
+P2: 800704cf
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 0
+P8: Windows Defender Antivirus (77BDAF73-B396-481F-9042-AD358843EC24)
+P9: {8B24B027-1DEE-BABB-9A95-3517DFB9C552}
+P10: 0
 
 
 +++ WER5 +++:
-Fault bucket 125730739576, type 5
-Event Name: PerfWatsonVS12Data
-Response: Not available
-Cab Id: 1345068294285503053
-
-Problem signature:
-P1: PerfWatsonTcdb
-P2: 0
-P3: 0
-P4: 0
-P5: 0
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER6 +++:
-Fault bucket 125730739576, type 5
-Event Name: PerfWatsonVS12Data
-Response: Not available
-Cab Id: 1654725178647892442
-
-Problem signature:
-P1: PerfWatsonTcdb
-P2: 0
-P3: 0
-P4: 0
-P5: 0
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER7 +++:
 Fault bucket 1967828992635072617, type 5
 Event Name: WindowsUpdateFailure3
 Response: Not available
@@ -1122,7 +964,7 @@ P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
 P10: 0
 
 
-+++ WER8 +++:
++++ WER6 +++:
 Fault bucket , type 0
 Event Name: WindowsUpdateFailure3
 Response: Not available
@@ -1139,24 +981,62 @@ P7: 0
 P8: Update;taskhostw
 P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
 P10: 0
+
+
++++ WER7 +++:
+Fault bucket , type 0
+Event Name: WindowsUpdateFailure3
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.16299.248
+P2: 800704cf
+P3: 00000000-0000-0000-0000-000000000000
+P4: Scan
+P5: 0
+P6: 0
+P7: 0
+P8: Update;taskhostw
+P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
+P10: 0
+
+
++++ WER8 +++:
+Fault bucket 1856637076673563001, type 5
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 800704cf
+P3: 16299
+P4: 309
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
 
 
 +++ WER9 +++:
 Fault bucket , type 0
-Event Name: WindowsUpdateFailure3
+Event Name: StoreAgentScanForUpdatesFailure0
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.16299.248
+P1: Update;
 P2: 800704cf
-P3: 00000000-0000-0000-0000-000000000000
-P4: Scan
-P5: 0
-P6: 0
-P7: 0
-P8: Update;taskhostw
-P9: {855E8A7C-ECB4-4CA3-B045-1DFA50104289}
-P10: 0
+P3: 16299
+P4: 309
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
 
 
