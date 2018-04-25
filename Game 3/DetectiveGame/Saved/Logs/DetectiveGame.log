@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 04/24/18 17:07:44
+=======
+﻿Log file open, 04/23/18 12:42:47
+>>>>>>> parent of 3ee0260... a lot of tweeking
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +13,21 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DetectiveGame
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(1569543160) SRandInit(1569543160).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.230952
+=======
+LogInit: Display: RandInit(15439156) SRandInit(15439157).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.194090
+>>>>>>> parent of 3ee0260... a lot of tweeking
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestruction.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestructionEditor.dll (API version 3709383).
@@ -199,6 +212,7 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.04.24-21.07.45:977][  0]LogInit: Selected Device Profile: [Windows]
 [2018.04.24-21.07.45:977][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.04.24-21.07.45:988][  0]LogInit: Computer: SA2502-PC01
@@ -1972,3 +1986,1145 @@ LogInit: Object subsystem initialized
 [2018.04.24-21.18.09:103][899]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.04.24-21.18.09:107][899]LogExit: Exiting.
 [2018.04.24-21.18.09:129][899]Log file closed, 04/24/18 17:18:09
+=======
+[2018.04.23-16.42.49:662][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.23-16.42.49:662][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.23-16.42.49:711][  0]LogInit: Computer: 96XJ1R1
+[2018.04.23-16.42.49:711][  0]LogInit: User: User
+[2018.04.23-16.42.49:711][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.23-16.42.49:712][  0]LogInit: High frequency timer resolution =3.312784 MHz
+[2018.04.23-16.42.49:712][  0]LogMemory: Memory total: Physical=24.0GB (24GB approx)
+[2018.04.23-16.42.49:712][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.23-16.42.49:712][  0]LogMemory: Process Physical Memory: 273.83 MB used, 273.83 MB peak
+[2018.04.23-16.42.49:712][  0]LogMemory: Process Virtual Memory: 273.87 MB used, 273.87 MB peak
+[2018.04.23-16.42.49:712][  0]LogMemory: Physical Memory: 5037.82 MB used,  19495.19 MB free, 24533.01 MB total
+[2018.04.23-16.42.49:712][  0]LogMemory: Virtual Memory: 686.23 MB used,  19495.19 MB free, 134217728.00 MB total
+[2018.04.23-16.42.50:103][  0]LogInit: Using OS detected language (en-US).
+[2018.04.23-16.42.50:103][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.23-16.42.50:168][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.23-16.42.50:680][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.23-16.42.52:916][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.23-16.42.52:979][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2018.04.23-16.42.52:979][  0]LogD3D11RHI:       1977/0/12266 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.23-16.42.52:981][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.23-16.42.52:981][  0]LogD3D11RHI:       0/0/12266 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.23-16.42.52:981][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.23-16.42.52:987][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.23-16.42.52:987][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.23-16.42.52:987][  0]LogWindows: EnumDisplayDevices:
+[2018.04.23-16.42.52:988][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2018.04.23-16.42.52:988][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2018.04.23-16.42.52:988][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2018.04.23-16.42.52:989][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2018.04.23-16.42.52:989][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.23-16.42.52:989][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2018.04.23-16.42.52:989][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.23-16.42.52:989][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.23-16.42.52:989][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
+[2018.04.23-16.42.53:031][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.23-16.42.53:150][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.23-16.42.53:208][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Intermediate/Shaders/WorkingDirectory/5588/).
+[2018.04.23-16.42.53:209][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/99ACFD4F4B56A57D653C30BCC4DACEE3/'.
+[2018.04.23-16.42.53:210][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.23-16.42.55:327][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.23-16.42.55:397][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.23-16.42.55:467][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.23-16.42.55:537][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.23-16.42.55:614][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.23-16.42.55:694][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.23-16.42.55:766][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.23-16.42.55:835][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.23-16.42.55:917][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.23-16.42.55:988][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.23-16.42.56:054][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.23-16.42.56:121][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.23-16.42.56:190][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.23-16.42.56:256][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.23-16.42.56:394][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.23-16.42.56:394][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.23-16.42.56:464][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.23-16.42.56:517][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.23-16.42.56:639][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.23-16.42.56:690][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.23-16.42.56:759][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.23-16.42.56:825][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.23-16.42.56:896][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.23-16.42.56:968][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.23-16.42.56:968][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.23-16.42.57:711][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.23-16.42.58:205][  0]LogDerivedDataCache: Loaded boot cache 0.49s 110MB C:/Users/User/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.23-16.42.58:205][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.23-16.42.58:206][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.23-16.42.58:206][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.23-16.42.58:206][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.23-16.42.58:206][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.23-16.42.58:235][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.23-16.42.58:248][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.23-16.42.58:280][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.23-16.42.58:288][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.23-16.42.58:305][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.23-16.42.58:305][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.23-16.42.59:474][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.23-16.43.00:228][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.23-16.43.00:290][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.23-16.43.00:290][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.23-16.43.00:290][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.23-16.43.00:290][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.23-16.43.00:290][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.23-16.43.00:392][  0]LogNetVersion: DetectiveGame , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4117068022)
+[2018.04.23-16.43.00:907][  0]LogAssetRegistry: FAssetRegistry took 0.0325 seconds to start up
+[2018.04.23-16.43.02:477][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.096185 seconds
+[2018.04.23-16.43.02:484][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.23-16.43.02:484][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.04.23-16.43.02:484][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.23-16.43.02:573][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.23-16.43.09:799][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.23-16.43.09:862][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.23-16.43.11:311][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.23-16.43.12:224][  0]SourceControl: Source control is disabled
+[2018.04.23-16.43.12:225][  0]SourceControl: Source control is disabled
+[2018.04.23-16.43.12:321][  0]SourceControl: Source control is disabled
+[2018.04.23-16.43.12:406][  0]SourceControl: Source control is disabled
+[2018.04.23-16.43.13:790][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.23-16.43.14:177][  0]LogOcInput: OculusInput pre-init called
+[2018.04.23-16.43.14:645][  0]LogEngine: Initializing Engine...
+[2018.04.23-16.43.14:652][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.23-16.43.15:115][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.23-16.43.15:115][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.23-16.43.15:319][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.23-16.43.15:335][  0]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.43.15:351][  0]LogInit: FAudioDevice initialized.
+[2018.04.23-16.43.15:456][  0]LogDerivedDataCache: Saved boot cache 0.10s 123MB C:/Users/User/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.23-16.43.15:485][  0]LogInit: Texture streaming: Enabled
+[2018.04.23-16.43.15:638][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.23-16.43.15:839][  0]LogInit: Transaction tracking system initialized
+[2018.04.23-16.43.16:352][  0]BlueprintLog: New page: Editor Load
+[2018.04.23-16.43.17:911][  0]LocalizationService: Localization service is disabled
+[2018.04.23-16.43.19:266][  0]LogConsoleResponse: Display: 
+[2018.04.23-16.43.19:726][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.23-16.43.19:727][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.23-16.43.19:727][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.23-16.43.19:738][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/' took 0.02s
+[2018.04.23-16.43.21:577][  0]SourceControl: Source control is disabled
+[2018.04.23-16.43.21:580][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.23-16.43.21:582][  0]LightingResults: New page: Lighting Build
+[2018.04.23-16.43.21:648][  0]MapCheck: New page: Map Check
+[2018.04.23-16.43.21:648][  0]LightingResults: New page: Lighting Build
+[2018.04.23-16.43.22:666][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.04.23-16.43.22:666][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.04.23-16.43.22:666][  0]LogStaticMesh: Building static mesh phone_pCylinder50...
+[2018.04.23-16.43.22:704][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Objects/Import/phone_pCylinder50.phone_pCylinder50
+[2018.04.23-16.43.22:709][  0]LogStaticMesh: Building static mesh phone_pCube23...
+[2018.04.23-16.43.22:719][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Objects/Import/phone_pCube23.phone_pCube23
+[2018.04.23-16.43.22:838][  0]LogStaticMesh: Building static mesh chair...
+[2018.04.23-16.43.22:851][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Objects/Import/chair.chair
+[2018.04.23-16.43.22:874][  0]LogStaticMesh: Building static mesh deskLamp...
+[2018.04.23-16.43.22:917][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Objects/deskLamp.deskLamp
+[2018.04.23-16.43.22:922][  0]LogStaticMesh: Building static mesh ceilingLight_lightBall...
+[2018.04.23-16.43.22:931][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Objects/ceilingLight_lightBall.ceilingLight_lightBall
+[2018.04.23-16.43.22:943][  0]LogStaticMesh: Building static mesh openCardboardBox...
+[2018.04.23-16.43.22:944][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Objects/Import/openCardboardBox.openCardboardBox
+[2018.04.23-16.43.22:945][  0]LogStaticMesh: Building static mesh pictureFrame1...
+[2018.04.23-16.43.22:947][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Objects/Import/pictureFrame1.pictureFrame1
+[2018.04.23-16.43.23:384][  0]LogMaterial: Missing cached shader map for material lightStandLight, compiling. 
+[2018.04.23-16.43.23:483][  0]LogMaterial: Missing cached shader map for material LightStand, compiling. 
+[2018.04.23-16.43.23:524][  0]LogMaterial: Missing cached shader map for material CeilingLightBall, compiling. 
+[2018.04.23-16.43.23:783][  0]LogMaterial: Missing cached shader map for material glass, compiling. 
+[2018.04.23-16.43.23:963][  0]LogMaterial: Missing cached shader map for material cardboardMat, compiling. 
+[2018.04.23-16.43.24:285][  0]LogMaterial: Missing cached shader map for material GenericHMDMaterial, compiling. 
+[2018.04.23-16.43.24:487][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.43.24:803][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.23-16.43.24:853][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.23-16.43.24:998][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 144.277ms to complete.
+[2018.04.23-16.43.24:998][  0]LogFileHelpers: Loading map 'StartupMap' took 3.420
+[2018.04.23-16.43.25:475][  0]LogCollectionManager: Loaded 0 collections in 0.005111 seconds
+[2018.04.23-16.43.25:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Collections/' took 0.01s
+[2018.04.23-16.43.25:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Developers/User/Collections/' took 0.01s
+[2018.04.23-16.43.25:641][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Collections/' took 0.01s
+[2018.04.23-16.43.25:641][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.23-16.43.25:665][  0]LogContentBrowser: Native class hierarchy populated in 0.0218 seconds. Added 2373 classes and 526 folders.
+[2018.04.23-16.43.25:828][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.23-16.43.26:470][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.23-16.43.26:650][  0]LogContentBrowser: Native class hierarchy updated for 'ScreenShotComparisonTools' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.23-16.43.26:759][  0]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for C:/Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Automation/Comparisons. Error: The system cannot find the path specified. (0x00000003)
+[2018.04.23-16.43.26:914][  0]LogSlate: Took 0.008314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.23-16.43.26:929][  0]LogSlate: Took 0.007905 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.23-16.43.26:947][  0]LogSlate: Took 0.008436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.23-16.43.27:244][  0]LogRenderer: Reallocating scene render targets to support 1228x580 Format 26 NumSamples 1 (Frame:1).
+[2018.04.23-16.43.27:606][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.04.23-16.43.27:606][  0]LogLoad: (Engine Initialization) Total time: 42.51 seconds
+[2018.04.23-16.43.27:606][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.23-16.43.27:607][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.23-16.43.27:659][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.04.23-16.43.27:740][  0]LogSlate: Took 0.007136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.23-16.43.27:913][  1]LogProfilerClient: Subscribe Session: CCD273AC4D1D5A3FBE482F96A2D18E25
+[2018.04.23-16.43.27:955][  1]LogProfilerService: Subscribe Session: CCD273AC4D1D5A3FBE482F96A2D18E25, Instance: 92F7B61A482609C8CEA48FAB0F25FFF2
+[2018.04.23-16.43.28:074][  1]...Forcing Asset Registry Load For Automation
+[2018.04.23-16.43.28:434][  3]LogAssetRegistry: Asset discovery search completed in 27.5501 seconds
+[2018.04.23-16.43.28:438][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.23-16.43.28:438][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000107 seconds (updated 0 objects)
+[2018.04.23-16.43.28:725][  3]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2018.04.23-16.43.32:969][236]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/' took 5.33s
+[2018.04.23-16.44.29:672][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.44.29:674][471]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:44:29 AM)
+[2018.04.23-16.44.29:674][471]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.44.29:706][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031931s)
+[2018.04.23-16.44.29:707][471]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.44.29:707][471]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2018.04.23-16.44.29:707][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.033087s)
+[2018.04.23-16.44.29:722][471]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.44.29:730][471]LogInit: FAudioDevice initialized.
+[2018.04.23-16.44.29:771][471]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.44.29:799][471]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.44.29
+[2018.04.23-16.44.29:802][471]LogWorld: Bringing up level for play took: 0.028931
+[2018.04.23-16.44.29:863][471]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.04.23-16.44.29:863][471]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.44.29:866][471]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.44.29:867][471]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 1.065
+[2018.04.23-16.45.03:652][395]MapCheck: New page: Map Check
+[2018.04.23-16.45.03:667][395]LightingResults: New page: Lighting Build - Apr 23, 2018, 8:45:03 AM
+[2018.04.23-16.45.03:732][395]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.23-16.45.03:812][395]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.23-16.45.03:828][395]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.23-16.45.04:867][395]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.23-16.45.04:867][395]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5588
+[2018.04.23-16.45.07:939][395]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.04.23-16.45.07:940][395]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.23-16.45.07:940][395]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.23-16.45.07:940][395]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.23-16.45.07:940][395]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.23-16.45.07:940][395]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.23-16.45.08:088][395]LogEditorBuildUtils: Build time 0:04
+[2018.04.23-16.45.08:103][395]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer glass, compiling. 
+[2018.04.23-16.45.08:110][395]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer glass, compiling. 
+[2018.04.23-16.45.08:130][396]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GenericHMDMaterial, compiling. 
+[2018.04.23-16.45.08:141][396]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GenericHMDMaterial, compiling. 
+[2018.04.23-16.45.08:176][397]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer cardboardMat, compiling. 
+[2018.04.23-16.45.08:186][397]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer cardboardMat, compiling. 
+[2018.04.23-16.45.16:049][715]Job is a success!
+[2018.04.23-16.45.16:094][716]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.23-16.45.16:147][716]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2018.04.23-16.45.16:147][716]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.04.23-16.45.16:147][716]LogVolumetricLightmapImport:      BrickData 130x5x5 = 0.1Mb
+[2018.04.23-16.45.16:147][716]LogVolumetricLightmapImport:      Bricks at Level
+[2018.04.23-16.45.16:148][716]LogVolumetricLightmapImport:          0: 3.8% covering 100.0% of volume
+[2018.04.23-16.45.16:148][716]LogVolumetricLightmapImport:          1: 15.4% covering 6.3% of volume
+[2018.04.23-16.45.16:148][716]LogVolumetricLightmapImport:          2: 80.8% covering 0.5% of volume
+[2018.04.23-16.45.16:973][716]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.04.23-16.45.16:973][716]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.04.23-16.45.17:010][716]Lightmass on 96XJ1R1: 6.33 sec total, 200 ms importing, 43 ms setup, 939 ms photons, 5.09 sec processing, 0 ms extra exporting [128/128 mappings]. Threads: 35.5 sec total, 23.0 sec processing.
+[2018.04.23-16.45.17:034][716]LogStaticLightingSystem: Illumination: 13.3 sec (760 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.04.23-16.45.17:034][716]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.04.23-16.45.17:034][716]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.04.23-16.45.17:947][716]DumpUnbuiltLightIteractions
+[2018.04.23-16.45.17:948][716]Lights with unbuilt interactions: 0
+[2018.04.23-16.45.17:948][716]
+[2018.04.23-16.45.17:948][716]Primitives with unbuilt interactions: 0
+[2018.04.23-16.45.17:958][717]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.23-16.45.17:958][717]MapCheck: New page: StartupMap - Apr 23, 2018, 8:45:17 AM
+[2018.04.23-16.45.17:966][717]MapCheck: Warning: BP_Telephone2 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.45.17:967][717]MapCheck: Warning: BP_Telephone3 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.45.17:967][717]MapCheck: Warning: BP_Telephone4 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.45.17:967][717]MapCheck: Warning: BP_Telephone5 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.45.17:967][717]MapCheck: Warning: BP_Telephone6 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.45.17:967][717]MapCheck: Warning: BP_Telephone7 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.45.17:967][717]MapCheck: Warning: BP_Telephone8 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.45.17:968][717]MapCheck: Warning: BP_Telephone_172 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.45.18:056][717]MapCheck: Map check complete: 0 Error(s), 8 Warning(s), took 98.117ms to complete.
+[2018.04.23-16.45.21:764][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.45.21:764][ 57]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:45:21 AM)
+[2018.04.23-16.45.21:765][ 57]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.45.21:792][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027329s)
+[2018.04.23-16.45.21:793][ 57]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.45.21:793][ 57]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2018.04.23-16.45.21:793][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.028642s)
+[2018.04.23-16.45.21:808][ 57]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.45.21:816][ 57]LogInit: FAudioDevice initialized.
+[2018.04.23-16.45.21:850][ 57]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.45.21:872][ 57]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.45.21
+[2018.04.23-16.45.21:875][ 57]LogWorld: Bringing up level for play took: 0.023129
+[2018.04.23-16.45.21:875][ 57]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.45.21:877][ 57]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.45.21:877][ 57]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 1.076
+[2018.04.23-16.45.26:883][330]LogEditorViewport: Clicking on Actor (LMB): DeskLamp_C (DeskLamp2)
+[2018.04.23-16.45.30:125][526]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.04.23-16.45.31:045][526]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.23-16.45.31:161][526]LogSlate: Took 0.005515 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.23-16.45.31:273][527]LogSlate: Took 0.005094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.23-16.45.33:257][630]LogRenderer: Reallocating scene render targets to support 1300x712 Format 26 NumSamples 1 (Frame:1).
+[2018.04.23-16.45.55:563][965]BlueprintLog: New page: Compile DeskLamp
+[2018.04.23-16.45.56:905][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DeskLamp" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/DeskLamp.uasset" SILENT=true
+[2018.04.23-16.45.56:967][965]LogSavePackage: Save=35.79ms
+[2018.04.23-16.45.56:967][965]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/DeskLampCA8F87684B1E1613049AC9A5044E3B0A.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/DeskLamp.uasset'
+[2018.04.23-16.45.56:973][965]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/DeskLamp.uasset
+[2018.04.23-16.45.59:760][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Desk2)
+[2018.04.23-16.46.00:050][189]Cmd: SELECT NONE
+[2018.04.23-16.46.02:827][415]LogEditorViewport: Clicking on Actor (LMB): DeskLamp_C (DeskLamp2)
+[2018.04.23-16.46.13:006][575]BlueprintLog: New page: Compile DeskLamp
+[2018.04.23-16.46.14:312][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DeskLamp" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/DeskLamp.uasset" SILENT=true
+[2018.04.23-16.46.14:372][575]LogSavePackage: Save=33.25ms
+[2018.04.23-16.46.14:372][575]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/DeskLampB8A24FCE44A6A81294ECA79D2D4142FB.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/DeskLamp.uasset'
+[2018.04.23-16.46.14:376][575]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/DeskLamp.uasset
+[2018.04.23-16.46.16:531][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Desk2)
+[2018.04.23-16.46.17:129][831]Cmd: SELECT NONE
+[2018.04.23-16.46.20:802][144]LogEditorViewport: Clicking on Actor (LMB): DeskLamp_C (DeskLamp2)
+[2018.04.23-16.46.31:817][260]BlueprintLog: New page: Compile DeskLamp
+[2018.04.23-16.46.33:106][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DeskLamp" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/DeskLamp.uasset" SILENT=true
+[2018.04.23-16.46.33:166][260]LogSavePackage: Save=33.43ms
+[2018.04.23-16.46.33:166][260]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/DeskLampC3C9954A43ADB66E7C8BDFAA7D3C149C.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/DeskLamp.uasset'
+[2018.04.23-16.46.33:170][260]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/DeskLamp.uasset
+[2018.04.23-16.46.34:452][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Desk2)
+[2018.04.23-16.46.35:386][434]Cmd: SELECT NONE
+[2018.04.23-16.46.52:340][703]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame2)
+[2018.04.23-16.46.55:750][947]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame2_C (BP_PictureFrame2)
+[2018.04.23-16.46.57:110][ 39]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame2)
+[2018.04.23-16.46.57:753][ 83]Cmd: DELETE
+[2018.04.23-16.46.57:753][ 83]Cmd: ACTOR DELETE
+[2018.04.23-16.46.57:767][ 83]LogEditorActor: Deleted Actor: BP_PictureFrame1_C
+[2018.04.23-16.46.57:789][ 83]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.04.23-16.46.58:173][113]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame2_C (BP_PictureFrame2)
+[2018.04.23-16.47.14:066][346]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone2)
+[2018.04.23-16.47.19:541][789]LogEditorViewport: Clicking on Actor (LMB): sideStand_pCube1_Blueprint_C (sideStand_pCube1_Blueprint2)
+[2018.04.23-16.47.20:650][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.47.20:650][863]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:47:20 AM)
+[2018.04.23-16.47.20:651][863]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.47.20:678][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026932s)
+[2018.04.23-16.47.20:678][863]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.47.20:678][863]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2018.04.23-16.47.20:679][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.028254s)
+[2018.04.23-16.47.20:702][863]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.47.20:710][863]LogInit: FAudioDevice initialized.
+[2018.04.23-16.47.20:741][863]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.47.20:763][863]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.47.20
+[2018.04.23-16.47.20:765][863]LogWorld: Bringing up level for play took: 0.022569
+[2018.04.23-16.47.20:766][863]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.47.20:767][863]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.47.20:767][863]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.034
+[2018.04.23-16.47.33:770][395]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone)
+[2018.04.23-16.47.38:885][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.47.38:885][783]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:47:38 AM)
+[2018.04.23-16.47.38:885][783]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.47.38:913][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027596s)
+[2018.04.23-16.47.38:914][783]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.47.38:914][783]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2018.04.23-16.47.38:914][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.028876s)
+[2018.04.23-16.47.38:935][783]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.47.38:944][783]LogInit: FAudioDevice initialized.
+[2018.04.23-16.47.38:978][783]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.47.39:000][783]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.47.39
+[2018.04.23-16.47.39:002][783]LogWorld: Bringing up level for play took: 0.022858
+[2018.04.23-16.47.39:003][783]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.47.39:004][783]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.47.39:004][783]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.203
+[2018.04.23-16.47.52:887][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.47.52:887][403]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:47:52 AM)
+[2018.04.23-16.47.52:887][403]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.47.52:914][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027250s)
+[2018.04.23-16.47.52:915][403]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.47.52:915][403]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2018.04.23-16.47.52:916][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.028562s)
+[2018.04.23-16.47.52:937][403]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.47.52:945][403]LogInit: FAudioDevice initialized.
+[2018.04.23-16.47.52:981][403]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.47.53:003][403]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.47.53
+[2018.04.23-16.47.53:006][403]LogWorld: Bringing up level for play took: 0.023238
+[2018.04.23-16.47.53:006][403]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.47.53:008][403]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.47.53:008][403]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.206
+[2018.04.23-16.49.16:302][382]BlueprintLog: New page: Compile BP_Telephone
+[2018.04.23-16.49.17:602][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Telephone" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset" SILENT=true
+[2018.04.23-16.49.17:698][382]LogSavePackage: Save=62.73ms
+[2018.04.23-16.49.17:698][382]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_Telephone4336FD784AAB1B80DEFE60BC6641AC4E.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset'
+[2018.04.23-16.49.17:702][382]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset
+[2018.04.23-16.49.35:954][ 59]LogEditorViewport: Clicking on Actor (LMB): sideStand_pCube1_Blueprint_C (sideStand_pCube1_Blueprint)
+[2018.04.23-16.49.38:907][265]Cmd: DUPLICATE
+[2018.04.23-16.49.38:907][265]Cmd: ACTOR DUPLICATE
+[2018.04.23-16.50.12:993][696]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone8)
+[2018.04.23-16.50.14:541][810]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone8)
+[2018.04.23-16.50.48:308][571]BlueprintLog: New page: Compile BP_Telephone
+[2018.04.23-16.50.49:617][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Telephone" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset" SILENT=true
+[2018.04.23-16.50.49:721][571]LogSavePackage: Save=62.65ms
+[2018.04.23-16.50.49:721][571]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_Telephone7655C1EB4039605D211CA894B0DF3C89.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset'
+[2018.04.23-16.50.49:725][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset
+[2018.04.23-16.50.51:922][764]LogTemp: Repeating last play command: Simulate
+[2018.04.23-16.50.51:963][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.50.51:963][764]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:50:51 AM)
+[2018.04.23-16.50.51:963][764]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.50.51:991][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027751s)
+[2018.04.23-16.50.51:992][764]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.50.51:992][764]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2018.04.23-16.50.51:992][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.029016s)
+[2018.04.23-16.50.52:016][764]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.50.52:024][764]LogInit: FAudioDevice initialized.
+[2018.04.23-16.50.52:057][764]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.50.52:079][764]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.50.52
+[2018.04.23-16.50.52:082][764]LogWorld: Bringing up level for play took: 0.023071
+[2018.04.23-16.50.52:082][764]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.50.52:084][764]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.50.52:084][764]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.717
+[2018.04.23-16.51.00:056][441]LogTemp: Repeating last play command: Simulate
+[2018.04.23-16.51.00:083][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.51.00:083][441]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:51:00 AM)
+[2018.04.23-16.51.00:083][441]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.51.00:111][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027223s)
+[2018.04.23-16.51.00:111][441]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.51.00:111][441]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2018.04.23-16.51.00:112][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.028608s)
+[2018.04.23-16.51.00:134][441]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.51.00:142][441]LogInit: FAudioDevice initialized.
+[2018.04.23-16.51.00:177][441]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.51.00:199][441]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.51.00
+[2018.04.23-16.51.00:201][441]LogWorld: Bringing up level for play took: 0.023095
+[2018.04.23-16.51.00:202][441]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.51.00:203][441]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.51.00:203][441]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.598
+[2018.04.23-16.51.11:221][622]BlueprintLog: New page: Compile BP_Telephone
+[2018.04.23-16.51.12:502][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Telephone" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset" SILENT=true
+[2018.04.23-16.51.12:590][622]LogSavePackage: Save=61.70ms
+[2018.04.23-16.51.12:590][622]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_TelephoneABC998A24F99259FFFA5149B39DCE05D.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset'
+[2018.04.23-16.51.12:594][622]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset
+[2018.04.23-16.51.14:453][799]LogTemp: Repeating last play command: Simulate
+[2018.04.23-16.51.14:486][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.51.14:486][799]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:51:14 AM)
+[2018.04.23-16.51.14:486][799]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.51.14:517][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030332s)
+[2018.04.23-16.51.14:517][799]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.51.14:518][799]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2018.04.23-16.51.14:518][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.031557s)
+[2018.04.23-16.51.14:541][799]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.51.14:549][799]LogInit: FAudioDevice initialized.
+[2018.04.23-16.51.14:584][799]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.51.14:606][799]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.51.14
+[2018.04.23-16.51.14:609][799]LogWorld: Bringing up level for play took: 0.023850
+[2018.04.23-16.51.14:609][799]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.51.14:611][799]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.51.14:611][799]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.19
+[2018.04.23-16.51.16:871][974]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone8)
+[2018.04.23-16.51.21:891][333]LogTemp: Repeating last play command: Simulate
+[2018.04.23-16.51.21:918][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.51.21:918][333]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:51:21 AM)
+[2018.04.23-16.51.21:918][333]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.51.21:954][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036129s)
+[2018.04.23-16.51.21:955][333]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.51.21:955][333]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2018.04.23-16.51.21:956][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.037615s)
+[2018.04.23-16.51.21:980][333]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.51.21:987][333]LogInit: FAudioDevice initialized.
+[2018.04.23-16.51.22:021][333]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.51.22:043][333]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.51.22
+[2018.04.23-16.51.22:045][333]LogWorld: Bringing up level for play took: 0.022994
+[2018.04.23-16.51.22:046][333]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.51.22:047][333]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.51.22:047][333]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.754
+[2018.04.23-16.51.42:609][823]BlueprintLog: New page: Compile BP_Telephone
+[2018.04.23-16.51.43:905][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Telephone" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset" SILENT=true
+[2018.04.23-16.51.43:993][823]LogSavePackage: Save=62.13ms
+[2018.04.23-16.51.43:993][823]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_Telephone5E9DD6D0496917D95F5C6E881189FE87.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset'
+[2018.04.23-16.51.43:997][823]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset
+[2018.04.23-16.51.45:461][956]LogTemp: Repeating last play command: Simulate
+[2018.04.23-16.51.45:492][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.51.45:493][956]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:51:45 AM)
+[2018.04.23-16.51.45:493][956]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.51.45:521][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028053s)
+[2018.04.23-16.51.45:521][956]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.51.45:522][956]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2018.04.23-16.51.45:522][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.029324s)
+[2018.04.23-16.51.45:544][956]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.51.45:552][956]LogInit: FAudioDevice initialized.
+[2018.04.23-16.51.45:588][956]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.51.45:610][956]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.51.45
+[2018.04.23-16.51.45:612][956]LogWorld: Bringing up level for play took: 0.023458
+[2018.04.23-16.51.45:613][956]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.51.45:614][956]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.51.45:614][956]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.813
+[2018.04.23-16.51.54:132][522]LogRenderer: Reallocating scene render targets to support 1432x924 Format 26 NumSamples 1 (Frame:1).
+[2018.04.23-16.54.46:613][826]LogSavePackage: Save=14.61ms
+[2018.04.23-16.54.46:613][826]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/phone_pCylinder50B0BB64F640CA3A52514258A5E0E7414E.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/phone_pCylinder50.uasset'
+[2018.04.23-16.54.46:617][826]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/phone_pCylinder50.uasset
+[2018.04.23-16.54.48:693][ 19]LogTemp: Repeating last play command: Simulate
+[2018.04.23-16.54.48:721][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.54.48:722][ 19]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:54:48 AM)
+[2018.04.23-16.54.48:722][ 19]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.54.48:750][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028781s)
+[2018.04.23-16.54.48:751][ 19]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.54.48:752][ 19]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2018.04.23-16.54.48:752][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.030243s)
+[2018.04.23-16.54.48:776][ 19]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.54.48:784][ 19]LogInit: FAudioDevice initialized.
+[2018.04.23-16.54.48:820][ 19]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.54.48:842][ 19]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.54.48
+[2018.04.23-16.54.48:845][ 19]LogWorld: Bringing up level for play took: 0.023149
+[2018.04.23-16.54.48:845][ 19]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.54.48:847][ 19]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.54.48:847][ 19]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.046
+[2018.04.23-16.54.58:192][649]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone8)
+[2018.04.23-16.55.25:824][514]LogTemp: Repeating last play command: Simulate
+[2018.04.23-16.55.25:851][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.55.25:852][514]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:55:25 AM)
+[2018.04.23-16.55.25:852][514]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.55.25:887][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035665s)
+[2018.04.23-16.55.25:888][514]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.55.25:888][514]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2018.04.23-16.55.25:889][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.037013s)
+[2018.04.23-16.55.25:911][514]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.55.25:919][514]LogInit: FAudioDevice initialized.
+[2018.04.23-16.55.25:955][514]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.55.25:978][514]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.55.25
+[2018.04.23-16.55.25:980][514]LogWorld: Bringing up level for play took: 0.023716
+[2018.04.23-16.55.25:981][514]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.55.25:982][514]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.55.25:982][514]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.819
+[2018.04.23-16.55.33:312][865]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone8)
+[2018.04.23-16.55.37:670][269]BlueprintLog: New page: Compile BP_Telephone
+[2018.04.23-16.55.38:966][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Telephone" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset" SILENT=true
+[2018.04.23-16.55.39:059][269]LogSavePackage: Save=61.73ms
+[2018.04.23-16.55.39:059][269]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_TelephoneEB2515C04EACD44BA8FE1CAB739BDECB.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset'
+[2018.04.23-16.55.39:064][269]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset
+[2018.04.23-16.55.42:098][501]LogTemp: Repeating last play command: Simulate
+[2018.04.23-16.55.42:138][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.55.42:139][501]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:55:42 AM)
+[2018.04.23-16.55.42:139][501]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.55.42:170][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030925s)
+[2018.04.23-16.55.42:170][501]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.55.42:170][501]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2018.04.23-16.55.42:171][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.032152s)
+[2018.04.23-16.55.42:194][501]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.55.42:201][501]LogInit: FAudioDevice initialized.
+[2018.04.23-16.55.42:235][501]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.55.42:257][501]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.55.42
+[2018.04.23-16.55.42:259][501]LogWorld: Bringing up level for play took: 0.023275
+[2018.04.23-16.55.42:260][501]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.55.42:261][501]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.55.42:262][501]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.54
+[2018.04.23-16.56.17:087][ 88]MapCheck: New page: Map Check
+[2018.04.23-16.56.17:100][ 88]LightingResults: New page: Lighting Build - Apr 23, 2018, 8:56:17 AM
+[2018.04.23-16.56.17:111][ 88]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.23-16.56.17:115][ 88]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.23-16.56.17:115][ 88]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.23-16.56.17:116][ 88]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.23-16.56.17:116][ 88]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5588
+[2018.04.23-16.56.21:646][ 88]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.04.23-16.56.21:647][ 88]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.23-16.56.21:647][ 88]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.23-16.56.21:647][ 88]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.23-16.56.21:647][ 88]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.23-16.56.21:647][ 88]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.23-16.56.21:734][ 88]LogEditorBuildUtils: Build time 0:04
+[2018.04.23-16.56.24:722][211]LogStaticLightingSystem: Warning: Failed to build lighting!!! Lighting build canceled.
+[2018.04.23-16.56.25:649][211]Job has failed! Job is closed while Tasks are still PENDING
+[2018.04.23-16.56.25:649][211]DumpUnbuiltLightIteractions
+[2018.04.23-16.56.25:649][211]Lights with unbuilt interactions: 3
+[2018.04.23-16.56.25:649][211]    Light PointLight6
+[2018.04.23-16.56.25:649][211]    Light PointLight2
+[2018.04.23-16.56.25:649][211]    Light PointLight7
+[2018.04.23-16.56.25:650][211]
+[2018.04.23-16.56.25:650][211]Primitives with unbuilt interactions: 1
+[2018.04.23-16.56.25:650][211]    Primitive StaticMeshComponent /Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.sideStand_pCube1_Blueprint3.StaticMeshComponent0
+[2018.04.23-16.56.25:676][212]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.23-16.56.25:677][212]MapCheck: New page: StartupMap - Apr 23, 2018, 8:56:25 AM
+[2018.04.23-16.56.25:685][212]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.04.23-16.56.25:685][212]MapCheck: Warning: BP_Telephone2 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.56.25:685][212]MapCheck: Warning: BP_Telephone3 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.56.25:686][212]MapCheck: Warning: BP_Telephone4 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.56.25:686][212]MapCheck: Warning: BP_Telephone5 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.56.25:686][212]MapCheck: Warning: BP_Telephone6 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.56.25:686][212]MapCheck: Warning: BP_Telephone7 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.56.25:686][212]MapCheck: Warning: BP_Telephone8 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.56.25:686][212]MapCheck: Warning: BP_Telephone_172 Static mesh actor has NULL StaticMesh property 
+[2018.04.23-16.56.25:775][212]MapCheck: Map check complete: 1 Error(s), 8 Warning(s), took 98.645ms to complete.
+[2018.04.23-16.56.27:927][363]LogEditorViewport: Clicking on Actor (LMB): sideStand_pCube1_Blueprint_C (sideStand_pCube1_Blueprint3)
+[2018.04.23-16.56.34:714][744]Cmd: DUPLICATE
+[2018.04.23-16.56.34:714][744]Cmd: ACTOR DUPLICATE
+[2018.04.23-16.56.44:448][266]Cmd: DUPLICATE
+[2018.04.23-16.56.44:448][266]Cmd: ACTOR DUPLICATE
+[2018.04.23-16.56.51:717][651]Cmd: DUPLICATE
+[2018.04.23-16.56.51:717][651]Cmd: ACTOR DUPLICATE
+[2018.04.23-16.57.01:791][268]LogTemp: Repeating last play command: Simulate
+[2018.04.23-16.57.01:819][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.57.01:819][268]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:57:01 AM)
+[2018.04.23-16.57.01:819][268]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.57.01:847][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027825s)
+[2018.04.23-16.57.01:848][268]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.57.01:848][268]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2018.04.23-16.57.01:848][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.029059s)
+[2018.04.23-16.57.01:871][268]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.57.01:879][268]LogInit: FAudioDevice initialized.
+[2018.04.23-16.57.01:911][268]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.57.01:933][268]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.57.01
+[2018.04.23-16.57.01:935][268]LogWorld: Bringing up level for play took: 0.023281
+[2018.04.23-16.57.01:936][268]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.57.01:937][268]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.57.01:937][268]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.864
+[2018.04.23-16.57.05:412][513]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone5)
+[2018.04.23-16.57.14:520][ 52]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone6)
+[2018.04.23-16.57.19:219][315]LogTemp: Repeating last play command: Simulate
+[2018.04.23-16.57.19:246][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.57.19:247][315]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:57:19 AM)
+[2018.04.23-16.57.19:247][315]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.57.19:276][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029630s)
+[2018.04.23-16.57.19:277][315]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.57.19:277][315]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2018.04.23-16.57.19:278][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.030940s)
+[2018.04.23-16.57.19:303][315]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.57.19:310][315]LogInit: FAudioDevice initialized.
+[2018.04.23-16.57.19:343][315]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.57.19:365][315]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.57.19
+[2018.04.23-16.57.19:368][315]LogWorld: Bringing up level for play took: 0.024079
+[2018.04.23-16.57.19:369][315]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.57.19:370][315]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.57.19:370][315]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.569
+[2018.04.23-16.57.24:358][610]LogEditorViewport: Clicking on Actor (LMB): sideStand_pCube1_Blueprint_C (sideStand_pCube1_Blueprint4)
+[2018.04.23-16.57.25:111][641]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone7)
+[2018.04.23-16.58.20:660][546]BlueprintLog: New page: Compile BP_Telephone
+[2018.04.23-16.58.22:086][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Telephone" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset" SILENT=true
+[2018.04.23-16.58.22:175][546]LogSavePackage: Save=62.60ms
+[2018.04.23-16.58.22:176][546]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_Telephone174CE22E49643181102D3CBC9A648F0B.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset'
+[2018.04.23-16.58.22:179][546]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset
+[2018.04.23-16.58.31:104][157]LogTemp: Repeating last play command: Simulate
+[2018.04.23-16.58.31:141][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-16.58.31:141][157]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 8:58:31 AM)
+[2018.04.23-16.58.31:141][157]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-16.58.31:173][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032042s)
+[2018.04.23-16.58.31:174][157]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-16.58.31:174][157]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2018.04.23-16.58.31:174][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.033270s)
+[2018.04.23-16.58.31:198][157]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-16.58.31:205][157]LogInit: FAudioDevice initialized.
+[2018.04.23-16.58.31:236][157]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-16.58.31:258][157]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-12.58.31
+[2018.04.23-16.58.31:260][157]LogWorld: Bringing up level for play took: 0.023204
+[2018.04.23-16.58.31:261][157]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.58.31:262][157]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-16.58.31:262][157]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.461
+[2018.04.23-16.58.38:407][505]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone8)
+[2018.04.23-16.58.47:269][ 67]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone5)
+[2018.04.23-16.59.02:220][ 22]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone)
+[2018.04.23-16.59.55:657][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Telephone" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset" SILENT=true
+[2018.04.23-16.59.55:740][602]LogSavePackage: Save=55.81ms
+[2018.04.23-16.59.55:740][602]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_TelephoneC3D9D73A448DCB4C814AC39B3297F0D1.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset'
+[2018.04.23-16.59.55:743][602]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset
+[2018.04.23-17.00.43:846][ 81]LogSlate: Took 0.004653 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.04.23-17.00.54:226][953]BlueprintLog: New page: Compile BP_PictureFrame1
+[2018.04.23-17.00.55:676][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PictureFrame1" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_PictureFrame1.uasset" SILENT=true
+[2018.04.23-17.00.55:789][953]LogSavePackage: Save=81.01ms
+[2018.04.23-17.00.55:789][953]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_PictureFrame11DE18428410C79B68733F59C5C01FC5B.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_PictureFrame1.uasset'
+[2018.04.23-17.00.55:793][953]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_PictureFrame1.uasset
+[2018.04.23-17.00.55:810][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PictureFrame2" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_PictureFrame2.uasset" SILENT=true
+[2018.04.23-17.00.55:864][953]LogSavePackage: Save=29.18ms
+[2018.04.23-17.00.55:864][953]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_PictureFrame225CEDA2345DDE943E0564787CE545A3F.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_PictureFrame2.uasset'
+[2018.04.23-17.00.55:868][953]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_PictureFrame2.uasset
+[2018.04.23-17.02.19:156][972]BlueprintLog: New page: Compile BP_PictureFrame1
+[2018.04.23-17.02.20:658][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PictureFrame1" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_PictureFrame1.uasset" SILENT=true
+[2018.04.23-17.02.20:773][972]LogSavePackage: Save=88.38ms
+[2018.04.23-17.02.20:773][972]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_PictureFrame18970C11842FF7C4FEE9DDB80AA796346.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_PictureFrame1.uasset'
+[2018.04.23-17.02.20:778][972]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_PictureFrame1.uasset
+[2018.04.23-17.02.30:331][627]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame)
+[2018.04.23-17.02.36:577][957]LogEditorViewport: Clicking on Actor (LMB): sideStand_pCube1_Blueprint_C (sideStand_pCube1_Blueprint)
+[2018.04.23-17.02.36:966][967]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone)
+[2018.04.23-17.02.39:184][ 94]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame)
+[2018.04.23-17.04.19:001][597]BlueprintLog: New page: Compile BP_Telephone
+[2018.04.23-17.04.20:690][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Telephone" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset" SILENT=true
+[2018.04.23-17.04.20:785][597]LogSavePackage: Save=62.44ms
+[2018.04.23-17.04.20:785][597]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_Telephone984B88D44EC6BADF32D0AA90B44642F5.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset'
+[2018.04.23-17.04.20:790][597]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Telephone.uasset
+[2018.04.23-17.04.25:119][926]LogEditorViewport: Clicking on Actor (LMB): BP_Telephone_C (BP_Telephone)
+[2018.04.23-17.05.10:795][787]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame)
+[2018.04.23-17.05.29:427][824]LogEditorViewport: Clicking on Actor (LMB): BP_Pillow_C (BP_Pillow2)
+[2018.04.23-17.05.37:946][359]LogEditorViewport: Clicking on Actor (LMB): BP_Pillow_C (BP_Pillow)
+[2018.04.23-17.05.39:499][452]LogEditorViewport: Clicking on Actor (LMB): BP_Pillow_C (BP_Pillow2)
+[2018.04.23-17.05.40:659][521]LogEditorViewport: Clicking on Actor (LMB): BP_Pillow_C (BP_Pillow)
+[2018.04.23-17.05.48:768][ 51]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame)
+[2018.04.23-17.06.15:765][500]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.23-17.06.25:600][953]LogSavePackage: Save=728.03ms
+[2018.04.23-17.06.25:600][953]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_Auto1475534B0425B414F563B8C82DA5AABB2.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto1.umap'
+[2018.04.23-17.06.25:601][953]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto1.umap
+[2018.04.23-17.06.25:610][953]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.795
+[2018.04.23-17.06.25:610][953]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.795
+[2018.04.23-17.06.25:612][953]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Maps/StartupMap_BuiltData] ([1] browsable assets)...
+[2018.04.23-17.06.25:613][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Maps/StartupMap_BuiltData]
+[2018.04.23-17.06.25:665][953]LogSavePackage: Save=26.09ms
+[2018.04.23-17.06.25:665][953]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_BuiltData_Auto1BC026E9747E1BEFAC0608F821B569DDA.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_BuiltData_Auto1.uasset'
+[2018.04.23-17.06.25:669][953]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_BuiltData_Auto1.uasset
+[2018.04.23-17.06.25:669][953]LogFileHelpers: Auto-saving content packages took 0.057
+[2018.04.23-17.14.34:324][360]BlueprintLog: New page: Compile BP_Tape
+[2018.04.23-17.14.34:751][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tape" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset" SILENT=true
+[2018.04.23-17.14.34:781][360]LogSavePackage: Save=28.15ms
+[2018.04.23-17.14.34:782][360]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_Tape35287AA04DCD725BC836488917621E96.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset'
+[2018.04.23-17.14.34:785][360]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset
+[2018.04.23-17.14.39:859][692]Cmd: DELETE
+[2018.04.23-17.14.39:859][692]Cmd: ACTOR DELETE
+[2018.04.23-17.14.39:869][692]LogEditorActor: Deleted Actor: BP_Tape_C
+[2018.04.23-17.14.39:890][692]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.04.23-17.15.38:456][152]Cmd: DELETE
+[2018.04.23-17.15.38:456][152]Cmd: ACTOR DELETE
+[2018.04.23-17.15.38:466][152]LogEditorActor: Deleted Actor: BP_Tape_C
+[2018.04.23-17.15.38:489][152]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2018.04.23-17.16.08:381][880]BlueprintLog: New page: Compile BP_Tape
+[2018.04.23-17.16.08:807][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tape" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset" SILENT=true
+[2018.04.23-17.16.08:869][880]LogSavePackage: Save=28.62ms
+[2018.04.23-17.16.08:869][880]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_TapeE070AC494030B10CD012DDA1BD659969.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset'
+[2018.04.23-17.16.08:872][880]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset
+[2018.04.23-17.16.18:848][495]Cmd: DELETE
+[2018.04.23-17.16.18:848][495]Cmd: ACTOR DELETE
+[2018.04.23-17.16.18:858][495]LogEditorActor: Deleted Actor: BP_Tape_C
+[2018.04.23-17.16.18:880][495]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2018.04.23-17.17.22:935][951]LogEditorTransaction: Undo Modify Component(s)
+[2018.04.23-17.17.23:572][986]LogEditorTransaction: Undo Duplicate Component
+[2018.04.23-17.17.24:127][ 29]LogEditorTransaction: Undo Remove Components
+[2018.04.23-17.17.25:049][119]LogEditorTransaction: Undo Duplicate Component
+[2018.04.23-17.17.29:359][595]LogEditorTransaction: Undo Duplicate Component
+[2018.04.23-17.19.51:329][433]LogEditorTransaction: Undo Remove Components
+[2018.04.23-17.19.51:907][469]LogEditorTransaction: Undo Remove Components
+[2018.04.23-17.20.21:843][ 57]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.04.23-17.20.21:843][ 57]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.04.23-17.20.21:844][ 57]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.04.23-17.20.21:844][ 57]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.04.23-17.20.21:845][ 57]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.04.23-17.20.21:845][ 57]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.04.23-17.20.21:845][ 57]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.04.23-17.20.21:845][ 57]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.04.23-17.20.31:099][ 86]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.04.23-17.20.31:099][ 86]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.04.23-17.20.31:100][ 86]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.04.23-17.20.31:100][ 86]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.04.23-17.21.14:045][871]LogEditorTransaction: Undo Move Node
+[2018.04.23-17.21.14:373][888]LogEditorTransaction: Undo Move Node
+[2018.04.23-17.21.14:939][935]LogEditorTransaction: Undo Move Node
+[2018.04.23-17.21.24:196][995]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.23-17.24.20:401][438]LogBlueprint: Warning: [BP_Tape] 'PhoneAudio' variable not found. Base class was probably changed. /Game/Blueprints/BP_Tape.BP_Tape
+[2018.04.23-17.24.46:720][415]LogClass: Warning: In asset 'None', there is an enum property of type 'EAttenuationDistanceModel' with an invalid value of ''
+[2018.04.23-17.24.46:720][415]LogClass: Warning: In asset 'None', there is an enum property of type 'EAttenuationDistanceModel' with an invalid value of ''
+[2018.04.23-17.25.53:289][920]LogEditorTransaction: Undo Modify Component(s)
+[2018.04.23-17.26.01:915][838]BlueprintLog: New page: Compile BP_TapePlayer
+[2018.04.23-17.26.01:932][838]LogBlueprint: Warning: [Compiler BP_TapePlayer] Could not find the function 'PlayTape' called from  Play Tape
+[2018.04.23-17.26.02:512][838]LogBlueprint: Warning: [Compiler BP_TapePlayer] [2597.42] Compile of BP_TapePlayer successful, but with 1 Warning(s) [in 596 ms] (/Game/Blueprints/BP_TapePlayer.BP_TapePlayer)
+[2018.04.23-17.26.05:004][101]BlueprintLog: New page: Compile BP_Tape
+[2018.04.23-17.26.05:446][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tape" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset" SILENT=true
+[2018.04.23-17.26.05:515][101]LogSavePackage: Save=36.60ms
+[2018.04.23-17.26.05:516][101]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_Tape2B2B9D6F4E8F0AD73867E4B82D9DE290.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset'
+[2018.04.23-17.26.05:520][101]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset
+[2018.04.23-17.26.06:717][216]BlueprintLog: New page: Compile BP_TapePlayer
+[2018.04.23-17.26.07:151][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_TapePlayer" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset" SILENT=true
+[2018.04.23-17.26.07:209][216]LogSavePackage: Save=54.26ms
+[2018.04.23-17.26.07:209][216]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_TapePlayer78DDA72540AC9AA642893C8935296DE9.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset'
+[2018.04.23-17.26.07:212][216]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset
+[2018.04.23-17.29.06:061][683]BlueprintLog: New page: Compile BP_Tape
+[2018.04.23-17.29.06:526][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tape" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset" SILENT=true
+[2018.04.23-17.29.06:611][683]LogSavePackage: Save=55.85ms
+[2018.04.23-17.29.06:611][683]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_Tape091D09184B8BBA7D6A9B758F64713AF8.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset'
+[2018.04.23-17.29.06:616][683]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset
+[2018.04.23-17.29.50:054][240]BlueprintLog: New page: Compile BP_TapePlayer
+[2018.04.23-17.29.50:498][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_TapePlayer" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset" SILENT=true
+[2018.04.23-17.29.50:586][240]LogSavePackage: Save=55.64ms
+[2018.04.23-17.29.50:586][240]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_TapePlayer4FB497E54CAEFB2F138490BA799BD788.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset'
+[2018.04.23-17.29.50:590][240]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset
+[2018.04.23-17.30.18:758][411]LogSavePackage: Save=727.42ms
+[2018.04.23-17.30.18:758][411]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_Auto260F184A74C94770BCDBDE0B004878B4D.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto2.umap'
+[2018.04.23-17.30.18:761][411]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto2.umap
+[2018.04.23-17.30.18:764][411]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.792
+[2018.04.23-17.30.18:764][411]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.792
+[2018.04.23-17.30.52:396][233]BlueprintLog: New page: Compile BP_Tape
+[2018.04.23-17.30.52:858][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tape" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset" SILENT=true
+[2018.04.23-17.30.52:940][233]LogSavePackage: Save=55.75ms
+[2018.04.23-17.30.52:940][233]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_Tape702CA2764B9F4D78D4C1B59821A82981.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset'
+[2018.04.23-17.30.52:944][233]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset
+[2018.04.23-17.31.09:186][256]Cmd: TRANSACTION UNDO
+[2018.04.23-17.31.09:186][256]LogEditorTransaction: Undo Create Actors
+[2018.04.23-17.31.18:940][824]LogEditorViewport: Clicking on Actor (LMB): Table_Blueprint_C (Table)
+[2018.04.23-17.31.21:982][ 10]LogEditorViewport: Clicking on Actor (LMB): BP_Tape_C (BP_Tape)
+[2018.04.23-17.31.25:708][216]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.31.25:752][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.31.25:752][216]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:31:25 AM)
+[2018.04.23-17.31.25:752][216]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.31.25:782][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029525s)
+[2018.04.23-17.31.25:783][216]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.31.25:783][216]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2018.04.23-17.31.25:783][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.030868s)
+[2018.04.23-17.31.25:815][216]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.31.25:823][216]LogInit: FAudioDevice initialized.
+[2018.04.23-17.31.25:857][216]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.31.25:880][216]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.31.25
+[2018.04.23-17.31.25:882][216]LogWorld: Bringing up level for play took: 0.023899
+[2018.04.23-17.31.25:883][216]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.31.25:884][216]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.31.25:884][216]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 1.083
+[2018.04.23-17.31.39:160][918]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.31.39:188][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.31.39:188][918]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:31:39 AM)
+[2018.04.23-17.31.39:188][918]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.31.39:217][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028680s)
+[2018.04.23-17.31.39:217][918]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.31.39:218][918]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2018.04.23-17.31.39:218][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.030045s)
+[2018.04.23-17.31.39:245][918]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.31.39:253][918]LogInit: FAudioDevice initialized.
+[2018.04.23-17.31.39:286][918]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.31.39:309][918]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.31.39
+[2018.04.23-17.31.39:311][918]LogWorld: Bringing up level for play took: 0.024701
+[2018.04.23-17.31.39:312][918]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.31.39:313][918]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.31.39:313][918]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.512
+[2018.04.23-17.31.45:095][262]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.31.45:123][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.31.45:124][262]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:31:45 AM)
+[2018.04.23-17.31.45:124][262]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.31.45:152][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028099s)
+[2018.04.23-17.31.45:152][262]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.31.45:153][262]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2018.04.23-17.31.45:153][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.029285s)
+[2018.04.23-17.31.45:182][262]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.31.45:190][262]LogInit: FAudioDevice initialized.
+[2018.04.23-17.31.45:224][262]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.31.45:247][262]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.31.45
+[2018.04.23-17.31.45:249][262]LogWorld: Bringing up level for play took: 0.023999
+[2018.04.23-17.31.45:250][262]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.31.45:251][262]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.31.45:252][262]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.45
+[2018.04.23-17.32.11:393][685]BlueprintLog: New page: Compile BP_TapePlayer
+[2018.04.23-17.32.12:022][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_TapePlayer" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset" SILENT=true
+[2018.04.23-17.32.12:107][685]LogSavePackage: Save=58.04ms
+[2018.04.23-17.32.12:107][685]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_TapePlayerA93F0FC04D23AE69BC78ACACC3E90CCE.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset'
+[2018.04.23-17.32.12:111][685]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset
+[2018.04.23-17.32.13:226][762]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.32.13:265][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.32.13:265][762]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:32:13 AM)
+[2018.04.23-17.32.13:265][762]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.32.13:293][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028356s)
+[2018.04.23-17.32.13:294][762]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.32.13:294][762]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2018.04.23-17.32.13:295][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.029616s)
+[2018.04.23-17.32.13:321][762]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.32.13:329][762]LogInit: FAudioDevice initialized.
+[2018.04.23-17.32.13:361][762]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.32.13:386][762]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.32.13
+[2018.04.23-17.32.13:389][762]LogWorld: Bringing up level for play took: 0.027331
+[2018.04.23-17.32.13:390][762]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.32.13:391][762]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.32.13:392][762]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.591
+[2018.04.23-17.32.17:250][969]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.32.17:278][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.32.17:278][969]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:32:17 AM)
+[2018.04.23-17.32.17:278][969]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.32.17:308][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029003s)
+[2018.04.23-17.32.17:308][969]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.32.17:309][969]LogPlayLevel: PIE: World Init took: (0.000794s)
+[2018.04.23-17.32.17:309][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.030297s)
+[2018.04.23-17.32.17:339][969]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.32.17:347][969]LogInit: FAudioDevice initialized.
+[2018.04.23-17.32.17:380][969]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.32.17:403][969]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.32.17
+[2018.04.23-17.32.17:405][969]LogWorld: Bringing up level for play took: 0.024208
+[2018.04.23-17.32.17:406][969]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.32.17:407][969]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.32.17:408][969]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.606
+[2018.04.23-17.33.23:507][171]BlueprintLog: New page: Compile BP_TapePlayer
+[2018.04.23-17.33.24:090][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_TapePlayer" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset" SILENT=true
+[2018.04.23-17.33.24:192][171]LogSavePackage: Save=60.09ms
+[2018.04.23-17.33.24:192][171]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_TapePlayer1283113C45F182E7C63209ADA19D5525.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset'
+[2018.04.23-17.33.24:198][171]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset
+[2018.04.23-17.33.25:466][276]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.33.25:505][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.33.25:505][276]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:33:25 AM)
+[2018.04.23-17.33.25:505][276]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.33.25:544][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038729s)
+[2018.04.23-17.33.25:545][276]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.33.25:545][276]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2018.04.23-17.33.25:545][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.040077s)
+[2018.04.23-17.33.25:572][276]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.33.25:580][276]LogInit: FAudioDevice initialized.
+[2018.04.23-17.33.25:615][276]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.33.25:638][276]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.33.25
+[2018.04.23-17.33.25:640][276]LogWorld: Bringing up level for play took: 0.024277
+[2018.04.23-17.33.25:641][276]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.33.25:642][276]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.33.25:642][276]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.841
+[2018.04.23-17.33.25:873][281]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.25:902][282]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.25:930][283]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.25:956][284]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.25:982][285]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:008][286]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:034][287]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:060][288]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:086][289]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:113][290]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:145][291]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:170][292]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:193][293]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:218][294]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:241][295]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:266][296]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:288][297]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:313][298]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:338][299]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:361][300]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:383][301]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:405][302]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:420][303]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:434][304]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:449][305]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:462][306]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:476][307]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:490][308]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:504][309]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:518][310]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:532][311]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:546][312]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:559][313]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:573][314]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:587][315]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:601][316]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:615][317]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:629][318]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:643][319]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:657][320]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:671][321]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:685][322]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:699][323]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:713][324]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:727][325]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:740][326]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:754][327]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:768][328]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:782][329]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:796][330]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:810][331]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:824][332]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:838][333]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:851][334]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:865][335]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:879][336]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:892][337]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:906][338]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:920][339]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:934][340]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:948][341]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:962][342]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:975][343]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.26:990][344]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:003][345]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:017][346]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:031][347]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:045][348]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:059][349]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:072][350]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:086][351]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:100][352]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:115][353]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:128][354]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:142][355]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:156][356]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:170][357]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:184][358]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:198][359]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:212][360]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:226][361]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:239][362]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:253][363]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:267][364]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:282][365]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:295][366]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:309][367]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:323][368]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:337][369]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:351][370]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:365][371]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:378][372]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:392][373]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:406][374]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:420][375]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:434][376]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:449][377]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:463][378]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:478][379]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:492][380]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:506][381]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:520][382]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:533][383]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:547][384]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:561][385]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:575][386]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:588][387]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:602][388]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:616][389]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:630][390]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:643][391]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:657][392]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:670][393]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:684][394]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:698][395]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:712][396]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:726][397]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:739][398]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:753][399]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:767][400]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:781][401]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:794][402]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:808][403]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:822][404]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:836][405]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:850][406]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:864][407]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:878][408]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:892][409]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:905][410]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.27:919][411]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.28:012][419]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.33.45:474][423]BlueprintLog: New page: Compile BP_TapePlayer
+[2018.04.23-17.33.46:067][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_TapePlayer" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset" SILENT=true
+[2018.04.23-17.33.46:171][423]LogSavePackage: Save=63.29ms
+[2018.04.23-17.33.46:171][423]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_TapePlayerBDC981E840C939103F4A33A370B2A558.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset'
+[2018.04.23-17.33.46:174][423]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset
+[2018.04.23-17.33.47:886][560]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.33.47:926][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.33.47:926][560]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:33:47 AM)
+[2018.04.23-17.33.47:926][560]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.33.47:955][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028221s)
+[2018.04.23-17.33.47:955][560]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.33.47:956][560]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2018.04.23-17.33.47:956][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.029501s)
+[2018.04.23-17.33.47:983][560]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.33.47:991][560]LogInit: FAudioDevice initialized.
+[2018.04.23-17.33.48:022][560]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.33.48:045][560]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.33.48
+[2018.04.23-17.33.48:048][560]LogWorld: Bringing up level for play took: 0.024462
+[2018.04.23-17.33.48:049][560]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.33.48:050][560]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.33.48:050][560]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.751
+[2018.04.23-17.33.48:349][565]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.34.25:745][119]BlueprintLog: New page: Compile BP_Tape
+[2018.04.23-17.34.26:347][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tape" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset" SILENT=true
+[2018.04.23-17.34.26:439][119]LogSavePackage: Save=59.93ms
+[2018.04.23-17.34.26:439][119]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_Tape81329369439C4EF358D353A00C2DABEC.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset'
+[2018.04.23-17.34.26:443][119]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_Tape.uasset
+[2018.04.23-17.34.29:001][329]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.34.29:043][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.34.29:044][329]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:34:29 AM)
+[2018.04.23-17.34.29:044][329]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.34.29:073][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029567s)
+[2018.04.23-17.34.29:074][329]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.34.29:074][329]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2018.04.23-17.34.29:075][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.031109s)
+[2018.04.23-17.34.29:102][329]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.34.29:110][329]LogInit: FAudioDevice initialized.
+[2018.04.23-17.34.29:144][329]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.34.29:166][329]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.34.29
+[2018.04.23-17.34.29:169][329]LogWorld: Bringing up level for play took: 0.023751
+[2018.04.23-17.34.29:170][329]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.34.29:171][329]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.34.29:171][329]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.37
+[2018.04.23-17.34.29:430][334]LogBlueprintUserMessages: [BP_TapePlayer_233] Hello
+[2018.04.23-17.35.09:999][848]LogEditorViewport: Clicking on Actor (LMB): BP_Tape_C (BP_Tape)
+[2018.04.23-17.35.12:185][983]Cmd: DELETE
+[2018.04.23-17.35.12:185][983]Cmd: ACTOR DELETE
+[2018.04.23-17.35.12:194][983]LogEditorActor: Deleted Actor: BP_Tape_C
+[2018.04.23-17.35.12:216][983]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.04.23-17.35.12:959][ 32]LogEditorViewport: Clicking on Actor (LMB): BP_TapePlayer_C (BP_TapePlayer)
+[2018.04.23-17.35.13:338][ 51]Cmd: DELETE
+[2018.04.23-17.35.13:338][ 51]Cmd: ACTOR DELETE
+[2018.04.23-17.35.13:348][ 51]LogEditorActor: Deleted Actor: BP_TapePlayer_C
+[2018.04.23-17.35.13:372][ 51]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.04.23-17.35.29:381][276]LogEditorViewport: Clicking on Actor (LMB): BP_TapePlayer_C (BP_TapePlayer)
+[2018.04.23-17.35.39:863][941]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.35.39:905][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.35.39:905][941]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:35:39 AM)
+[2018.04.23-17.35.39:905][941]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.35.39:934][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028786s)
+[2018.04.23-17.35.39:935][941]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.35.39:935][941]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2018.04.23-17.35.39:935][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.030071s)
+[2018.04.23-17.35.39:964][941]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.35.39:972][941]LogInit: FAudioDevice initialized.
+[2018.04.23-17.35.40:007][941]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.35.40:030][941]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.35.40
+[2018.04.23-17.35.40:032][941]LogWorld: Bringing up level for play took: 0.024144
+[2018.04.23-17.35.40:033][941]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.35.40:034][941]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.35.40:034][941]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.767
+[2018.04.23-17.35.43:091][149]LogEditorViewport: Clicking on Actor (LMB): BP_TapePlayer_C (BP_TapePlayer)
+[2018.04.23-17.36.21:444][104]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.36.21:474][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.36.21:474][104]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:36:21 AM)
+[2018.04.23-17.36.21:474][104]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.36.21:504][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029516s)
+[2018.04.23-17.36.21:505][104]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.36.21:505][104]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2018.04.23-17.36.21:505][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.030870s)
+[2018.04.23-17.36.21:536][104]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.36.21:544][104]LogInit: FAudioDevice initialized.
+[2018.04.23-17.36.21:575][104]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.36.21:598][104]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.36.21
+[2018.04.23-17.36.21:601][104]LogWorld: Bringing up level for play took: 0.024546
+[2018.04.23-17.36.21:602][104]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.36.21:603][104]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.36.21:603][104]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.802
+[2018.04.23-17.36.23:392][202]LogEditorViewport: Clicking on Actor (LMB): BP_TapePlayer_C (BP_TapePlayer)
+[2018.04.23-17.36.56:347][903]LogEditorTransaction: Undo Set Scale
+[2018.04.23-17.36.56:893][935]LogEditorTransaction: Undo Set Scale
+[2018.04.23-17.36.57:635][  3]LogEditorTransaction: Undo Set Scale
+[2018.04.23-17.36.58:133][ 43]LogEditorTransaction: Undo Edit Static Mesh
+[2018.04.23-17.37.07:455][ 14]BlueprintLog: New page: Compile BP_TapePlayer
+[2018.04.23-17.37.08:159][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_TapePlayer" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset" SILENT=true
+[2018.04.23-17.37.08:254][ 14]LogSavePackage: Save=61.35ms
+[2018.04.23-17.37.08:254][ 14]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/BP_TapePlayerE9DF249841C0A7E9480F2782BFF41346.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset'
+[2018.04.23-17.37.08:258][ 14]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Blueprints/BP_TapePlayer.uasset
+[2018.04.23-17.37.09:669][113]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.37.09:706][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.37.09:706][113]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:37:09 AM)
+[2018.04.23-17.37.09:706][113]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.37.09:734][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027547s)
+[2018.04.23-17.37.09:734][113]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.37.09:735][113]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2018.04.23-17.37.09:735][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.028804s)
+[2018.04.23-17.37.09:763][113]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.37.09:771][113]LogInit: FAudioDevice initialized.
+[2018.04.23-17.37.09:804][113]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.37.09:826][113]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.37.09
+[2018.04.23-17.37.09:828][113]LogWorld: Bringing up level for play took: 0.023740
+[2018.04.23-17.37.09:829][113]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.37.09:830][113]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.37.09:830][113]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 1.029
+[2018.04.23-17.37.13:596][373]LogEditorViewport: Clicking on Actor (LMB): BP_TapePlayer_C (BP_TapePlayer)
+[2018.04.23-17.37.19:154][737]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.37.19:184][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.37.19:184][737]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:37:19 AM)
+[2018.04.23-17.37.19:184][737]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.37.19:212][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028225s)
+[2018.04.23-17.37.19:213][737]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.37.19:213][737]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2018.04.23-17.37.19:213][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.029447s)
+[2018.04.23-17.37.19:243][737]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.37.19:250][737]LogInit: FAudioDevice initialized.
+[2018.04.23-17.37.19:282][737]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.37.19:305][737]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.37.19
+[2018.04.23-17.37.19:307][737]LogWorld: Bringing up level for play took: 0.024374
+[2018.04.23-17.37.19:308][737]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.37.19:309][737]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.37.19:309][737]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.508
+[2018.04.23-17.37.21:555][878]LogTemp: Repeating last play command: Simulate
+[2018.04.23-17.37.21:586][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.23-17.37.21:586][878]PIE: New page: SIE session: StartupMap (Apr 23, 2018, 9:37:21 AM)
+[2018.04.23-17.37.21:586][878]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
+[2018.04.23-17.37.21:614][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028137s)
+[2018.04.23-17.37.21:615][878]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.23-17.37.21:615][878]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2018.04.23-17.37.21:616][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.029466s)
+[2018.04.23-17.37.21:643][878]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.37.21:650][878]LogInit: FAudioDevice initialized.
+[2018.04.23-17.37.21:686][878]LogLoad: Game class is 'GameModeVR_C'
+[2018.04.23-17.37.21:708][878]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.04.23-13.37.21
+[2018.04.23-17.37.21:711][878]LogWorld: Bringing up level for play took: 0.023574
+[2018.04.23-17.37.21:711][878]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.37.21:713][878]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.23-17.37.21:713][878]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.912
+[2018.04.23-17.37.26:194][175]LogEditorViewport: Clicking on Actor (LMB): BP_TapePlayer_C (BP_TapePlayer)
+[2018.04.23-17.37.49:092][470]LogSavePackage: Save=685.43ms
+[2018.04.23-17.37.49:092][470]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/StartupMapC95E099D45B7AC3692A097ABDB5FE2E9.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2018.04.23-17.37.49:099][470]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2018.04.23-17.37.49:158][470]LogFileHelpers: Saving map 'StartupMap' took 0.900
+[2018.04.23-17.37.49:323][470]LogSavePackage: Save=133.73ms
+[2018.04.23-17.37.49:323][470]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_BuiltDataB55EBCA14050CAD66A29879590DFB9D6.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
+[2018.04.23-17.37.49:327][470]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
+[2018.04.23-17.47.09:070][973]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.23-17.47.09:165][974]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+>>>>>>> parent of 3ee0260... a lot of tweeking
