@@ -1,4 +1,4 @@
-﻿Log file open, 05/01/18 16:37:23
+﻿Log file open, 05/01/18 17:27:40
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DetectiveGame
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(475415123) SRandInit(475415123).
+LogInit: Display: RandInit(-958911393) SRandInit(-958911393).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.234821
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.190779
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestruction.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestructionEditor.dll (API version 3709383).
@@ -194,1089 +194,222 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.01-20.37.24:654][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.01-20.37.24:654][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.01-20.37.24:668][  0]LogInit: Computer: SA2502-PC01
-[2018.05.01-20.37.24:668][  0]LogInit: User: CARVAI
-[2018.05.01-20.37.24:668][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.05.01-20.37.24:668][  0]LogInit: High frequency timer resolution =3.410069 MHz
-[2018.05.01-20.37.24:669][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.05.01-20.37.24:669][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.01-20.37.24:669][  0]LogMemory: Process Physical Memory: 274.11 MB used, 274.11 MB peak
-[2018.05.01-20.37.24:669][  0]LogMemory: Process Virtual Memory: 268.55 MB used, 268.55 MB peak
-[2018.05.01-20.37.24:669][  0]LogMemory: Physical Memory: 8120.08 MB used,  24570.21 MB free, 32690.29 MB total
-[2018.05.01-20.37.24:669][  0]LogMemory: Virtual Memory: 685.87 MB used,  24570.21 MB free, 134217728.00 MB total
-[2018.05.01-20.37.24:826][  0]LogInit: Using OS detected language (en-US).
-[2018.05.01-20.37.24:826][  0]LogInit: Using OS detected locale (en-US).
-[2018.05.01-20.37.24:829][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.05.01-20.37.25:229][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.01-20.37.25:487][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.01-20.37.25:523][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.05.01-20.37.25:523][  0]LogD3D11RHI:       8086/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.05.01-20.37.25:526][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.01-20.37.25:526][  0]LogD3D11RHI:       0/0/16345 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.01-20.37.25:526][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.01-20.37.25:533][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.01-20.37.25:533][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.01-20.37.25:533][  0]LogWindows: EnumDisplayDevices:
-[2018.05.01-20.37.25:533][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.05.01-20.37.25:533][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2018.05.01-20.37.25:533][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.05.01-20.37.25:533][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.05.01-20.37.25:533][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.01-20.37.25:533][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.05.01-20.37.25:533][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.01-20.37.25:533][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.01-20.37.25:533][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
-[2018.05.01-20.37.25:556][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.01-20.37.25:568][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.05.01-20.37.25:611][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Intermediate/Shaders/WorkingDirectory/17852/).
-[2018.05.01-20.37.25:612][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/carvai/AppData/Local/Temp/UnrealShaderWorkingDir/234612AD4A8B92230A9236A54A6D9FAA/'.
-[2018.05.01-20.37.25:612][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.01-20.37.26:582][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.01-20.37.26:634][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.01-20.37.26:688][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.01-20.37.26:743][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.01-20.37.26:800][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.01-20.37.26:856][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.01-20.37.26:914][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.01-20.37.26:970][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.01-20.37.27:017][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.01-20.37.27:070][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.01-20.37.27:123][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.01-20.37.27:175][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.01-20.37.27:230][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.01-20.37.27:287][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.01-20.37.27:396][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.01-20.37.27:396][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.01-20.37.27:450][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.01-20.37.27:494][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.01-20.37.27:588][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.01-20.37.27:616][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.01-20.37.27:668][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.01-20.37.27:721][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.01-20.37.27:779][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.01-20.37.27:833][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.01-20.37.27:833][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.01-20.37.28:332][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.01-20.37.28:407][  0]LogDerivedDataCache: Loaded boot cache 0.07s 79MB C:/Users/carvai/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.01-20.37.28:407][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/carvai/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.01-20.37.28:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.01-20.37.28:407][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.01-20.37.28:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.01-20.37.28:407][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.01-20.37.28:424][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.01-20.37.28:436][  0]LogDerivedDataCache: Using Local data cache path C:/Users/carvai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.01-20.37.28:447][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.01-20.37.28:448][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.01-20.37.28:448][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.01-20.37.28:448][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.01-20.37.28:819][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.01-20.37.29:150][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.01-20.37.29:191][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.01-20.37.29:191][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.01-20.37.29:191][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.01-20.37.29:191][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.01-20.37.29:191][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.01-20.37.29:218][  0]LogNetVersion: DetectiveGame , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4117068022)
-[2018.05.01-20.37.29:379][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
-[2018.05.01-20.37.29:867][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.065296 seconds
-[2018.05.01-20.37.29:872][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.05.01-20.37.29:872][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.05.01-20.37.29:872][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.01-20.37.29:925][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.01-20.37.32:584][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.01-20.37.32:628][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.01-20.37.33:423][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.01-20.37.33:850][  0]SourceControl: Source control is disabled
-[2018.05.01-20.37.33:851][  0]SourceControl: Source control is disabled
-[2018.05.01-20.37.33:906][  0]SourceControl: Source control is disabled
-[2018.05.01-20.37.33:959][  0]SourceControl: Source control is disabled
-[2018.05.01-20.37.34:767][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.01-20.37.35:037][  0]LogOcInput: OculusInput pre-init called
-[2018.05.01-20.37.35:326][  0]LogEngine: Initializing Engine...
-[2018.05.01-20.37.37:884][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-9C67A887
-[2018.05.01-20.37.38:089][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.01-20.37.38:089][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.01-20.37.38:219][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.01-20.37.38:234][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.01-20.37.38:370][  0]LogInit: FAudioDevice initialized.
-[2018.05.01-20.37.38:423][  0]LogDerivedDataCache: Saved boot cache 0.05s 79MB C:/Users/carvai/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.01-20.37.38:436][  0]LogInit: Texture streaming: Enabled
-[2018.05.01-20.37.38:538][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.01-20.37.38:538][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={D7905C3B-4688-B8BF-32DC-0D90EBBDB863}
-[2018.05.01-20.37.38:672][  0]LogInit: Transaction tracking system initialized
-[2018.05.01-20.37.38:996][  0]BlueprintLog: New page: Editor Load
-[2018.05.01-20.37.39:897][  0]LocalizationService: Localization service is disabled
-[2018.05.01-20.37.40:641][  0]LogConsoleResponse: Display: 
-[2018.05.01-20.37.40:808][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.01-20.37.40:808][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.01-20.37.40:808][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.01-20.37.41:083][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/' took 0.02s
-[2018.05.01-20.37.42:006][  0]SourceControl: Source control is disabled
-[2018.05.01-20.37.42:006][  0]Cmd: MAP LOAD FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.01-20.37.42:007][  0]LightingResults: New page: Lighting Build
-[2018.05.01-20.37.42:049][  0]MapCheck: New page: Map Check
-[2018.05.01-20.37.42:049][  0]LightingResults: New page: Lighting Build
-[2018.05.01-20.37.43:357][  0]LogAIModule: Creating AISystem for world StartupMap
-[2018.05.01-20.37.43:397][  0]LogMaterial: Warning: Material /Game/Objects/Testures/lambert2.lambert2 needed to have new flag set bUsedWithSkeletalMesh !
-[2018.05.01-20.37.43:400][  0]LogMaterial: Missing cached shader map for material lambert2, compiling. 
-[2018.05.01-20.37.43:495][  0]MapCheck: Warning: lambert2 Material /Game/Objects/Testures/lambert2.lambert2 was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2018.05.01-20.37.43:601][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.01-20.37.43:644][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.01-20.37.43:725][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 80.814ms to complete.
-[2018.05.01-20.37.43:739][  0]LogFileHelpers: Loading map 'StartupMap' took 1.733
-[2018.05.01-20.37.43:915][  0]LogCollectionManager: Loaded 0 collections in 0.002341 seconds
-[2018.05.01-20.37.44:033][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/Collections/' took 0.01s
-[2018.05.01-20.37.44:033][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Developers/CARVAI/Collections/' took 0.01s
-[2018.05.01-20.37.44:033][  0]LogFileCache: Scanning file cache for directory 'C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Collections/' took 0.01s
-[2018.05.01-20.37.44:033][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.05.01-20.37.44:047][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2372 classes and 524 folders.
-[2018.05.01-20.37.44:174][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.05.01-20.37.44:227][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.05.01-20.37.44:309][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.05.01-20.37.44:332][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.01-20.37.44:335][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.01-20.37.44:342][  0]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.01-20.37.44:496][  0]LogRenderer: Reallocating scene render targets to support 1208x632 Format 26 NumSamples 1 (Frame:1).
-[2018.05.01-20.37.44:601][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.01-20.37.44:767][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.05.01-20.37.44:767][  0]LogLoad: (Engine Initialization) Total time: 22.55 seconds
-[2018.05.01-20.37.44:767][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.01-20.37.44:767][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.01-20.37.44:777][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.01-20.37.44:812][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.01-20.37.45:020][  2]LogAssetRegistry: Asset discovery search completed in 15.6624 seconds
-[2018.05.01-20.37.45:023][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.05.01-20.37.45:023][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000096 seconds (updated 0 objects)
-[2018.05.01-20.37.45:832][ 67]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.01-20.37.48:090][283]LogEditorViewport: Clicking on Actor (LMB): pictureFrame1_Blueprint_C (pictureFrame1_Blueprint5)
-[2018.05.01-20.37.49:861][416]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/' took 5.07s
-[2018.05.01-20.38.02:588][375]LogEditorViewport: Clicking on Actor (LMB): pictureFrame1_Blueprint_C (pictureFrame1_Blueprint5)
-[2018.05.01-20.38.11:693][951]LogEditorViewport: Clicking on Actor (LMB): PlanarReflection_Blueprint_C (PlanarReflection_Blueprint)
-[2018.05.01-20.38.20:738][443]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.01-20.38.33:701][865]EditorErrors: New page: Actor attachment
-[2018.05.01-20.38.35:709][971]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.05.01-20.38.41:011][403]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.38.56:404][826]LogSavePackage: Save=760.77ms
-[2018.05.01-20.38.56:404][826]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMapF3C561DF47EB9D440A98A0B24FF4635E.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
-[2018.05.01-20.38.56:407][826]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
-[2018.05.01-20.38.56:712][826]LogSavePackage: Save=243.05ms
-[2018.05.01-20.38.56:712][826]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_BuiltData63085F934F01097D9CD46EBC134B31DC.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
-[2018.05.01-20.38.56:714][826]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
-[2018.05.01-20.39.06:908][ 15]LogSavePackage: Save=758.07ms
-[2018.05.01-20.39.06:908][ 15]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMap00912C5A4BD8005380127E8106F5F251.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
-[2018.05.01-20.39.06:911][ 15]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
-[2018.05.01-20.39.07:126][ 15]LogSavePackage: Save=153.33ms
-[2018.05.01-20.39.07:126][ 15]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_BuiltData20D9503A439882CE211B6487FCCBA5B7.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
-[2018.05.01-20.39.07:128][ 15]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
-[2018.05.01-20.39.16:782][543]Cmd: DUPLICATE
-[2018.05.01-20.39.16:782][543]Cmd: ACTOR DUPLICATE
-[2018.05.01-20.39.17:570][556]Cmd: DUPLICATE
-[2018.05.01-20.39.17:570][556]Cmd: ACTOR DUPLICATE
-[2018.05.01-20.39.17:979][561]Cmd: DUPLICATE
-[2018.05.01-20.39.17:980][561]Cmd: ACTOR DUPLICATE
-[2018.05.01-20.39.18:296][564]Cmd: DUPLICATE
-[2018.05.01-20.39.18:296][564]Cmd: ACTOR DUPLICATE
-[2018.05.01-20.39.22:538][707]EditorErrors: New page: Actor attachment
-[2018.05.01-20.39.24:765][791]EditorErrors: New page: Actor attachment
-[2018.05.01-20.39.26:370][864]EditorErrors: New page: Actor attachment
-[2018.05.01-20.39.28:033][955]EditorErrors: New page: Actor attachment
-[2018.05.01-20.39.41:074][ 79]Cmd: TRANSACTION UNDO
-[2018.05.01-20.39.41:074][ 79]LogEditorTransaction: Undo Set Location
-[2018.05.01-20.40.05:188][938]Cmd: DUPLICATE
-[2018.05.01-20.40.05:188][938]Cmd: ACTOR DUPLICATE
-[2018.05.01-20.40.05:621][944]Cmd: DUPLICATE
-[2018.05.01-20.40.05:621][944]Cmd: ACTOR DUPLICATE
-[2018.05.01-20.40.07:264][ 60]EditorErrors: New page: Actor attachment
-[2018.05.01-20.40.09:466][174]EditorErrors: New page: Actor attachment
-[2018.05.01-20.40.18:483][592]Cmd: DUPLICATE
-[2018.05.01-20.40.18:483][592]Cmd: ACTOR DUPLICATE
-[2018.05.01-20.40.20:229][687]EditorErrors: New page: Actor attachment
-[2018.05.01-20.40.25:668][837]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.40.29:591][880]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.41.09:228][789]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.41.13:467][945]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.41.17:293][992]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.41.40:470][530]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.41.50:728][658]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.42.00:873][753]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.42.04:371][812]LogSavePackage: Save=783.25ms
-[2018.05.01-20.42.04:371][812]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMapEF8754094A75E463CF2149994B7BA7A5.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
-[2018.05.01-20.42.04:374][812]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
-[2018.05.01-20.42.04:591][812]LogSavePackage: Save=155.64ms
-[2018.05.01-20.42.04:592][812]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_BuiltDataA32D886A47F801B1519B51A58078CDF7.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
-[2018.05.01-20.42.04:594][812]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
-[2018.05.01-20.42.05:347][833]LogTemp: Repeating last play command: VR Preview
-[2018.05.01-20.42.05:404][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.01-20.42.05:404][833]PIE: New page: PIE session: StartupMap (May 1, 2018, 12:42:05 PM)
-[2018.05.01-20.42.05:405][833]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
-[2018.05.01-20.42.05:432][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027797s)
-[2018.05.01-20.42.05:433][833]LogAIModule: Creating AISystem for world StartupMap
-[2018.05.01-20.42.05:433][833]LogPlayLevel: PIE: World Init took: (0.000718s)
-[2018.05.01-20.42.05:433][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.028901s)
-[2018.05.01-20.42.05:458][833]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.01-20.42.05:474][833]LogInit: FAudioDevice initialized.
-[2018.05.01-20.42.05:575][833]LogLoad: Game class is 'GameModeVR_C'
-[2018.05.01-20.42.05:601][833]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.05.01-16.42.05
-[2018.05.01-20.42.05:604][833]LogWorld: Bringing up level for play took: 0.027782
-[2018.05.01-20.42.05:649][833]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.05.01-20.42.05:649][833]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.05.01-20.42.05:649][833]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.05.01-20.42.05:649][833]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.05.01-20.42.05:655][833]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.05.01-20.42.05:661][833]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.069
-[2018.05.01-20.42.05:714][833]LogAudio: Warning: Detected orphaned looping sound 'Chicago_1999'.
-[2018.05.01-20.42.05:775][834]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 26 NumSamples 1 (Frame:1).
-[2018.05.01-20.42.10:326][956]LogRenderer: Reallocating scene render targets to support 1080x600 Format 10 NumSamples 1 (Frame:123).
-[2018.05.01-20.42.10:373][956]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 26 NumSamples 1 (Frame:123).
-[2018.05.01-20.42.15:196][143]LogRenderer: Reallocating scene render targets to support 1080x600 Format 10 NumSamples 1 (Frame:310).
-[2018.05.01-20.42.15:239][143]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 26 NumSamples 1 (Frame:310).
-[2018.05.01-20.42.18:057][204]LogRenderer: Reallocating scene render targets to support 1080x600 Format 10 NumSamples 1 (Frame:371).
-[2018.05.01-20.42.18:081][204]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 26 NumSamples 1 (Frame:371).
-[2018.05.01-20.42.55:443][885]LogRenderer: Reallocating scene render targets to support 1080x600 Format 10 NumSamples 1 (Frame:1052).
-[2018.05.01-20.42.55:468][885]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 26 NumSamples 1 (Frame:1052).
-[2018.05.01-20.43.07:674][ 23]LogRenderer: Reallocating scene render targets to support 1080x600 Format 10 NumSamples 1 (Frame:1190).
-[2018.05.01-20.43.07:857][ 23]LogRenderer: Reallocating scene render targets to support 2160x1200 Format 26 NumSamples 1 (Frame:1190).
-[2018.05.01-20.43.26:672][430]LogEditorActor: Deleted Actor: PlanarReflection_Blueprint_C
-[2018.05.01-20.43.26:673][430]LogEditorActor: Deleted Actor: PlanarReflection_Blueprint_C
-[2018.05.01-20.43.26:673][430]LogEditorActor: Deleted Actor: PlanarReflection_Blueprint_C
-[2018.05.01-20.43.26:673][430]LogEditorActor: Deleted Actor: PlanarReflection_Blueprint_C
-[2018.05.01-20.43.26:674][430]LogEditorActor: Deleted Actor: PlanarReflection_Blueprint_C
-[2018.05.01-20.43.26:674][430]LogEditorActor: Deleted Actor: PlanarReflection_Blueprint_C
-[2018.05.01-20.43.26:674][430]LogEditorActor: Deleted Actor: PlanarReflection_Blueprint_C
-[2018.05.01-20.43.26:675][430]LogEditorActor: Deleted Actor: PlanarReflection_Blueprint_C
-[2018.05.01-20.43.26:689][430]LogEditorActor: Deleted 8 Actors (0.029 secs)
-[2018.05.01-20.43.27:530][490]LogEditorViewport: Clicking on Actor (LMB): pictureFrame1_Blueprint_C (pictureFrame1_Blueprint6)
-[2018.05.01-20.43.29:527][622]LogEditorViewport: Clicking on Actor (LMB): pictureFrame1_Blueprint_C (pictureFrame1_Blueprint6)
-[2018.05.01-20.43.38:041][128]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.05.01-20.43.41:881][466]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.05.01-20.45.08:600][605]LogSavePackage: Save=19.67ms
-[2018.05.01-20.45.08:600][605]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/pictureFrame1_Blueprint5B5217C6434FE156A093CD8C1AE21A0D.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/needsToBeMessedwith/pictureFrame1_Blueprint.uasset'
-[2018.05.01-20.45.08:604][605]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/needsToBeMessedwith/pictureFrame1_Blueprint.uasset
-[2018.05.01-20.45.19:715][274]LogSavePackage: Save=12.55ms
-[2018.05.01-20.45.19:715][274]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/pictureFrame1_Blueprint6BFFDBAF4978A7D4B66496ACD7829691.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/needsToBeMessedwith/pictureFrame1_Blueprint.uasset'
-[2018.05.01-20.45.19:718][274]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/needsToBeMessedwith/pictureFrame1_Blueprint.uasset
-[2018.05.01-20.45.20:985][340]LogEditorViewport: Clicking on Actor (LMB): pictureFrame1_Blueprint_C (pictureFrame1_Blueprint6)
-[2018.05.01-20.45.32:785][122]BlueprintLog: New page: Compile pictureFrame1_Blueprint
-[2018.05.01-20.45.33:928][122]LogSavePackage: Save=19.46ms
-[2018.05.01-20.45.33:928][122]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/pictureFrame1_BlueprintB4C78B6949BC7530213C67B2296F3D57.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/needsToBeMessedwith/pictureFrame1_Blueprint.uasset'
-[2018.05.01-20.45.33:929][122]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/needsToBeMessedwith/pictureFrame1_Blueprint.uasset
-[2018.05.01-20.45.34:605][158]LogSavePackage: Save=12.46ms
-[2018.05.01-20.45.34:605][158]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/pictureFrame1_Blueprint6D1C96BF442A1FB2CE49978578797814.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/needsToBeMessedwith/pictureFrame1_Blueprint.uasset'
-[2018.05.01-20.45.34:607][158]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/needsToBeMessedwith/pictureFrame1_Blueprint.uasset
-[2018.05.01-20.45.37:199][345]LogTemp: Repeating last play command: VR Preview
-[2018.05.01-20.45.37:237][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.01-20.45.37:237][345]PIE: New page: PIE session: StartupMap (May 1, 2018, 12:45:37 PM)
-[2018.05.01-20.45.37:237][345]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
-[2018.05.01-20.45.37:264][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026825s)
-[2018.05.01-20.45.37:264][345]LogAIModule: Creating AISystem for world StartupMap
-[2018.05.01-20.45.37:264][345]LogPlayLevel: PIE: World Init took: (0.000665s)
-[2018.05.01-20.45.37:265][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.027944s)
-[2018.05.01-20.45.37:294][345]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.01-20.45.37:309][345]LogInit: FAudioDevice initialized.
-[2018.05.01-20.45.37:391][345]LogLoad: Game class is 'GameModeVR_C'
-[2018.05.01-20.45.37:414][345]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.05.01-16.45.37
-[2018.05.01-20.45.37:416][345]LogWorld: Bringing up level for play took: 0.024361
-[2018.05.01-20.45.37:416][345]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.05.01-20.45.37:416][345]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.05.01-20.45.37:416][345]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.05.01-20.45.37:421][345]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.05.01-20.45.37:427][345]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.304
-[2018.05.01-20.45.37:481][345]LogAudio: Warning: Detected orphaned looping sound 'Chicago_1999'.
-[2018.05.01-20.45.58:479][ 64]Cmd: SELECT NONE
-[2018.05.01-20.46.11:469][ 19]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0003 seconds. Added 1 classes and 0 folders.
-[2018.05.01-20.46.11:472][ 19]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.11:802][ 19]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.11:856][ 19]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.11:929][ 19]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2018.05.01-20.46.15:035][159]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.46.15:035][159]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.46.15:035][159]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.46.15:035][159]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.46.15:035][159]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.46.15:180][168]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.17:817][293]LogMaterialEditor: Saving and Compiling material mirrorMAt
-[2018.05.01-20.46.18:319][293]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.18:400][293]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.18:525][293]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.18:655][293]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mirrorMAt, compiling. 
-[2018.05.01-20.46.20:449][293]TextureStreamingBuild: Display: Compiling optional shaders took 1.801 seconds.
-[2018.05.01-20.46.23:654][293]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.01-20.46.23:678][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/mirrorMAt" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset" SILENT=true
-[2018.05.01-20.46.23:706][293]LogSavePackage: Save=14.86ms
-[2018.05.01-20.46.23:706][293]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/mirrorMAtFC72173F4C6F71FA1ADE9C9DE2577403.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset'
-[2018.05.01-20.46.23:709][293]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset
-[2018.05.01-20.46.23:715][293]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.46.23:715][293]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.46.23:715][293]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.46.23:715][293]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.46.23:715][293]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.46.29:209][705]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.31:394][806]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.34:146][939]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.46.34:146][939]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.46.34:146][939]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.46.34:146][939]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.46.34:146][939]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.46.35:518][ 45]LogMaterialEditor: Saving and Compiling material mirrorMAt
-[2018.05.01-20.46.36:010][ 45]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.36:088][ 45]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.36:200][ 45]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.36:333][ 45]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mirrorMAt, compiling. 
-[2018.05.01-20.46.38:144][ 45]TextureStreamingBuild: Display: Compiling optional shaders took 1.819 seconds.
-[2018.05.01-20.46.41:340][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/mirrorMAt" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset" SILENT=true
-[2018.05.01-20.46.41:363][ 45]LogSavePackage: Save=14.56ms
-[2018.05.01-20.46.41:363][ 45]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/mirrorMAtCB0B91114618559527EB8EB90CFE43B0.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset'
-[2018.05.01-20.46.41:366][ 45]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset
-[2018.05.01-20.46.44:484][292]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.47:114][425]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.46.47:114][425]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.46.47:114][425]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.46.47:114][425]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.46.47:114][425]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.46.47:815][474]LogMaterialEditor: Saving and Compiling material mirrorMAt
-[2018.05.01-20.46.48:299][474]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.48:378][474]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.48:493][474]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.46.48:623][474]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mirrorMAt, compiling. 
-[2018.05.01-20.46.50:449][474]TextureStreamingBuild: Display: Compiling optional shaders took 1.835 seconds.
-[2018.05.01-20.46.53:646][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/mirrorMAt" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset" SILENT=true
-[2018.05.01-20.46.53:670][474]LogSavePackage: Save=15.73ms
-[2018.05.01-20.46.53:670][474]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/mirrorMAtEF8B67DB46BAA38EF630C1919923EE7E.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset'
-[2018.05.01-20.46.53:673][474]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset
-[2018.05.01-20.46.59:701][933]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.02:352][ 65]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.47.02:352][ 65]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.47.02:352][ 65]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.47.02:352][ 65]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.47.02:352][ 65]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.47.04:094][194]LogMaterialEditor: Saving and Compiling material mirrorMAt
-[2018.05.01-20.47.04:583][194]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.04:660][194]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.04:766][194]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.04:899][194]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mirrorMAt, compiling. 
-[2018.05.01-20.47.06:724][194]TextureStreamingBuild: Display: Compiling optional shaders took 1.833 seconds.
-[2018.05.01-20.47.09:905][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/mirrorMAt" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset" SILENT=true
-[2018.05.01-20.47.09:930][194]LogSavePackage: Save=15.98ms
-[2018.05.01-20.47.09:930][194]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/mirrorMAtF158C37A4A49A16D386E8E98F8926602.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset'
-[2018.05.01-20.47.09:932][194]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset
-[2018.05.01-20.47.25:392][328]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.28:012][448]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.47.28:012][448]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.47.28:012][448]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.47.28:012][448]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.47.28:012][448]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.47.28:599][485]LogMaterialEditor: Saving and Compiling material mirrorMAt
-[2018.05.01-20.47.29:086][485]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.29:164][485]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.29:277][485]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.29:409][485]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mirrorMAt, compiling. 
-[2018.05.01-20.47.31:222][485]TextureStreamingBuild: Display: Compiling optional shaders took 1.821 seconds.
-[2018.05.01-20.47.34:404][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/mirrorMAt" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset" SILENT=true
-[2018.05.01-20.47.34:427][485]LogSavePackage: Save=15.17ms
-[2018.05.01-20.47.34:427][485]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/mirrorMAt50BE3C2247D8359F32E0F1AD63B23CC8.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset'
-[2018.05.01-20.47.34:430][485]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset
-[2018.05.01-20.47.36:913][654]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.38:346][718]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.41:052][841]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.47.41:052][841]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.47.41:052][841]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.47.41:052][841]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.47.41:052][841]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.47.41:792][888]LogMaterialEditor: Saving and Compiling material mirrorMAt
-[2018.05.01-20.47.42:286][888]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.42:364][888]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.42:477][888]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.42:609][888]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mirrorMAt, compiling. 
-[2018.05.01-20.47.44:425][888]TextureStreamingBuild: Display: Compiling optional shaders took 1.823 seconds.
-[2018.05.01-20.47.47:629][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/mirrorMAt" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset" SILENT=true
-[2018.05.01-20.47.47:651][888]LogSavePackage: Save=14.34ms
-[2018.05.01-20.47.47:651][888]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/mirrorMAtAF1D3B7A44198BEE8542099581897D03.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset'
-[2018.05.01-20.47.47:654][888]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset
-[2018.05.01-20.47.51:939][203]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.54:566][331]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.47.54:566][331]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.47.54:566][331]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.47.54:566][331]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.47.54:566][331]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.47.55:968][431]LogMaterialEditor: Saving and Compiling material mirrorMAt
-[2018.05.01-20.47.56:454][431]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.56:532][431]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.56:638][431]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.47.56:774][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mirrorMAt, compiling. 
-[2018.05.01-20.47.58:604][431]TextureStreamingBuild: Display: Compiling optional shaders took 1.839 seconds.
-[2018.05.01-20.48.01:776][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/mirrorMAt" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset" SILENT=true
-[2018.05.01-20.48.01:800][431]LogSavePackage: Save=15.74ms
-[2018.05.01-20.48.01:801][431]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/mirrorMAt46A9340D4DB592505F26AA953CEE5BA2.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset'
-[2018.05.01-20.48.01:804][431]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset
-[2018.05.01-20.48.10:435][ 54]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.48.13:029][173]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.48.13:029][173]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.48.13:029][173]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.48.13:029][173]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.48.13:029][173]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.48.13:936][228]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.48.16:566][350]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.48.16:566][350]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.48.16:566][350]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.48.16:566][350]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.48.16:566][350]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.48.18:470][468]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.48.20:001][536]LogMaterialEditor: Saving and Compiling material mirrorMAt
-[2018.05.01-20.48.20:775][536]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.48.20:876][536]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.48.20:999][536]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.48.21:138][536]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mirrorMAt, compiling. 
-[2018.05.01-20.48.22:953][536]TextureStreamingBuild: Display: Compiling optional shaders took 1.823 seconds.
-[2018.05.01-20.48.26:161][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/mirrorMAt" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset" SILENT=true
-[2018.05.01-20.48.26:186][536]LogSavePackage: Save=15.89ms
-[2018.05.01-20.48.26:186][536]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/mirrorMAtDB63342241A14A3692A9549B77D40389.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset'
-[2018.05.01-20.48.26:188][536]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset
-[2018.05.01-20.48.26:195][536]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.48.26:195][536]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.48.26:195][536]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.48.26:195][536]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.48.26:195][536]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.48.30:058][813]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.48.32:637][934]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.48.32:637][934]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.48.32:637][934]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.48.32:637][934]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.48.32:637][934]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.48.35:958][153]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.48.38:259][258]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.48.39:670][319]LogMaterialEditor: Saving and Compiling material mirrorMAt
-[2018.05.01-20.48.40:439][319]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.48.40:563][319]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.48.40:686][319]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
-[2018.05.01-20.48.40:822][319]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy mirrorMAt, compiling. 
-[2018.05.01-20.48.42:735][319]TextureStreamingBuild: Display: Compiling optional shaders took 1.922 seconds.
-[2018.05.01-20.48.45:942][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/mirrorMAt" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset" SILENT=true
-[2018.05.01-20.48.45:966][319]LogSavePackage: Save=15.42ms
-[2018.05.01-20.48.45:966][319]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/mirrorMAt84C2D89F4E74CC7C4602B090A655876A.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset'
-[2018.05.01-20.48.45:969][319]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Materials/mirrorMAt.uasset
-[2018.05.01-20.48.45:976][319]MaterialEditorStats: Base pass shader: 151 instructions
-[2018.05.01-20.48.45:976][319]MaterialEditorStats: Base pass shader with Surface Lightmap: 168 instructions
-[2018.05.01-20.48.45:976][319]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 225 instructions
-[2018.05.01-20.48.45:976][319]MaterialEditorStats: Vertex shader: 90 instructions
-[2018.05.01-20.48.45:976][319]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.01-20.48.51:884][694]LogSavePackage: Save=763.31ms
-[2018.05.01-20.48.51:884][694]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMap1C51F82542CBD8861980EF9264B0128D.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
-[2018.05.01-20.48.51:888][694]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
-[2018.05.01-20.48.52:123][694]LogSavePackage: Save=157.61ms
-[2018.05.01-20.48.52:123][694]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_BuiltData7E15EC024AA2F82898E92BAE40B853AC.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
-[2018.05.01-20.48.52:125][694]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
-[2018.05.01-20.50.23:290][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ceiling)
-[2018.05.01-20.50.50:597][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
-[2018.05.01-20.56.34:851][ 63]AssetReimport: New page: Outstanding source content changes 12:56:34 PM
-[2018.05.01-20.56.34:852][ 63]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate.fbx)
-[2018.05.01-20.56.34:856][ 63]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.05.01-20.56.34:856][ 63]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.05.01-20.56.34:856][ 63]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.05.01-20.56.34:856][ 63]LogFbx: ItemName: Geometry, ItemCount : 2
-[2018.05.01-20.56.34:857][ 63]LogFbx: ItemName: Material, ItemCount : 1
-[2018.05.01-20.56.34:857][ 63]LogFbx: ItemName: Model, ItemCount : 2
-[2018.05.01-20.56.34:861][ 63]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate.fbx
-[2018.05.01-20.56.34:867][ 63]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.01-20.56.36:203][ 63]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate.fbx
-[2018.05.01-20.56.36:211][ 63]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.01-20.56.36:213][ 63]LogStaticMesh: Building static mesh grate_pCube1...
-[2018.05.01-20.56.36:213][ 63]LogStaticMesh: Built static mesh [0.00s] /Game/Objects/Import/grate_pCube1.grate_pCube1
-[2018.05.01-20.56.36:226][ 63]LogStaticMesh: Building static mesh grate_pCube14...
-[2018.05.01-20.56.36:235][ 63]LogStaticMesh: Built static mesh [0.01s] /Game/Objects/Import/grate_pCube14.grate_pCube14
-[2018.05.01-20.56.36:294][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Import/grate" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate.uasset" SILENT=true
-[2018.05.01-20.56.36:300][ 64]LogSavePackage: Save=4.16ms
-[2018.05.01-20.56.36:300][ 64]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/grateC25608F840A3CE0BD4E75092E1938882.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate.uasset'
-[2018.05.01-20.56.36:302][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate.uasset
-[2018.05.01-20.56.39:320][250]AssetReimport: Importing new asset /Game/Objects/Import/grate.
-[2018.05.01-20.57.01:053][617]LogActorFactory: Actor Factory created grate_pCube1
-[2018.05.01-20.57.01:877][668]LogActorFactory: Actor Factory created grate_pCube1
-[2018.05.01-20.57.05:042][892]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.57.11:719][444]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.57.19:544][899]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.57.45:423][979]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.58.33:355][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
-[2018.05.01-20.58.42:442][753]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.58.47:795][968]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.58.56:329][335]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.58.59:730][477]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.59.00:646][513]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.59.10:434][173]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.59.15:374][524]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.59.18:728][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grate_pCube1)
-[2018.05.01-20.59.24:771][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall56)
-[2018.05.01-20.59.25:874][ 61]Cmd: DELETE
-[2018.05.01-20.59.25:874][ 61]Cmd: ACTOR DELETE
-[2018.05.01-20.59.25:884][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.01-20.59.25:908][ 61]LogEditorActor: Deleted 1 Actors (0.034 secs)
-[2018.05.01-20.59.27:050][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
-[2018.05.01-20.59.29:544][215]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.59.43:899][772]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.59.50:652][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grate_pCube1)
-[2018.05.01-20.59.50:774][ 44]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-20.59.52:691][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
-[2018.05.01-20.59.58:653][590]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.00.12:914][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall12)
-[2018.05.01-21.00.24:276][879]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.00.27:027][ 19]Cmd: TRANSACTION UNDO
-[2018.05.01-21.00.27:027][ 19]LogEditorTransaction: Undo Scale Actors
-[2018.05.01-21.00.27:514][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
-[2018.05.01-21.00.57:407][605]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.01.00:853][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grate_pCube1)
-[2018.05.01-21.01.03:871][872]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
-[2018.05.01-21.01.09:214][244]Cmd: TRANSACTION UNDO
-[2018.05.01-21.01.09:214][244]LogEditorTransaction: Undo Move Actors
-[2018.05.01-21.01.10:718][373]Cmd: TRANSACTION UNDO
-[2018.05.01-21.01.10:718][373]LogEditorTransaction: Undo Move Actors
-[2018.05.01-21.01.20:283][166]LogEditorViewport: Clicking on Actor (LMB): CeilingLight_Blueprint_C (RoomCeilingLight3)
-[2018.05.01-21.01.21:279][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
-[2018.05.01-21.01.23:736][302]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.01.28:722][522]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.01.33:588][957]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.01.34:600][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall57)
-[2018.05.01-21.01.39:716][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall56)
-[2018.05.01-21.01.42:274][536]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.01.45:773][687]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.01.55:901][578]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.02.02:810][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grate_pCube2)
-[2018.05.01-21.02.19:980][324]LogMaterial: Missing cached shader map for material M_Water_Lake, compiling. 
-[2018.05.01-21.02.47:834][ 22]LogMaterial: Missing cached shader map for material M_Metal_Chrome, compiling. 
-[2018.05.01-21.02.49:325][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grate_pCube1)
-[2018.05.01-21.02.57:837][561]LogSavePackage: Save=771.69ms
-[2018.05.01-21.02.57:837][561]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMap26816A0142C86FACB0451EA7BD175B68.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
-[2018.05.01-21.02.57:841][561]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
-[2018.05.01-21.02.58:068][561]LogSavePackage: Save=157.82ms
-[2018.05.01-21.02.58:068][561]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_BuiltDataBC04CB2C4F2E56DF86BFAEB169CD651F.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
-[2018.05.01-21.02.58:070][561]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
-[2018.05.01-21.02.58:745][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grate_pCube1)
-[2018.05.01-21.03.14:411][915]LogSavePackage: Save=759.64ms
-[2018.05.01-21.03.14:412][915]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMapB92F273A4E707220627836BA7A64EC71.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
-[2018.05.01-21.03.14:413][915]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
-[2018.05.01-21.03.14:633][915]LogSavePackage: Save=157.14ms
-[2018.05.01-21.03.14:633][915]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_BuiltData0BB1587D4858E0EE2E5094BE6BEEC362.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
-[2018.05.01-21.03.14:635][915]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
-[2018.05.01-21.03.39:215][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GrateBP" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset" SILENT=true
-[2018.05.01-21.03.39:247][368]LogSavePackage: Save=30.14ms
-[2018.05.01-21.03.39:247][368]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/GrateBP753127304D235AA6F1C2F5899387616C.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset'
-[2018.05.01-21.03.39:250][368]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset
-[2018.05.01-21.04.22:850][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GrateBP" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset" SILENT=true
-[2018.05.01-21.04.22:893][912]LogSavePackage: Save=28.99ms
-[2018.05.01-21.04.22:893][912]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/GrateBPD3901BA140C6483F1379F0A69E6797FE.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset'
-[2018.05.01-21.04.22:897][912]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset
-[2018.05.01-21.04.23:998][980]BlueprintLog: New page: Compile GrateBP
-[2018.05.01-21.04.24:699][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GrateBP" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset" SILENT=true
-[2018.05.01-21.04.24:736][  5]LogSavePackage: Save=29.38ms
-[2018.05.01-21.04.24:736][  5]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/GrateBPEC1ADC31498CC8F1FD99BE968491495C.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset'
-[2018.05.01-21.04.24:737][  5]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset
-[2018.05.01-21.04.26:057][ 97]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.05.01-21.04.30:856][471]Cmd: TRANSACTION UNDO
-[2018.05.01-21.04.30:856][471]LogEditorTransaction: Undo Create Actors
-[2018.05.01-21.04.54:439][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Import/grate_pCube14" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate_pCube14.uasset" SILENT=true
-[2018.05.01-21.04.54:454][942]LogSavePackage: Save=13.16ms
-[2018.05.01-21.04.54:454][942]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/grate_pCube1479EFFCC44EC76BDACA8F29B3C0BCBE21.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate_pCube14.uasset'
-[2018.05.01-21.04.54:457][942]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate_pCube14.uasset
-[2018.05.01-21.04.57:249][ 57]LogStaticMesh: Building static mesh grate_pCube14...
-[2018.05.01-21.04.57:257][ 57]LogStaticMesh: Built static mesh [0.01s] /Game/Objects/Import/grate_pCube14.grate_pCube14
-[2018.05.01-21.05.34:545][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GrateBP" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset" SILENT=true
-[2018.05.01-21.05.34:584][563]LogSavePackage: Save=29.69ms
-[2018.05.01-21.05.34:584][563]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/GrateBP83B730AA4626E4DD20F62BBD0DAE67F8.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset'
-[2018.05.01-21.05.34:587][563]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset
-[2018.05.01-21.05.35:094][593]BlueprintLog: New page: Compile GrateBP
-[2018.05.01-21.05.35:123][593]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_33:PersistentLevel.GrateBP_C_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.05.35:123][593]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_33:PersistentLevel.GrateBP_C_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.05.35:409][593]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_33:PersistentLevel.GrateBP_C_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.05.35:433][593]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_33:PersistentLevel.GrateBP_C_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.06.44:818][189]AssetReimport: New page: Outstanding source content changes 1:06:44 PM
-[2018.05.01-21.06.44:819][189]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/gratePickup.fbx)
-[2018.05.01-21.06.44:822][189]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.05.01-21.06.44:822][189]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.05.01-21.06.44:822][189]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.05.01-21.06.44:822][189]LogFbx: ItemName: Geometry, ItemCount : 1
-[2018.05.01-21.06.44:822][189]LogFbx: ItemName: Material, ItemCount : 1
-[2018.05.01-21.06.44:822][189]LogFbx: ItemName: Model, ItemCount : 1
-[2018.05.01-21.06.44:827][189]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/gratePickup.fbx
-[2018.05.01-21.06.44:835][189]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.01-21.06.52:948][189]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/gratePickup.fbx
-[2018.05.01-21.06.52:954][189]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.01-21.06.52:958][189]LogStaticMesh: Building static mesh gratePickup...
-[2018.05.01-21.06.52:966][189]LogStaticMesh: Built static mesh [0.01s] /Game/Objects/Import/gratePickup.gratePickup
-[2018.05.01-21.06.53:038][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Import/gratePickup" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/gratePickup.uasset" SILENT=true
-[2018.05.01-21.06.53:054][190]LogSavePackage: Save=14.13ms
-[2018.05.01-21.06.53:054][190]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/gratePickup8461C1D041EB039CE47228826F9BE3ED.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/gratePickup.uasset'
-[2018.05.01-21.06.53:057][190]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/gratePickup.uasset
-[2018.05.01-21.06.56:075][350]AssetReimport: Importing new asset /Game/Objects/Import/gratePickup.
-[2018.05.01-21.07.14:766][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Import/gratePickup" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/gratePickup.uasset" SILENT=true
-[2018.05.01-21.07.14:793][510]LogSavePackage: Save=14.53ms
-[2018.05.01-21.07.14:793][510]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/gratePickupA3502B8F4ED8379210DCDD9C7BB8898C.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/gratePickup.uasset'
-[2018.05.01-21.07.14:796][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/gratePickup.uasset
-[2018.05.01-21.07.17:006][638]BlueprintLog: New page: Compile GrateBP
-[2018.05.01-21.07.17:034][638]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_33:PersistentLevel.GrateBP_C_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.17:034][638]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_33:PersistentLevel.GrateBP_C_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.17:321][638]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_33:PersistentLevel.GrateBP_C_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.17:346][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GrateBP" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset" SILENT=true
-[2018.05.01-21.07.17:383][638]LogSavePackage: Save=29.55ms
-[2018.05.01-21.07.17:384][638]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/GrateBP8AE004A04AA2EDF83B9EB2AF46886253.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset'
-[2018.05.01-21.07.17:386][638]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset
-[2018.05.01-21.07.17:411][638]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_33:PersistentLevel.GrateBP_C_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.17:871][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GrateBP" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset" SILENT=true
-[2018.05.01-21.07.17:903][669]LogSavePackage: Save=23.08ms
-[2018.05.01-21.07.17:903][669]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/GrateBPEC93870742F30E5AF36A0D90B2CD670F.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset'
-[2018.05.01-21.07.17:904][669]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset
-[2018.05.01-21.07.21:067][863]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_C_0.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.21:067][863]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.21:068][863]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.22:909][983]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_C_1.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.22:910][983]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.22:928][983]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.24:084][ 68]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.07.28:967][422]LogEditorViewport: Clicking on Actor (LMB): GrateBP_C (GrateBP)
-[2018.05.01-21.07.33:856][786]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.07.37:050][ 13]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_3.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.37:051][ 13]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_3.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.37:051][ 13]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_3.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.37:051][ 13]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.38:024][ 79]Cmd: TRANSACTION UNDO
-[2018.05.01-21.07.38:025][ 79]LogEditorTransaction: Undo Move Actors
-[2018.05.01-21.07.38:026][ 79]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.38:026][ 79]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.07.47:875][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
-[2018.05.01-21.07.48:531][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grate_pCube1)
-[2018.05.01-21.08.04:499][800]LogEditorViewport: Clicking on Actor (LMB): GrateBP_C (GrateBP)
-[2018.05.01-21.08.15:152][562]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.08.29:667][544]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_4.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.08.29:669][544]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_4.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.08.29:669][544]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_4.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.08.29:669][544]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.08.31:436][618]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.08.34:604][846]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.08.38:808][148]LogTemp: Repeating last play command: VR Preview
-[2018.05.01-21.08.38:841][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.01-21.08.38:841][148]PIE: New page: PIE session: StartupMap (May 1, 2018, 1:08:38 PM)
-[2018.05.01-21.08.38:841][148]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
-[2018.05.01-21.08.38:877][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035147s)
-[2018.05.01-21.08.38:877][148]LogAIModule: Creating AISystem for world StartupMap
-[2018.05.01-21.08.38:878][148]LogPlayLevel: PIE: World Init took: (0.000833s)
-[2018.05.01-21.08.38:878][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.036444s)
-[2018.05.01-21.08.38:912][148]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.01-21.08.38:929][148]LogInit: FAudioDevice initialized.
-[2018.05.01-21.08.39:021][148]LogLoad: Game class is 'GameModeVR_C'
-[2018.05.01-21.08.39:039][148]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.08.39:040][148]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.08.39:043][148]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.05.01-17.08.39
-[2018.05.01-21.08.39:046][148]LogWorld: Bringing up level for play took: 0.024253
-[2018.05.01-21.08.39:046][148]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.05.01-21.08.39:046][148]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.05.01-21.08.39:046][148]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.05.01-21.08.39:051][148]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.05.01-21.08.39:059][148]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap -0.672
-[2018.05.01-21.08.39:113][148]LogAudio: Warning: Detected orphaned looping sound 'Chicago_1999'.
-[2018.05.01-21.08.59:336][882]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.00:838][944]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.02:016][996]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.03:086][ 43]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.04:764][101]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.06:303][167]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.13:041][602]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_33:PersistentLevel.GrateBP_C_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.13:150][602]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_33:PersistentLevel.GrateBP_C_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.15:660][776]LogEditorViewport: Clicking on Actor (LMB): GrateBP_C (GrateBP2)
-[2018.05.01-21.09.23:181][128]LogEditorViewport: Clicking on Actor (LMB): GrateBP_C (GrateBP)
-[2018.05.01-21.09.24:272][177]Cmd: TRANSACTION UNDO
-[2018.05.01-21.09.24:272][177]LogEditorTransaction: Undo Clicking on Actors
-[2018.05.01-21.09.26:024][249]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.26:024][249]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP2_6.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.26:026][249]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.26:026][249]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_5.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.26:027][249]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP2_6.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.26:027][249]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP2_6.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.26:028][249]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP3.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.26:028][249]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP4.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.27:065][290]Cmd: TRANSACTION UNDO
-[2018.05.01-21.09.27:065][290]LogEditorTransaction: Undo Move Actors
-[2018.05.01-21.09.27:067][290]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.27:067][290]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.27:068][290]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.27:068][290]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.09.40:366][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall57)
-[2018.05.01-21.09.41:033][938]LogEditorViewport: Clicking on Actor (LMB): GrateBP_C (GrateBP)
-[2018.05.01-21.09.45:157][119]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.10.10:445][447]LogEditorViewport: Clicking on Actor (LMB): GrateBP_C (GrateBP2)
-[2018.05.01-21.10.19:581][967]LogSavePackage: Save=763.76ms
-[2018.05.01-21.10.19:581][967]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMapB77BD84941A2446A9DED5D94EB80EF4D.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
-[2018.05.01-21.10.19:584][967]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
-[2018.05.01-21.10.19:819][967]LogSavePackage: Save=163.46ms
-[2018.05.01-21.10.19:819][967]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_BuiltData528F624B4C460F0CCA0968A518BF6C82.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
-[2018.05.01-21.10.19:821][967]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
-[2018.05.01-21.10.35:490][938]LogTemp: Repeating last play command: VR Preview
-[2018.05.01-21.10.35:519][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.01-21.10.35:519][938]PIE: New page: PIE session: StartupMap (May 1, 2018, 1:10:35 PM)
-[2018.05.01-21.10.35:519][938]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap
-[2018.05.01-21.10.35:549][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029646s)
-[2018.05.01-21.10.35:549][938]LogAIModule: Creating AISystem for world StartupMap
-[2018.05.01-21.10.35:550][938]LogPlayLevel: PIE: World Init took: (0.000972s)
-[2018.05.01-21.10.35:550][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/StartupMap.StartupMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap (0.031076s)
-[2018.05.01-21.10.35:589][938]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.01-21.10.35:605][938]LogInit: FAudioDevice initialized.
-[2018.05.01-21.10.35:711][938]LogLoad: Game class is 'GameModeVR_C'
-[2018.05.01-21.10.35:731][938]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.10.35:731][938]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.10.35:735][938]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2018.05.01-17.10.35
-[2018.05.01-21.10.35:738][938]LogWorld: Bringing up level for play took: 0.026584
-[2018.05.01-21.10.35:739][938]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.05.01-21.10.35:739][938]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.05.01-21.10.35:739][938]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.05.01-21.10.35:744][938]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.05.01-21.10.35:762][938]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap 0.031
-[2018.05.01-21.10.35:825][938]LogAudio: Warning: Detected orphaned looping sound 'Chicago_1999'.
-[2018.05.01-21.10.44:754][281]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.10.45:936][334]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.10.53:159][642]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.10.54:915][717]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.11.06:711][234]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_33:PersistentLevel.GrateBP_C_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
-[2018.05.01-21.12.23:469][187]AssetReimport: New page: Outstanding source content changes 1:12:23 PM
-[2018.05.01-21.12.23:470][187]LogEditorFactories: Performing atomic reimport of [C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate.fbx]
-[2018.05.01-21.12.23:478][187]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate.fbx
-[2018.05.01-21.12.23:483][187]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.01-21.12.23:485][187]LogStaticMesh: Building static mesh grate_pCube1...
-[2018.05.01-21.12.23:486][187]LogStaticMesh: Built static mesh [0.00s] /Game/Objects/Import/grate_pCube1.grate_pCube1
-[2018.05.01-21.12.23:492][187]LogEditorFactories: -- imported successfully
-[2018.05.01-21.12.23:497][187]LogEditorFactories: Performing atomic reimport of [C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate.fbx]
-[2018.05.01-21.12.23:504][187]LogFbx: Loading FBX Scene from C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate.fbx
-[2018.05.01-21.12.23:510][187]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.01-21.12.23:512][187]LogStaticMesh: Building static mesh grate_pCube14...
-[2018.05.01-21.12.23:512][187]LogStaticMesh: Built static mesh [0.00s] /Game/Objects/Import/grate_pCube14.grate_pCube14
-[2018.05.01-21.12.23:516][187]LogEditorFactories: -- imported successfully
-[2018.05.01-21.12.26:550][364]AssetReimport: Reimported asset grate_pCube1 from C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate.fbx.
-[2018.05.01-21.12.26:551][364]AssetReimport: Reimported asset grate_pCube14 from C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate.fbx.
-[2018.05.01-21.12.27:236][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grate_pCube2)
-[2018.05.01-21.12.27:681][429]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.12.33:844][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall59)
-[2018.05.01-21.12.43:242][388]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.12.52:577][811]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.01-21.12.56:058][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (grate_pCube1)
-[2018.05.01-21.13.06:753][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GrateBP" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset" SILENT=true
-[2018.05.01-21.13.06:790][647]LogSavePackage: Save=23.19ms
-[2018.05.01-21.13.06:790][647]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/GrateBP1C7CB6B249B47823498B56B04D7D50A1.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset'
-[2018.05.01-21.13.06:792][647]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Blueprints/GrateBP.uasset
-[2018.05.01-21.16.53:415][124]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.05.01-21.16.58:663][389]LogSavePackage: Save=764.43ms
-[2018.05.01-21.16.58:663][389]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMap21CF14F34F41EF78181AE097AB871321.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
-[2018.05.01-21.16.58:667][389]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
-[2018.05.01-21.16.58:896][389]LogSavePackage: Save=160.60ms
-[2018.05.01-21.16.58:896][389]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_BuiltData9A8A3A0F4016FDEC16245D9BF3217665.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset'
-[2018.05.01-21.16.58:898][389]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset
-[2018.05.01-21.17.01:105][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Import/grate_pCube1" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate_pCube1.uasset" SILENT=true
-[2018.05.01-21.17.01:121][416]LogSavePackage: Save=13.76ms
-[2018.05.01-21.17.01:121][416]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/grate_pCube11334BEA24D5B978A4A596181274C9A91.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate_pCube1.uasset'
-[2018.05.01-21.17.01:124][416]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate_pCube1.uasset
-[2018.05.01-21.17.01:135][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Import/grate_pCube14" FILE="../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate_pCube14.uasset" SILENT=true
-[2018.05.01-21.17.01:162][416]LogSavePackage: Save=14.12ms
-[2018.05.01-21.17.01:162][416]LogSavePackage: Moving '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/grate_pCube14732C6B094858B2B7316750B6CC4A412E.tmp' to '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate_pCube14.uasset'
-[2018.05.01-21.17.01:165][416]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Objects/Import/grate_pCube14.uasset
-[2018.05.01-21.17.01:312][416]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.01-21.17.01:508][417]Cmd: QUIT_EDITOR
-[2018.05.01-21.17.01:676][417]LogExit: Preparing to exit.
-[2018.05.01-21.17.02:612][417]LogDirectoryWatcher: A directory notification failed for 'C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/', and we were unable to create a new request.
-[2018.05.01-21.17.02:656][417]LogExit: Editor shut down
-[2018.05.01-21.17.02:660][417]LogExit: Transaction tracking system shut down
-[2018.05.01-21.17.02:848][417]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.05.01-21.17.02:848][417]LogDirectoryWatcher: A directory notification for '../../../../../../Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/' was aborted.
-[2018.05.01-21.17.02:848][417]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.05.01-21.17.02:848][417]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.05.01-21.17.02:848][417]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.05.01-21.17.02:848][417]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.05.01-21.17.02:848][417]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.05.01-21.17.02:947][417]LogExit: Object subsystem successfully closed.
-[2018.05.01-21.17.02:974][417]LogD3D11RHI: Shutdown
-[2018.05.01-21.17.02:974][417]LogD3D11RHI: CleanupD3DDevice
-[2018.05.01-21.17.02:982][417]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.05.01-21.17.02:995][417]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (562)
-[2018.05.01-21.17.02:995][417]LogModuleManager: Shutting down and abandoning module MaterialEditor (560)
-[2018.05.01-21.17.02:995][417]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (558)
-[2018.05.01-21.17.02:995][417]LogModuleManager: Shutting down and abandoning module BlueprintGraph (556)
-[2018.05.01-21.17.02:995][417]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
-[2018.05.01-21.17.02:995][417]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (552)
-[2018.05.01-21.17.02:995][417]LogModuleManager: Shutting down and abandoning module SceneOutliner (550)
-[2018.05.01-21.17.02:995][417]LogModuleManager: Shutting down and abandoning module AddContentDialog (548)
-[2018.05.01-21.17.02:995][417]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.05.01-21.17.02:996][417]LogModuleManager: Shutting down and abandoning module WidgetCarousel (547)
-[2018.05.01-21.17.02:996][417]LogModuleManager: Shutting down and abandoning module EditorWidgets (544)
-[2018.05.01-21.17.02:996][417]LogModuleManager: Shutting down and abandoning module CollectionManager (542)
-[2018.05.01-21.17.02:996][417]LogDirectoryWatcher: A directory notification for 'C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Collections/' was aborted.
-[2018.05.01-21.17.02:996][417]LogDirectoryWatcher: A directory notification for 'C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Content/Developers/CARVAI/Collections/' was aborted.
-[2018.05.01-21.17.02:996][417]LogDirectoryWatcher: A directory notification for 'C:/Users/carvai/Desktop/EGD/FakeBook/Game 3/DetectiveGame/Saved/Collections/' was aborted.
-[2018.05.01-21.17.02:996][417]LogModuleManager: Shutting down and abandoning module StatsViewer (540)
-[2018.05.01-21.17.02:996][417]LogModuleManager: Shutting down and abandoning module FoliageEdit (538)
-[2018.05.01-21.17.02:996][417]LogModuleManager: Shutting down and abandoning module LandscapeEditor (536)
-[2018.05.01-21.17.02:996][417]LogModuleManager: Shutting down and abandoning module MeshPaintMode (534)
-[2018.05.01-21.17.02:996][417]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (532)
-[2018.05.01-21.17.02:996][417]LogModuleManager: Shutting down and abandoning module ActorPickerMode (530)
-[2018.05.01-21.17.02:996][417]LogModuleManager: Shutting down and abandoning module GeometryMode (528)
-[2018.05.01-21.17.02:996][417]LogModuleManager: Shutting down and abandoning module TextureAlignMode (526)
-[2018.05.01-21.17.02:996][417]LogModuleManager: Shutting down and abandoning module BspMode (524)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (522)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module HardwareSurvey (520)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (518)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module AutomationWorker (516)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (514)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (512)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module PlacementMode (511)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (508)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (506)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (504)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (502)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (500)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (498)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (496)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (494)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (492)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module CharacterAI (490)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module AudioCapture (488)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module SequenceRecorder (487)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module SmartSnapping (484)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module SessionServices (482)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module ViewportSnapping (480)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module ViewportInteraction (478)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module ClothPainter (476)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (475)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module LogVisualizer (472)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module IntroTutorials (470)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (469)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (466)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (464)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (462)
-[2018.05.01-21.17.02:997][417]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (461)
-[2018.05.01-21.17.03:266][417]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (458)
-[2018.05.01-21.17.03:266][417]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (456)
-[2018.05.01-21.17.03:266][417]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (454)
-[2018.05.01-21.17.03:266][417]LogModuleManager: Shutting down and abandoning module InputBindingEditor (452)
-[2018.05.01-21.17.03:266][417]LogModuleManager: Shutting down and abandoning module MergeActors (450)
-[2018.05.01-21.17.03:266][417]LogModuleManager: Shutting down and abandoning module SizeMap (448)
-[2018.05.01-21.17.03:266][417]LogModuleManager: Shutting down and abandoning module TreeMap (446)
-[2018.05.01-21.17.03:266][417]LogModuleManager: Shutting down and abandoning module ReferenceViewer (444)
-[2018.05.01-21.17.03:266][417]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (442)
-[2018.05.01-21.17.03:266][417]LogModuleManager: Shutting down and abandoning module LocalizationService (441)
-[2018.05.01-21.17.03:266][417]LogModuleManager: Shutting down and abandoning module HardwareTargeting (438)
-[2018.05.01-21.17.03:266][417]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (436)
-[2018.05.01-21.17.03:267][417]LogModuleManager: Shutting down and abandoning module UndoHistory (434)
-[2018.05.01-21.17.03:267][417]LogModuleManager: Shutting down and abandoning module XmlParser (432)
-[2018.05.01-21.17.03:267][417]LogModuleManager: Shutting down and abandoning module Blutility (430)
-[2018.05.01-21.17.03:267][417]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (428)
-[2018.05.01-21.17.03:267][417]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (427)
-[2018.05.01-21.17.03:267][417]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (424)
-[2018.05.01-21.17.03:267][417]LogModuleManager: Shutting down and abandoning module SettingsEditor (422)
-[2018.05.01-21.17.03:267][417]LogModuleManager: Shutting down and abandoning module ProjectLauncher (420)
-[2018.05.01-21.17.03:267][417]LogModuleManager: Shutting down and abandoning module SessionFrontend (418)
-[2018.05.01-21.17.03:267][417]LogModuleManager: Shutting down and abandoning module ProfilerClient (416)
-[2018.05.01-21.17.03:267][417]LogModuleManager: Shutting down and abandoning module DeviceManager (414)
-[2018.05.01-21.17.03:267][417]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (413)
-[2018.05.01-21.17.03:322][417]LogModuleManager: Shutting down and abandoning module AutomationController (410)
-[2018.05.01-21.17.03:322][417]LogModuleManager: Shutting down and abandoning module AutomationWindow (408)
-[2018.05.01-21.17.03:322][417]LogModuleManager: Shutting down and abandoning module Layers (406)
-[2018.05.01-21.17.03:322][417]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (404)
-[2018.05.01-21.17.03:322][417]LogModuleManager: Shutting down and abandoning module DetailCustomizations (402)
-[2018.05.01-21.17.03:322][417]LogModuleManager: Shutting down and abandoning module PackagesDialog (400)
-[2018.05.01-21.17.03:322][417]LogModuleManager: Shutting down and abandoning module Persona (398)
-[2018.05.01-21.17.03:322][417]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (397)
-[2018.05.01-21.17.03:322][417]LogModuleManager: Shutting down and abandoning module AnimGraph (395)
-[2018.05.01-21.17.03:322][417]LogModuleManager: Shutting down and abandoning module Kismet (392)
-[2018.05.01-21.17.03:329][417]LogModuleManager: Shutting down and abandoning module ClassViewer (390)
-[2018.05.01-21.17.03:329][417]LogModuleManager: Shutting down and abandoning module Toolbox (388)
-[2018.05.01-21.17.03:329][417]LogModuleManager: Shutting down and abandoning module ModuleUI (386)
-[2018.05.01-21.17.03:329][417]LogModuleManager: Shutting down and abandoning module MovieSceneTools (384)
-[2018.05.01-21.17.03:329][417]LogModuleManager: Shutting down and abandoning module OutputLog (382)
-[2018.05.01-21.17.03:329][417]LogModuleManager: Shutting down and abandoning module GammaUI (380)
-[2018.05.01-21.17.03:329][417]LogModuleManager: Shutting down and abandoning module Documentation (378)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (376)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module MovieScene (374)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (372)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module LauncherPlatform (370)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module AnalyticsET (368)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module PortalServices (366)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module PortalRpc (364)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module MessagingRpc (362)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module AIModule (360)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module GameplayDebugger (359)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module AITestSuite (357)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module DesktopPlatform (354)
-[2018.05.01-21.17.03:330][417]LogModuleManager: Shutting down and abandoning module ProfilerService (352)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module TaskGraph (350)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module SteamVRController (348)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (346)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (344)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module OculusInput (342)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (340)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (338)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module CableComponent (336)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (334)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module AndroidPermission (332)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module ActorSequence (328)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (326)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (324)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module MediaCompositing (322)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module HTML5Networking (320)
-[2018.05.01-21.17.03:470][417]LogModuleManager: Shutting down and abandoning module AlembicImporter (318)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module AlembicLibrary (317)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module GeometryCache (316)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (315)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (310)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module PluginBrowser (308)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (306)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (304)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (302)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module UObjectPlugin (300)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (298)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (296)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module GitSourceControl (294)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module SourceControl (293)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (290)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (288)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (286)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module Paper2DEditor (284)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module MeshPaint (283)
-[2018.05.01-21.17.03:471][417]LogModuleManager: Shutting down and abandoning module LevelEditor (281)
-[2018.05.01-21.17.03:472][417]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (280)
-[2018.05.01-21.17.03:472][417]LogModuleManager: Shutting down and abandoning module MainFrame (278)
-[2018.05.01-21.17.03:472][417]LogModuleManager: Shutting down and abandoning module HotReload (277)
-[2018.05.01-21.17.03:472][417]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (272)
-[2018.05.01-21.17.03:472][417]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (270)
-[2018.05.01-21.17.03:472][417]LogModuleManager: Shutting down and abandoning module PhysXVehicles (268)
-[2018.05.01-21.17.03:472][417]LogModuleManager: Shutting down and abandoning module OculusEditor (266)
-[2018.05.01-21.17.03:472][417]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (264)
-[2018.05.01-21.17.03:472][417]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (262)
-[2018.05.01-21.17.03:472][417]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (260)
-[2018.05.01-21.17.03:472][417]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (258)
-[2018.05.01-21.17.03:473][417]LogModuleManager: Shutting down and abandoning module ApexDestruction (256)
-[2018.05.01-21.17.03:473][417]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.05.01-21.17.03:573][417]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.05.01-21.17.03:673][417]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.05.01-21.17.03:673][417]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.05.01-21.17.03:673][417]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.05.01-21.17.03:673][417]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.05.01-21.17.03:673][417]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.05.01-21.17.03:673][417]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.05.01-21.17.03:674][417]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.05.01-21.17.03:674][417]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.05.01-21.17.03:674][417]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.05.01-21.17.03:674][417]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.05.01-21.17.03:676][417]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.05.01-21.17.03:676][417]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.05.01-21.17.03:676][417]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.05.01-21.17.03:676][417]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.05.01-21.17.03:676][417]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.05.01-21.17.03:676][417]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.05.01-21.17.03:682][417]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.05.01-21.17.03:684][417]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.05.01-21.17.03:684][417]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.05.01-21.17.03:684][417]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.05.01-21.17.03:684][417]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.05.01-21.17.03:685][417]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.05.01-21.17.03:685][417]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.05.01-21.17.03:685][417]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.05.01-21.17.03:685][417]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.05.01-21.17.03:685][417]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.05.01-21.17.03:685][417]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.05.01-21.17.03:685][417]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.05.01-21.17.03:686][417]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.05.01-21.17.03:686][417]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.05.01-21.17.03:686][417]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.05.01-21.17.03:686][417]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.05.01-21.17.03:686][417]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.05.01-21.17.03:686][417]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.05.01-21.17.03:721][417]LogDerivedDataCache: Shutdown
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.05.01-21.17.03:721][417]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.05.01-21.17.03:722][417]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.05.01-21.17.03:722][417]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.05.01-21.17.03:722][417]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE63F4175-4210-4A0D-4836-C6A5F973C010%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=b2e6573947b13cdf34c8b79340542664%7Cd85314cd6c6a4bf6ad69011299579840%7C85b2f058-83e3-4094-9c4d-02c48fb8d545&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.05.01-21.17.03:744][417]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.05.01-21.17.03:745][417]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.05.01-21.17.03:745][417]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.05.01-21.17.03:745][417]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.05.01-21.17.03:745][417]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.05.01-21.17.03:745][417]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.05.01-21.17.03:745][417]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.05.01-21.17.03:745][417]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.05.01-21.17.03:746][417]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.05.01-21.17.03:746][417]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.05.01-21.17.03:746][417]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.05.01-21.17.03:746][417]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.05.01-21.17.03:746][417]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.05.01-21.17.03:746][417]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.05.01-21.17.03:746][417]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.05.01-21.17.03:746][417]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.05.01-21.17.03:747][417]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.05.01-21.17.03:747][417]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.05.01-21.17.03:747][417]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.05.01-21.17.03:753][417]LogExit: Exiting.
-[2018.05.01-21.17.03:778][417]Log file closed, 05/01/18 17:17:03
+[2018.05.01-21.27.42:493][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.01-21.27.42:493][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.01-21.27.42:520][  0]LogInit: Computer: 96XJ1R1
+[2018.05.01-21.27.42:520][  0]LogInit: User: User
+[2018.05.01-21.27.42:520][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.01-21.27.42:520][  0]LogInit: High frequency timer resolution =3.312789 MHz
+[2018.05.01-21.27.42:521][  0]LogMemory: Memory total: Physical=24.0GB (24GB approx)
+[2018.05.01-21.27.42:521][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.01-21.27.42:521][  0]LogMemory: Process Physical Memory: 274.32 MB used, 274.32 MB peak
+[2018.05.01-21.27.42:521][  0]LogMemory: Process Virtual Memory: 273.77 MB used, 273.77 MB peak
+[2018.05.01-21.27.42:521][  0]LogMemory: Physical Memory: 4839.60 MB used,  19693.41 MB free, 24533.01 MB total
+[2018.05.01-21.27.42:521][  0]LogMemory: Virtual Memory: 686.23 MB used,  19693.41 MB free, 134217728.00 MB total
+[2018.05.01-21.27.42:720][  0]LogInit: Using OS detected language (en-US).
+[2018.05.01-21.27.42:720][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.01-21.27.42:724][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.01-21.27.43:147][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.01-21.27.43:426][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.01-21.27.43:488][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2018.05.01-21.27.43:488][  0]LogD3D11RHI:       1977/0/12266 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.01-21.27.43:490][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.01-21.27.43:490][  0]LogD3D11RHI:       0/0/12266 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.01-21.27.43:490][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.01-21.27.43:495][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.01-21.27.43:496][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.01-21.27.43:496][  0]LogWindows: EnumDisplayDevices:
+[2018.05.01-21.27.43:496][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2018.05.01-21.27.43:496][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2018.05.01-21.27.43:496][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2018.05.01-21.27.43:496][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2018.05.01-21.27.43:496][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.01-21.27.43:496][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2018.05.01-21.27.43:496][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.01-21.27.43:496][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.01-21.27.43:496][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
+[2018.05.01-21.27.43:536][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.01-21.27.43:600][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.01-21.27.43:647][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Intermediate/Shaders/WorkingDirectory/5580/).
+[2018.05.01-21.27.43:647][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/FAAFDD824E552B3415ECF4875F08AACB/'.
+[2018.05.01-21.27.43:647][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.01-21.27.44:731][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.01-21.27.44:801][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.01-21.27.44:869][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.01-21.27.44:936][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.01-21.27.45:005][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.01-21.27.45:076][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.01-21.27.45:147][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.01-21.27.45:220][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.01-21.27.45:316][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.01-21.27.45:384][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.01-21.27.45:452][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.01-21.27.45:521][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.01-21.27.45:590][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.01-21.27.45:657][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.01-21.27.45:792][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.01-21.27.45:792][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.01-21.27.45:862][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.01-21.27.45:915][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.01-21.27.46:029][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.01-21.27.46:080][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.01-21.27.46:147][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.01-21.27.46:214][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.01-21.27.46:281][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.01-21.27.46:346][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.01-21.27.46:346][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.01-21.27.46:962][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.01-21.27.47:296][  0]LogDerivedDataCache: Loaded boot cache 0.33s 319MB C:/Users/User/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.01-21.27.47:296][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.01-21.27.47:296][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.01-21.27.47:296][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.01-21.27.47:296][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.01-21.27.47:296][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.01-21.27.47:314][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.01-21.27.47:326][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.01-21.27.47:340][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.01-21.27.47:340][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.01-21.27.47:341][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.01-21.27.47:341][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.01-21.27.47:861][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.01-21.27.48:309][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.01-21.27.48:380][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.01-21.27.48:380][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.01-21.27.48:380][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.01-21.27.48:380][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.01-21.27.48:380][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.01-21.27.48:421][  0]LogNetVersion: DetectiveGame , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4117068022)
+[2018.05.01-21.27.48:646][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
+[2018.05.01-21.27.49:300][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.073573 seconds
+[2018.05.01-21.27.49:309][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.01-21.27.49:309][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.05.01-21.27.49:309][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.01-21.27.49:393][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.01-21.27.53:042][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.01-21.27.53:109][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.01-21.27.54:310][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.01-21.27.54:870][  0]SourceControl: Source control is disabled
+[2018.05.01-21.27.54:870][  0]SourceControl: Source control is disabled
+[2018.05.01-21.27.54:941][  0]SourceControl: Source control is disabled
+[2018.05.01-21.27.55:010][  0]SourceControl: Source control is disabled
+[2018.05.01-21.27.56:082][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.01-21.27.56:367][  0]LogOcInput: OculusInput pre-init called
+[2018.05.01-21.27.56:741][  0]LogEngine: Initializing Engine...
+[2018.05.01-21.27.56:744][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.01-21.27.57:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.01-21.27.57:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.01-21.27.57:180][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.01-21.27.57:189][  0]LogInit: XAudio2 using 'E480i-C2 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.01-21.27.57:213][  0]LogInit: FAudioDevice initialized.
+[2018.05.01-21.27.57:597][  0]LogDerivedDataCache: Saved boot cache 0.38s 318MB C:/Users/User/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.01-21.27.57:656][  0]LogInit: Texture streaming: Enabled
+[2018.05.01-21.27.57:796][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.01-21.27.57:989][  0]LogInit: Transaction tracking system initialized
+[2018.05.01-21.27.58:414][  0]BlueprintLog: New page: Editor Load
+[2018.05.01-21.27.59:693][  0]LocalizationService: Localization service is disabled
+[2018.05.01-21.28.00:958][  0]LogConsoleResponse: Display: 
+[2018.05.01-21.28.01:165][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.01-21.28.01:165][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.01-21.28.01:165][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.01-21.28.01:624][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/' took 0.02s
+[2018.05.01-21.28.02:824][  0]SourceControl: Source control is disabled
+[2018.05.01-21.28.02:825][  0]Cmd: MAP LOAD FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.01-21.28.02:825][  0]LightingResults: New page: Lighting Build
+[2018.05.01-21.28.02:888][  0]MapCheck: New page: Map Check
+[2018.05.01-21.28.02:888][  0]LightingResults: New page: Lighting Build
+[2018.05.01-21.28.04:109][  0]LogStaticMesh: Building static mesh grate_pCube1...
+[2018.05.01-21.28.04:110][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Objects/Import/grate_pCube1.grate_pCube1
+[2018.05.01-21.28.04:113][  0]LogStaticMesh: Building static mesh gratePickup...
+[2018.05.01-21.28.04:124][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Objects/Import/gratePickup.gratePickup
+[2018.05.01-21.28.04:173][  0]LogMaterial: Missing cached shader map for material M_Metal_Chrome, compiling. 
+[2018.05.01-21.28.04:370][  0]LogMaterial: Missing cached shader map for material mirrorMAt, compiling. 
+[2018.05.01-21.28.05:097][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.05.01-21.28.05:204][  0]LogMaterial: Warning: Material /Game/Objects/Testures/lambert2.lambert2 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.05.01-21.28.05:212][  0]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.05.01-21.28.05:331][  0]MapCheck: Warning: lambert2 Material /Game/Objects/Testures/lambert2.lambert2 was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.05.01-21.28.05:335][  0]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP_2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.05.01-21.28.05:335][  0]PIE: Warning: Trying to simulate physics on ''/Game/VirtualRealityBP/Maps/StartupMap.StartupMap:PersistentLevel.GrateBP2.StaticMeshComponent0'' but it has ComplexAsSimple collision.
+[2018.05.01-21.28.05:576][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.01-21.28.05:633][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.01-21.28.05:774][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 141.249ms to complete.
+[2018.05.01-21.28.05:786][  0]LogFileHelpers: Loading map 'StartupMap' took 2.961
+[2018.05.01-21.28.06:126][  0]LogCollectionManager: Loaded 0 collections in 0.004541 seconds
+[2018.05.01-21.28.06:269][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Collections/' took 0.01s
+[2018.05.01-21.28.06:269][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Developers/User/Collections/' took 0.01s
+[2018.05.01-21.28.06:269][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Collections/' took 0.01s
+[2018.05.01-21.28.06:269][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.05.01-21.28.06:287][  0]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 2373 classes and 526 folders.
+[2018.05.01-21.28.06:441][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.05.01-21.28.06:509][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.05.01-21.28.06:691][  0]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.01-21.28.06:698][  0]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.01-21.28.06:704][  0]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.01-21.28.06:903][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 26 NumSamples 1 (Frame:1).
+[2018.05.01-21.28.07:193][  0]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.01-21.28.07:439][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.05.01-21.28.07:440][  0]LogLoad: (Engine Initialization) Total time: 27.93 seconds
+[2018.05.01-21.28.07:440][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.01-21.28.07:440][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.01-21.28.07:503][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.05.01-21.28.07:995][  3]LogAssetRegistry: Asset discovery search completed in 19.3712 seconds
+[2018.05.01-21.28.08:001][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.01-21.28.08:001][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000171 seconds (updated 0 objects)
+[2018.05.01-21.28.12:700][113]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/' took 5.23s
+[2018.05.01-21.28.38:568][172]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame4)
+[2018.05.01-21.29.26:223][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ceiling)
+[2018.05.01-21.29.26:823][289]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.01-21.29.52:630][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Desk4)
+[2018.05.01-21.29.53:081][395]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame4)
+[2018.05.01-21.30.21:969][565]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame3)
+[2018.05.01-21.37.58:539][318]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.01-21.38.07:525][668]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.01-21.38.08:515][668]LogSavePackage: Save=910.11ms
+[2018.05.01-21.38.08:515][668]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/StartupMap_Auto14F742D0A496F842F05E48DA15E61F4B0.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto1.umap'
+[2018.05.01-21.38.08:518][668]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Autosaves/Game/VirtualRealityBP/Maps/StartupMap_Auto1.umap
+[2018.05.01-21.38.08:521][668]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.948
+[2018.05.01-21.38.08:521][668]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.948
+[2018.05.01-21.44.31:816][712]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame4)
+[2018.05.01-21.45.13:503][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2018.05.01-21.45.14:114][526]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (BP_PictureFrame1)
+[2018.05.01-21.46.12:503][178]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame)
+[2018.05.01-21.47.12:944][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall16)
+[2018.05.01-21.47.13:349][204]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame8)
+[2018.05.01-21.48.24:326][591]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame)
+[2018.05.01-21.48.29:564][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall13)
+[2018.05.01-21.48.30:152][854]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame7)
+[2018.05.01-21.49.18:464][837]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame6)
+[2018.05.01-21.49.27:985][232]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame5)
+[2018.05.01-21.49.42:797][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Markey_1" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_1.uasset" SILENT=true
+[2018.05.01-21.49.42:831][132]LogSavePackage: Save=10.83ms
+[2018.05.01-21.49.42:831][132]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Markey_1D06EE34447DD17A95C2D8C9C23E1D6E1.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_1.uasset'
+[2018.05.01-21.49.42:835][132]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_1.uasset
+[2018.05.01-21.49.42:846][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Markey_2" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_2.uasset" SILENT=true
+[2018.05.01-21.49.42:874][132]LogSavePackage: Save=10.01ms
+[2018.05.01-21.49.42:874][132]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Markey_2340874C6418B1A1A207DA691C4FF4CCD.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_2.uasset'
+[2018.05.01-21.49.42:878][132]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_2.uasset
+[2018.05.01-21.49.42:892][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Markey_3" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_3.uasset" SILENT=true
+[2018.05.01-21.49.42:917][132]LogSavePackage: Save=9.47ms
+[2018.05.01-21.49.42:917][132]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Markey_3B1D4FE4E4D7FB2BEDA8C68A49AD3DDD4.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_3.uasset'
+[2018.05.01-21.49.42:921][132]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_3.uasset
+[2018.05.01-21.49.42:930][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Markey_4" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_4.uasset" SILENT=true
+[2018.05.01-21.49.42:956][132]LogSavePackage: Save=9.80ms
+[2018.05.01-21.49.42:956][132]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Markey_4B2EA0AAE481699B69495AF9708390B3A.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_4.uasset'
+[2018.05.01-21.49.42:959][132]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_4.uasset
+[2018.05.01-21.49.42:968][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Markey_5" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_5.uasset" SILENT=true
+[2018.05.01-21.49.42:994][132]LogSavePackage: Save=9.50ms
+[2018.05.01-21.49.42:994][132]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Markey_5937E00CF438F86E883AC36B51424DBF6.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_5.uasset'
+[2018.05.01-21.49.42:998][132]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_5.uasset
+[2018.05.01-21.49.43:006][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Markey_6" FILE="../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_6.uasset" SILENT=true
+[2018.05.01-21.49.43:032][132]LogSavePackage: Save=9.61ms
+[2018.05.01-21.49.43:032][132]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/Markey_6F39200C54EAF780816031B8378548014.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_6.uasset'
+[2018.05.01-21.49.43:036][132]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/Sounds/Markey_6.uasset
+[2018.05.01-21.50.40:576][772]LogEditorViewport: Clicking on Actor (LMB): BP_PictureFrame1_C (PictureFrame4)
+[2018.05.01-21.50.43:878][842]LogSavePackage: Save=906.02ms
+[2018.05.01-21.50.43:878][842]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Saved/StartupMap89AEBC2E478D5084EBD926A99817405D.tmp' to '../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap'
+[2018.05.01-21.50.43:882][842]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/User/Documents/GitHub/FakeBook/Game 3/DetectiveGame/Content/VirtualRealityBP/Maps/StartupMap.umap
+[2018.05.01-21.50.43:946][842]LogFileHelpers: Saving map 'StartupMap' took 1.103
